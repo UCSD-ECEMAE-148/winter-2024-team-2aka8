@@ -124,7 +124,7 @@ Use the UCSD Robocar Docker images and add the projects folder yourself. Python3
 
 Step 1: In the first terminal, start the fusion client. First source ros2. Note, in the build_ros2 file, we exluded the build for the fusion client as each build takes an extra 50 seconds with it.
 
-'''source_ros2'''
+source_ros2
 build_ros2
 ros2 run fusion-engine-driver fusion_engine_ros_driver --ros-args -p connection_type:=tty -p tty_port:=/dev/ttyUSB1
 
@@ -140,7 +140,7 @@ ros2 launch ucsd_robocar_basics2_pkg chatgpt_drive_launch.launch.py
 
 Step 4: You are ready to talk to chatgpt. Make sure the terminals output no errors and chatgpt has said "finished init". Then, you publish to a /chat_input topic to communicate with the chatgpt node.
 
-source_ros2
+```source_ros2```
 ros2 topic pub -1 /chat_input std_msgs/msg/String "data: 'YOUR MESSEGE HERE'"
 
 The messege should show up in the chatgpt terminal and if it does not, it did not work. First the vision model will respond with an action plan. Responses can take up to 20 seconds. Then a Function tool caller will work. Sometimes the tool caller gets stuck and you must restart the chatgpt node. Its recommended to restart all nodes, as another error can be no image input being recieved from the all_nodes.
