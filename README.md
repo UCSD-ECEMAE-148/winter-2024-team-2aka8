@@ -17,8 +17,6 @@ Team 8 Winter 2024
 </div>
 
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -78,31 +76,27 @@ Team 8 Winter 2024
 
 <!-- Final Project -->
 ## Final Project
-
 Our project goal was to integrate ChatGPT into the robocar framework. Using chatgpt, the robot can respond to input from the camera, lidar, and gps in order to do different moves and paths.
 
 <!-- Original Goals -->
 ### Original Goals
-
+Originally, we envisioned a chatgpt robot in a classroom that students could command to do tasks. Our goalpost task was "go to the whiteboard and help the student solve the problem." This would require chatgpt to navigate a room, create a path to a whiteboard, solve visual math problems by identifying text on a board, and provide its usefulness to a student through good help. 
    
 <!-- End Results -->
 ### Goals We Met
-
-
-
+We were succesfully able to communicate with the robot. We can ask chatgpt what it saw around it. Often chatgpt went into multiple paragraphs. One test we did was telling chat gpt to drive towards the hand with more fingers up. We held out our hand with 2 fingers to the left, and 4 fingers to the right. Chatgpt sent a drive command to turn towards the right. We also were able to generate decent paths with chatgpt; at one point we asked it to make a heart path and it followed the path pretty well. We feel that large language models open up many emergent capabilities for robots, and that our overall project of giving chatgpt a level of autonomy was a success. We feel that if we ran our original test, that chatgpt would do decently well, except for navigating around tables. Often times durring the debugging process we would just ask chatgpt what data it had. For example, when debugging lidar, we would ask it what it thought of the data format, what could be improved, and what reference data it wanted from the user. All in all, its linguistic capabilities were superb.
 
 ### Future Goals
 #### Stretch Goal 1
-
+We want to have chatgpt's path following trigger the manage.py drive command automatically so that chatgpt can navigate fully autonomous. We also want to have chatgpt only use one model instead of two seperated models. Finally, we want to turn the lidar data into a SLAM map and feed chatgpt an image map of its surroundings to generate better maps.
 
 #### Stretch Goal 2
+We want automatic lidar stopping to be implemented for safety. Since chatgpt does not control the robot in real time, we need a way for the robot to stop if it is about to hit an object or person.
 
-
-### Final Project Documentation
-
+## Final Project Documentation
 
 <!-- Early Quarter -->
-## Robot Design CAD
+### Robot Design CAD
 <img src="https://github.com/JL2200/mae148_group8/blob/main/full%20car%20cad.png" width="400" height="300" />
 
 #### Open Source Parts
