@@ -108,7 +108,7 @@ Our project goal was to integrate ChatGPT into the robocar framework. Using chat
 #### Open Source Parts
 | Part | CAD Model | Source |
 |------|--------|-----------|
-| Jetson Nano Case | <img src="" width="400" height="300" /> | [Thingiverse]() |
+| Jetson Nano Case | <img src="https://github.com/JL2200/mae148_group8/blob/main/jetson%20nano%20case.png" width="400" height="300" /> | [Thingiverse](https://www.thingiverse.com/thing:3518410) |
 
 
 ### Software
