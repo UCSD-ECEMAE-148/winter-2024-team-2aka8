@@ -1,7 +1,7 @@
 <div id="top"></div>
 
 <h1 align="center">TranquiBot: Chatgpt Powered Autonomous Car</h1>
-
+<h3 align="center">We let it choose that name</h3>
 <!-- PROJECT LOGO -->:
 <br />
 <div align="center">
@@ -10,7 +10,7 @@
   </a>
 <h3>MAE148 Final Project</h3>
 <p>
-Team 4 Winter 2024
+Team 8 Winter 2024
 </p>
 
 ![image](https://github.com/JL2200/mae148_group8/blob/main/IMG_4898.JPG)
