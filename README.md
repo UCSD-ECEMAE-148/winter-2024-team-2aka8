@@ -13,7 +13,7 @@
 Team 8 Winter 2024
 </p>
 
-![image](https://github.com/JL2200/mae148_group8/blob/main/IMG_4898.JPG)
+![image](https://github.com/JL2200/mae148_group8/blob/main/media/IMG_4898.JPG)
 </div>
 
 
