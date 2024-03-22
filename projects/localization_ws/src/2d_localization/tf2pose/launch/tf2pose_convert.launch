@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="tf2pose" type="tf2pose.py"
+    name="tf2pose" output="screen">
+  </node>
+
+</launch>

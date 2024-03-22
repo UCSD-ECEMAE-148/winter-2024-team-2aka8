@@ -1,0 +1,11 @@
+{
+  "package_name": "robot_localization",
+  "non_idl_tuples": [
+    "/home/projects/localization2_ws/src/robot_localization:srv/FromLL.srv",
+    "/home/projects/localization2_ws/src/robot_localization:srv/GetState.srv",
+    "/home/projects/localization2_ws/src/robot_localization:srv/SetDatum.srv",
+    "/home/projects/localization2_ws/src/robot_localization:srv/SetPose.srv",
+    "/home/projects/localization2_ws/src/robot_localization:srv/ToggleFilterProcessing.srv",
+    "/home/projects/localization2_ws/src/robot_localization:srv/ToLL.srv"
+  ]
+}

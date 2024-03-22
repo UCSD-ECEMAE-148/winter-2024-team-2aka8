@@ -1,0 +1,15 @@
+/home/projects/sensor_ws/src/gps/ublox/install/ublox/share/ament_index/resource_index/package_run_dependencies/ublox
+/home/projects/sensor_ws/src/gps/ublox/install/ublox/share/ament_index/resource_index/parent_prefix_path/ublox
+/home/projects/sensor_ws/src/gps/ublox/install/ublox/share/ublox/environment/ament_prefix_path.sh
+/home/projects/sensor_ws/src/gps/ublox/install/ublox/share/ublox/environment/ament_prefix_path.dsv
+/home/projects/sensor_ws/src/gps/ublox/install/ublox/share/ublox/environment/path.sh
+/home/projects/sensor_ws/src/gps/ublox/install/ublox/share/ublox/environment/path.dsv
+/home/projects/sensor_ws/src/gps/ublox/install/ublox/share/ublox/local_setup.bash
+/home/projects/sensor_ws/src/gps/ublox/install/ublox/share/ublox/local_setup.sh
+/home/projects/sensor_ws/src/gps/ublox/install/ublox/share/ublox/local_setup.zsh
+/home/projects/sensor_ws/src/gps/ublox/install/ublox/share/ublox/local_setup.dsv
+/home/projects/sensor_ws/src/gps/ublox/install/ublox/share/ublox/package.dsv
+/home/projects/sensor_ws/src/gps/ublox/install/ublox/share/ament_index/resource_index/packages/ublox
+/home/projects/sensor_ws/src/gps/ublox/install/ublox/share/ublox/cmake/ubloxConfig.cmake
+/home/projects/sensor_ws/src/gps/ublox/install/ublox/share/ublox/cmake/ubloxConfig-version.cmake
+/home/projects/sensor_ws/src/gps/ublox/install/ublox/share/ublox/package.xml

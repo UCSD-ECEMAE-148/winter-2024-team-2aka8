@@ -1,0 +1,2 @@
+ucsd_robocar_hub1/ucsd_robocar_actuator1_pkg:ucsd_robocar_hub1/ucsd_robocar_lane_detection1_pkg:ucsd_robocar_hub1/ucsd_robocar_nav1_pkg:ucsd_robocar_hub1/ucsd_robocar_path1_pkg:ucsd_robocar_hub1/ucsd_robocar_sensor1_pkg
+-DCATKIN_DEVEL_PREFIX=/home/projects/ros1_ws/devel -DCMAKE_INSTALL_PREFIX=/home/projects/ros1_ws/install -G Unix Makefiles

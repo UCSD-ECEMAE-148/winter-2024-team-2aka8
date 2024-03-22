@@ -1,0 +1,5 @@
+Symlinking /home/projects/localization_ws/devel/lib/pkgconfig/tf2pose.pc
+Symlinking /home/projects/localization_ws/devel/lib/tf2pose/tf2pose.py
+Symlinking /home/projects/localization_ws/devel/lib/tf2pose/cmake.lock
+Symlinking /home/projects/localization_ws/devel/share/tf2pose/cmake/tf2poseConfig-version.cmake
+Symlinking /home/projects/localization_ws/devel/share/tf2pose/cmake/tf2poseConfig.cmake

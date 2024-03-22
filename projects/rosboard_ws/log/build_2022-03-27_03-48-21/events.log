@@ -1,0 +1,323 @@
+[0.000000] (-) TimerEvent: {}
+[0.002462] (rosboard) JobQueued: {'identifier': 'rosboard', 'dependencies': OrderedDict()}
+[0.003369] (rosboard) JobStarted: {'identifier': 'rosboard'}
+[0.098795] (-) TimerEvent: {}
+[0.204279] (-) TimerEvent: {}
+[0.306309] (-) TimerEvent: {}
+[0.407080] (-) TimerEvent: {}
+[0.507834] (-) TimerEvent: {}
+[0.608595] (-) TimerEvent: {}
+[0.709370] (-) TimerEvent: {}
+[0.810188] (-) TimerEvent: {}
+[0.910941] (-) TimerEvent: {}
+[1.011693] (-) TimerEvent: {}
+[1.112581] (-) TimerEvent: {}
+[1.213443] (-) TimerEvent: {}
+[1.314253] (-) TimerEvent: {}
+[1.415009] (-) TimerEvent: {}
+[1.516819] (-) TimerEvent: {}
+[1.620806] (-) TimerEvent: {}
+[1.727678] (-) TimerEvent: {}
+[1.828876] (-) TimerEvent: {}
+[1.929745] (-) TimerEvent: {}
+[2.030582] (-) TimerEvent: {}
+[2.131348] (-) TimerEvent: {}
+[2.232149] (-) TimerEvent: {}
+[2.332941] (-) TimerEvent: {}
+[2.433704] (-) TimerEvent: {}
+[2.534540] (-) TimerEvent: {}
+[2.635294] (-) TimerEvent: {}
+[2.736064] (-) TimerEvent: {}
+[2.836846] (-) TimerEvent: {}
+[2.937603] (-) TimerEvent: {}
+[3.040227] (-) TimerEvent: {}
+[3.141022] (-) TimerEvent: {}
+[3.241842] (-) TimerEvent: {}
+[3.342685] (-) TimerEvent: {}
+[3.443520] (-) TimerEvent: {}
+[3.544305] (-) TimerEvent: {}
+[3.645226] (-) TimerEvent: {}
+[3.746506] (-) TimerEvent: {}
+[3.847280] (-) TimerEvent: {}
+[3.948141] (-) TimerEvent: {}
+[4.048925] (-) TimerEvent: {}
+[4.150835] (-) TimerEvent: {}
+[4.252624] (-) TimerEvent: {}
+[4.354185] (-) TimerEvent: {}
+[4.455242] (-) TimerEvent: {}
+[4.556098] (-) TimerEvent: {}
+[4.608648] (rosboard) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/rosboard', 'build', '--build-base', '/home/projects/rosboard_ws/build/rosboard/build', 'install', '--prefix', '/home/projects/rosboard_ws/install/rosboard', '--record', '/home/projects/rosboard_ws/build/rosboard/install.log', '--single-version-externally-managed'], 'cwd': '/home/projects/rosboard_ws/src/rosboard', 'env': {'HOSTNAME': 'ucsdrobocar-djn', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/home/projects', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'ROS1_DISTRO': 'noetic', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS2_DISTRO': 'foxy', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'PWD': '/home/projects/rosboard_ws/build/rosboard', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[4.656366] (-) TimerEvent: {}
+[4.759141] (-) TimerEvent: {}
+[4.860943] (-) TimerEvent: {}
+[4.961709] (-) TimerEvent: {}
+[5.062815] (-) TimerEvent: {}
+[5.163585] (-) TimerEvent: {}
+[5.264347] (-) TimerEvent: {}
+[5.365102] (-) TimerEvent: {}
+[5.465896] (-) TimerEvent: {}
+[5.566661] (-) TimerEvent: {}
+[5.667554] (-) TimerEvent: {}
+[5.768313] (-) TimerEvent: {}
+[5.869066] (-) TimerEvent: {}
+[5.971724] (-) TimerEvent: {}
+[6.034652] (rosboard) StdoutLine: {'line': b'running egg_info\n'}
+[6.037636] (rosboard) StdoutLine: {'line': b'creating ../../build/rosboard/rosboard.egg-info\n'}
+[6.038619] (rosboard) StdoutLine: {'line': b'writing ../../build/rosboard/rosboard.egg-info/PKG-INFO\n'}
+[6.039690] (rosboard) StdoutLine: {'line': b'writing dependency_links to ../../build/rosboard/rosboard.egg-info/dependency_links.txt\n'}
+[6.040486] (rosboard) StdoutLine: {'line': b'writing entry points to ../../build/rosboard/rosboard.egg-info/entry_points.txt\n'}
+[6.041258] (rosboard) StdoutLine: {'line': b'writing requirements to ../../build/rosboard/rosboard.egg-info/requires.txt\n'}
+[6.042030] (rosboard) StdoutLine: {'line': b'writing top-level names to ../../build/rosboard/rosboard.egg-info/top_level.txt\n'}
+[6.054193] (rosboard) StdoutLine: {'line': b"writing manifest file '../../build/rosboard/rosboard.egg-info/SOURCES.txt'\n"}
+[6.071897] (-) TimerEvent: {}
+[6.174523] (-) TimerEvent: {}
+[6.276277] (-) TimerEvent: {}
+[6.325511] (rosboard) StdoutLine: {'line': b"reading manifest file '../../build/rosboard/rosboard.egg-info/SOURCES.txt'\n"}
+[6.334487] (rosboard) StdoutLine: {'line': b"writing manifest file '../../build/rosboard/rosboard.egg-info/SOURCES.txt'\n"}
+[6.335642] (rosboard) StdoutLine: {'line': b'running build\n'}
+[6.338902] (rosboard) StdoutLine: {'line': b'running build_py\n'}
+[6.339680] (rosboard) StdoutLine: {'line': b'creating /home/projects/rosboard_ws/build/rosboard/build\n'}
+[6.340306] (rosboard) StdoutLine: {'line': b'creating /home/projects/rosboard_ws/build/rosboard/build/lib\n'}
+[6.341033] (rosboard) StdoutLine: {'line': b'creating /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard\n'}
+[6.341745] (rosboard) StdoutLine: {'line': b'copying rosboard/cv_bridge.py -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard\n'}
+[6.342647] (rosboard) StdoutLine: {'line': b'copying rosboard/serialization.py -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard\n'}
+[6.343242] (rosboard) StdoutLine: {'line': b'copying rosboard/message_serialization.py -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard\n'}
+[6.343898] (rosboard) StdoutLine: {'line': b'copying rosboard/rosboard.py -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard\n'}
+[6.344435] (rosboard) StdoutLine: {'line': b'copying rosboard/handlers.py -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard\n'}
+[6.345194] (rosboard) StdoutLine: {'line': b'copying rosboard/__init__.py -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard\n'}
+[6.345897] (rosboard) StdoutLine: {'line': b'copying rosboard/compression.py -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard\n'}
+[6.346645] (rosboard) StdoutLine: {'line': b'creating /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/subscribers\n'}
+[6.347342] (rosboard) StdoutLine: {'line': b'copying rosboard/subscribers/dummy_subscriber.py -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/subscribers\n'}
+[6.348031] (rosboard) StdoutLine: {'line': b'copying rosboard/subscribers/system_stats_subscriber.py -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/subscribers\n'}
+[6.348610] (rosboard) StdoutLine: {'line': b'copying rosboard/subscribers/processes_subscriber.py -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/subscribers\n'}
+[6.349258] (rosboard) StdoutLine: {'line': b'copying rosboard/subscribers/__init__.py -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/subscribers\n'}
+[6.350163] (rosboard) StdoutLine: {'line': b'copying rosboard/subscribers/dmesg_subscriber.py -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/subscribers\n'}
+[6.350903] (rosboard) StdoutLine: {'line': b'creating /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/rospy2\n'}
+[6.351593] (rosboard) StdoutLine: {'line': b'copying rosboard/rospy2/__init__.py -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/rospy2\n'}
+[6.352408] (rosboard) StdoutLine: {'line': b'copying rosboard/rospy2/constants.py -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/rospy2\n'}
+[6.353160] (rosboard) StdoutLine: {'line': b'creating /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html\n'}
+[6.353852] (rosboard) StdoutLine: {'line': b'copying rosboard/html/index.html -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html\n'}
+[6.354578] (rosboard) StdoutLine: {'line': b'creating /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts\n'}
+[6.355267] (rosboard) StdoutLine: {'line': b'copying rosboard/html/fonts/MaterialIcons-Regular.ijmap -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts\n'}
+[6.355845] (rosboard) StdoutLine: {'line': b'copying rosboard/html/fonts/titillium-web-v10-latin-300.woff -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts\n'}
+[6.356522] (rosboard) StdoutLine: {'line': b'copying rosboard/html/fonts/titillium-web-v10-latin-700.woff -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts\n'}
+[6.357060] (rosboard) StdoutLine: {'line': b'copying rosboard/html/fonts/jetbrains-mono-v6-latin-300.svg -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts\n'}
+[6.357867] (rosboard) StdoutLine: {'line': b'copying rosboard/html/fonts/jetbrains-mono-v6-latin-300.woff -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts\n'}
+[6.358614] (rosboard) StdoutLine: {'line': b'copying rosboard/html/fonts/jetbrains-mono-v6-latin-700.svg -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts\n'}
+[6.359331] (rosboard) StdoutLine: {'line': b'copying rosboard/html/fonts/titillium-web-v10-latin-700.svg -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts\n'}
+[6.360481] (rosboard) StdoutLine: {'line': b'copying rosboard/html/fonts/jetbrains-mono-v6-latin-700.eot -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts\n'}
+[6.361437] (rosboard) StdoutLine: {'line': b'copying rosboard/html/fonts/titillium-web-v10-latin-300.woff2 -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts\n'}
+[6.362667] (rosboard) StdoutLine: {'line': b'copying rosboard/html/fonts/titillium-web-v10-latin-300.ttf -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts\n'}
+[6.363741] (rosboard) StdoutLine: {'line': b'copying rosboard/html/fonts/titillium-web-v10-latin-300.svg -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts\n'}
+[6.364972] (rosboard) StdoutLine: {'line': b'copying rosboard/html/fonts/jetbrains-mono-v6-latin-300.eot -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts\n'}
+[6.365974] (rosboard) StdoutLine: {'line': b'copying rosboard/html/fonts/jetbrains-mono-v6-latin-700.woff2 -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts\n'}
+[6.366865] (rosboard) StdoutLine: {'line': b'copying rosboard/html/fonts/titillium-web-v10-latin-300.eot -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts\n'}
+[6.367704] (rosboard) StdoutLine: {'line': b'copying rosboard/html/fonts/MaterialIcons-Regular.svg -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts\n'}
+[6.370344] (rosboard) StdoutLine: {'line': b'copying rosboard/html/fonts/MaterialIcons-Regular.woff2 -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts\n'}
+[6.371381] (rosboard) StdoutLine: {'line': b'copying rosboard/html/fonts/jetbrains-mono-v6-latin-300.ttf -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts\n'}
+[6.372462] (rosboard) StdoutLine: {'line': b'copying rosboard/html/fonts/titillium-web-v10-latin-700.ttf -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts\n'}
+[6.373592] (rosboard) StdoutLine: {'line': b'copying rosboard/html/fonts/titillium-web-v10-latin-700.woff2 -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts\n'}
+[6.374483] (rosboard) StdoutLine: {'line': b'copying rosboard/html/fonts/jetbrains-mono-v6-latin-300.woff2 -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts\n'}
+[6.375355] (rosboard) StdoutLine: {'line': b'copying rosboard/html/fonts/MaterialIcons-Regular.woff -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts\n'}
+[6.376451] (rosboard) StdoutLine: {'line': b'copying rosboard/html/fonts/MaterialIcons-Regular.eot -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts\n'}
+[6.377014] (-) TimerEvent: {}
+[6.379628] (rosboard) StdoutLine: {'line': b'copying rosboard/html/fonts/titillium-web-v10-latin-700.eot -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts\n'}
+[6.380488] (rosboard) StdoutLine: {'line': b'copying rosboard/html/fonts/MaterialIcons-Regular.ttf -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts\n'}
+[6.381488] (rosboard) StdoutLine: {'line': b'copying rosboard/html/fonts/jetbrains-mono-v6-latin-700.woff -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts\n'}
+[6.382502] (rosboard) StdoutLine: {'line': b'copying rosboard/html/fonts/jetbrains-mono-v6-latin-700.ttf -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts\n'}
+[6.383530] (rosboard) StdoutLine: {'line': b'creating /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css\n'}
+[6.384275] (rosboard) StdoutLine: {'line': b'copying rosboard/html/css/material.light_green-lime.min.css -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css\n'}
+[6.385738] (rosboard) StdoutLine: {'line': b'copying rosboard/html/css/material.indigo-blue.min.css -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css\n'}
+[6.387392] (rosboard) StdoutLine: {'line': b'copying rosboard/html/css/index.css -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css\n'}
+[6.388188] (rosboard) StdoutLine: {'line': b'copying rosboard/html/css/material-icons.css -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css\n'}
+[6.390441] (rosboard) StdoutLine: {'line': b'copying rosboard/html/css/leaflet.css -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css\n'}
+[6.391068] (rosboard) StdoutLine: {'line': b'copying rosboard/html/css/material.blue_grey-indigo.min.css -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css\n'}
+[6.391845] (rosboard) StdoutLine: {'line': b'copying rosboard/html/css/leaflet.easy-button.css -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css\n'}
+[6.392630] (rosboard) StdoutLine: {'line': b'copying rosboard/html/css/uPlot.min.css -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css\n'}
+[6.393545] (rosboard) StdoutLine: {'line': b'creating /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/images\n'}
+[6.394533] (rosboard) StdoutLine: {'line': b'copying rosboard/html/css/images/layers.png -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/images\n'}
+[6.395267] (rosboard) StdoutLine: {'line': b'copying rosboard/html/css/images/layers-2x.png -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/images\n'}
+[6.395958] (rosboard) StdoutLine: {'line': b'copying rosboard/html/css/images/marker-shadow.png -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/images\n'}
+[6.396720] (rosboard) StdoutLine: {'line': b'copying rosboard/html/css/images/marker-icon.png -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/images\n'}
+[6.397678] (rosboard) StdoutLine: {'line': b'copying rosboard/html/css/images/marker-icon-2x.png -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/images\n'}
+[6.398501] (rosboard) StdoutLine: {'line': b'creating /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js\n'}
+[6.399257] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/uPlot.iife.min.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js\n'}
+[6.400001] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/eventemitter2.min.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js\n'}
+[6.400719] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/leaflet.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js\n'}
+[6.402584] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/material.min.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js\n'}
+[6.403705] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/gl-matrix.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js\n'}
+[6.406714] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/index.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js\n'}
+[6.407472] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/leaflet-src.esm.js.map -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js\n'}
+[6.413804] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/litegl.min.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js\n'}
+[6.415595] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/masonry.pkgd.min.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js\n'}
+[6.416544] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/leaflet-src.esm.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js\n'}
+[6.419862] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/leaflet-src.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js\n'}
+[6.423304] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/leaflet.easy-button.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js\n'}
+[6.424143] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/rosbag.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js\n'}
+[6.425240] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/leaflet.js.map -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js\n'}
+[6.427478] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/leaflet-src.js.map -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js\n'}
+[6.433064] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/jquery.transit.min.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js\n'}
+[6.434243] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/jquery-3.1.0.min.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js\n'}
+[6.435276] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/draggabilly.pkgd.min.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js\n'}
+[6.436305] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/json5.min.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js\n'}
+[6.437082] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/import-helper.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js\n'}
+[6.438128] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/material.min.js.map -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js\n'}
+[6.439848] (rosboard) StdoutLine: {'line': b'creating /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers\n'}
+[6.440626] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/viewers/ImageViewer.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers\n'}
+[6.441337] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/viewers/PolygonViewer.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers\n'}
+[6.442531] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/viewers/LogViewer.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers\n'}
+[6.443248] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/viewers/DiagnosticViewer.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers\n'}
+[6.443971] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/viewers/GeometryViewer.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers\n'}
+[6.444671] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/viewers/GenericViewer.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers\n'}
+[6.445353] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/viewers/ProcessListViewer.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers\n'}
+[6.446277] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/viewers/PointCloud2Viewer.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers\n'}
+[6.447069] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/viewers/MapViewer.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers\n'}
+[6.447817] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/viewers/TimeSeriesPlotViewer.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers\n'}
+[6.448584] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/viewers/LaserScanViewer.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers\n'}
+[6.449320] (rosboard) StdoutLine: {'line': b'creating /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/meta\n'}
+[6.450550] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/viewers/meta/Viewer.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/meta\n'}
+[6.451353] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/viewers/meta/Space3DViewer.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/meta\n'}
+[6.452057] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/viewers/meta/Space2DViewer.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/meta\n'}
+[6.452857] (rosboard) StdoutLine: {'line': b'creating /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/transports\n'}
+[6.453539] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/transports/RosBridgeTransport.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/transports\n'}
+[6.454444] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/transports/WebSocketV1Transport.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/transports\n'}
+[6.455136] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/transports/DeviceSensorTransport.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/transports\n'}
+[6.455819] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/transports/RosbagTransport.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/transports\n'}
+[6.456355] (rosboard) StdoutLine: {'line': b'copying rosboard/html/js/transports/Rosbag2Transport.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/transports\n'}
+[6.459420] (rosboard) StdoutLine: {'line': b'running install\n'}
+[6.464058] (rosboard) StdoutLine: {'line': b'running install_lib\n'}
+[6.469357] (rosboard) StdoutLine: {'line': b'creating /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard\n'}
+[6.470387] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/cv_bridge.py -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard\n'}
+[6.471403] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/serialization.py -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard\n'}
+[6.472257] (rosboard) StdoutLine: {'line': b'creating /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/subscribers\n'}
+[6.472953] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/subscribers/dummy_subscriber.py -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/subscribers\n'}
+[6.473649] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/subscribers/system_stats_subscriber.py -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/subscribers\n'}
+[6.474574] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/subscribers/processes_subscriber.py -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/subscribers\n'}
+[6.475588] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/subscribers/__init__.py -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/subscribers\n'}
+[6.476262] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/subscribers/dmesg_subscriber.py -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/subscribers\n'}
+[6.476975] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/message_serialization.py -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard\n'}
+[6.477591] (-) TimerEvent: {}
+[6.481016] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/rosboard.py -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard\n'}
+[6.483059] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/handlers.py -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard\n'}
+[6.484419] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/__init__.py -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard\n'}
+[6.485248] (rosboard) StdoutLine: {'line': b'creating /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html\n'}
+[6.486172] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/index.html -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html\n'}
+[6.487092] (rosboard) StdoutLine: {'line': b'creating /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js\n'}
+[6.487915] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/uPlot.iife.min.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js\n'}
+[6.488616] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/eventemitter2.min.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js\n'}
+[6.489311] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/leaflet.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js\n'}
+[6.491710] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/material.min.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js\n'}
+[6.492335] (rosboard) StdoutLine: {'line': b'creating /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/transports\n'}
+[6.492890] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/transports/RosBridgeTransport.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/transports\n'}
+[6.493480] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/transports/WebSocketV1Transport.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/transports\n'}
+[6.494141] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/transports/DeviceSensorTransport.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/transports\n'}
+[6.494712] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/transports/RosbagTransport.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/transports\n'}
+[6.495497] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/transports/Rosbag2Transport.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/transports\n'}
+[6.496241] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/gl-matrix.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js\n'}
+[6.496812] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/index.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js\n'}
+[6.497362] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/leaflet-src.esm.js.map -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js\n'}
+[6.498157] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/litegl.min.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js\n'}
+[6.498822] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/masonry.pkgd.min.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js\n'}
+[6.499642] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/leaflet-src.esm.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js\n'}
+[6.501686] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/leaflet-src.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js\n'}
+[6.504825] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/leaflet.easy-button.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js\n'}
+[6.508160] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/rosbag.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js\n'}
+[6.514285] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/leaflet.js.map -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js\n'}
+[6.515432] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/leaflet-src.js.map -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js\n'}
+[6.516287] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/jquery.transit.min.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js\n'}
+[6.516873] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/jquery-3.1.0.min.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js\n'}
+[6.517671] (rosboard) StdoutLine: {'line': b'creating /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers\n'}
+[6.518449] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/ImageViewer.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers\n'}
+[6.519295] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/PolygonViewer.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers\n'}
+[6.520210] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/LogViewer.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers\n'}
+[6.520922] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/DiagnosticViewer.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers\n'}
+[6.521614] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/GeometryViewer.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers\n'}
+[6.522367] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/GenericViewer.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers\n'}
+[6.523066] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/ProcessListViewer.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers\n'}
+[6.524311] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/PointCloud2Viewer.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers\n'}
+[6.525183] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/MapViewer.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers\n'}
+[6.526667] (rosboard) StdoutLine: {'line': b'creating /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers/meta\n'}
+[6.527471] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/meta/Viewer.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers/meta\n'}
+[6.528476] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/meta/Space3DViewer.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers/meta\n'}
+[6.529694] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/meta/Space2DViewer.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers/meta\n'}
+[6.530495] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/TimeSeriesPlotViewer.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers\n'}
+[6.531224] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/LaserScanViewer.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers\n'}
+[6.532139] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/draggabilly.pkgd.min.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js\n'}
+[6.532719] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/json5.min.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js\n'}
+[6.533264] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/import-helper.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js\n'}
+[6.534324] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/material.min.js.map -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js\n'}
+[6.534920] (rosboard) StdoutLine: {'line': b'creating /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/css\n'}
+[6.535513] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/material.light_green-lime.min.css -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/css\n'}
+[6.536430] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/material.indigo-blue.min.css -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/css\n'}
+[6.537489] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/index.css -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/css\n'}
+[6.538275] (rosboard) StdoutLine: {'line': b'creating /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/css/images\n'}
+[6.539014] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/images/layers.png -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/css/images\n'}
+[6.539713] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/images/layers-2x.png -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/css/images\n'}
+[6.540873] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/images/marker-shadow.png -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/css/images\n'}
+[6.541572] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/images/marker-icon.png -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/css/images\n'}
+[6.542342] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/images/marker-icon-2x.png -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/css/images\n'}
+[6.542996] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/material-icons.css -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/css\n'}
+[6.543695] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/leaflet.css -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/css\n'}
+[6.544473] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/material.blue_grey-indigo.min.css -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/css\n'}
+[6.545239] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/leaflet.easy-button.css -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/css\n'}
+[6.546004] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/uPlot.min.css -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/css\n'}
+[6.547113] (rosboard) StdoutLine: {'line': b'creating /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts\n'}
+[6.547855] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/MaterialIcons-Regular.ijmap -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts\n'}
+[6.548787] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-300.woff -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts\n'}
+[6.549521] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-700.woff -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts\n'}
+[6.550327] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-300.svg -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts\n'}
+[6.551056] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-300.woff -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts\n'}
+[6.551888] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-700.svg -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts\n'}
+[6.552879] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-700.svg -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts\n'}
+[6.553860] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-700.eot -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts\n'}
+[6.554664] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-300.woff2 -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts\n'}
+[6.555453] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-300.ttf -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts\n'}
+[6.556489] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-300.svg -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts\n'}
+[6.557300] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-300.eot -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts\n'}
+[6.558114] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-700.woff2 -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts\n'}
+[6.558867] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-300.eot -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts\n'}
+[6.559611] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/MaterialIcons-Regular.svg -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts\n'}
+[6.561951] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/MaterialIcons-Regular.woff2 -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts\n'}
+[6.563189] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-300.ttf -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts\n'}
+[6.564202] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-700.ttf -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts\n'}
+[6.565194] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-700.woff2 -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts\n'}
+[6.566077] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-300.woff2 -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts\n'}
+[6.566827] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/MaterialIcons-Regular.woff -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts\n'}
+[6.567694] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/MaterialIcons-Regular.eot -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts\n'}
+[6.569193] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-700.eot -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts\n'}
+[6.570101] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/MaterialIcons-Regular.ttf -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts\n'}
+[6.571376] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-700.woff -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts\n'}
+[6.572224] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-700.ttf -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts\n'}
+[6.573330] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/compression.py -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard\n'}
+[6.574278] (rosboard) StdoutLine: {'line': b'creating /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/rospy2\n'}
+[6.575038] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/rospy2/__init__.py -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/rospy2\n'}
+[6.575792] (rosboard) StdoutLine: {'line': b'copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/rospy2/constants.py -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/rospy2\n'}
+[6.577744] (-) TimerEvent: {}
+[6.580342] (rosboard) StdoutLine: {'line': b'byte-compiling /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/cv_bridge.py to cv_bridge.cpython-38.pyc\n'}
+[6.592307] (rosboard) StdoutLine: {'line': b'byte-compiling /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/serialization.py to serialization.cpython-38.pyc\n'}
+[6.596376] (rosboard) StdoutLine: {'line': b'byte-compiling /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/subscribers/dummy_subscriber.py to dummy_subscriber.cpython-38.pyc\n'}
+[6.597934] (rosboard) StdoutLine: {'line': b'byte-compiling /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/subscribers/system_stats_subscriber.py to system_stats_subscriber.cpython-38.pyc\n'}
+[6.600799] (rosboard) StdoutLine: {'line': b'byte-compiling /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/subscribers/processes_subscriber.py to processes_subscriber.cpython-38.pyc\n'}
+[6.603766] (rosboard) StdoutLine: {'line': b'byte-compiling /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/subscribers/__init__.py to __init__.cpython-38.pyc\n'}
+[6.604747] (rosboard) StdoutLine: {'line': b'byte-compiling /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/subscribers/dmesg_subscriber.py to dmesg_subscriber.cpython-38.pyc\n'}
+[6.608471] (rosboard) StdoutLine: {'line': b'byte-compiling /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/message_serialization.py to message_serialization.cpython-38.pyc\n'}
+[6.614832] (rosboard) StdoutLine: {'line': b'byte-compiling /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/rosboard.py to rosboard.cpython-38.pyc\n'}
+[6.620471] (rosboard) StdoutLine: {'line': b'byte-compiling /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/handlers.py to handlers.cpython-38.pyc\n'}
+[6.627470] (rosboard) StdoutLine: {'line': b'byte-compiling /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/__init__.py to __init__.cpython-38.pyc\n'}
+[6.628441] (rosboard) StdoutLine: {'line': b'byte-compiling /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/compression.py to compression.cpython-38.pyc\n'}
+[6.643981] (rosboard) StdoutLine: {'line': b'byte-compiling /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/rospy2/__init__.py to __init__.cpython-38.pyc\n'}
+[6.663379] (rosboard) StdoutLine: {'line': b'byte-compiling /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/rospy2/constants.py to constants.cpython-38.pyc\n'}
+[6.664440] (rosboard) StdoutLine: {'line': b'running install_data\n'}
+[6.667483] (rosboard) StdoutLine: {'line': b'copying package.xml -> /home/projects/rosboard_ws/install/rosboard/share/rosboard\n'}
+[6.668337] (rosboard) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.675550] (rosboard) StdoutLine: {'line': b'Copying ../../build/rosboard/rosboard.egg-info to /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard-1.2.1-py3.8.egg-info\n'}
+[6.677887] (-) TimerEvent: {}
+[6.685186] (rosboard) StdoutLine: {'line': b'running install_scripts\n'}
+[6.778083] (-) TimerEvent: {}
+[6.791257] (rosboard) StdoutLine: {'line': b'Installing rosboard_node script to /home/projects/rosboard_ws/install/rosboard/lib/rosboard\n'}
+[6.798102] (rosboard) StdoutLine: {'line': b"writing list of installed files to '/home/projects/rosboard_ws/build/rosboard/install.log'\n"}
+[6.878309] (-) TimerEvent: {}
+[6.935353] (rosboard) CommandEnded: {'returncode': 0}
+[6.978470] (-) TimerEvent: {}
+[7.035061] (rosboard) JobEnded: {'identifier': 'rosboard', 'rc': 0}
+[7.039265] (-) EventReactorShutdown: {}

@@ -1,0 +1,116 @@
+[ 27%] Built target csm-static
+[ 28%] Built target ld_fisher
+[ 29%] Built target ld_cluster_curv
+[ 30%] Built target log2pdf
+[ 56%] Built target csm
+[ 58%] Built target json2carmen
+[ 59%] Built target json_pipe
+[ 60%] Built target test_json_ld
+[ 61%] Built target carmen2json
+[ 63%] Built target ld_noise
+[ 64%] Built target json_extract
+[ 65%] Built target ld_exp_tro1
+[ 66%] Built target sm2
+[ 67%] Built target ld_purify
+[ 68%] Built target json_decimate
+[ 69%] Built target sm3
+[ 70%] Built target ld_slip
+[ 71%] Built target json_split
+[ 72%] Built target sm1
+[ 73%] Built target ld_select
+[ 74%] Built target ld_smooth
+[ 75%] Built target ld_resample
+[ 76%] Built target ld_alternate
+[ 77%] Built target ld_remove_doubles
+[ 78%] Built target test_math_utils_sanity
+[ 79%] Built target json2matlab
+[ 80%] Built target ld_recover
+[ 81%] Built target json_extract_field
+[ 82%] Built target ld_linearize
+[ 83%] Built target sm_animate
+[ 84%] Built target test_json
+[ 86%] Built target options
+[ 88%] Built target test_options
+[ 93%] Built target json-c
+[ 94%] Built target test2
+[ 96%] Built target egsl
+[ 97%] Built target egsl_test
+[ 98%] Built target egsl_test_allocation
+[100%] Built target gpc
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/projects/localization_ws/devel/bin/sm1
+-- Installing: /home/projects/localization_ws/devel/bin/sm2
+-- Installing: /home/projects/localization_ws/devel/bin/sm3
+-- Installing: /home/projects/localization_ws/devel/bin/json_extract
+-- Installing: /home/projects/localization_ws/devel/bin/json_extract_field
+-- Installing: /home/projects/localization_ws/devel/bin/json_decimate
+-- Installing: /home/projects/localization_ws/devel/bin/json_split
+-- Installing: /home/projects/localization_ws/devel/bin/json_pipe
+-- Installing: /home/projects/localization_ws/devel/bin/carmen2json
+-- Installing: /home/projects/localization_ws/devel/bin/json2carmen
+-- Installing: /home/projects/localization_ws/devel/bin/ld_noise
+-- Installing: /home/projects/localization_ws/devel/bin/ld_slip
+-- Installing: /home/projects/localization_ws/devel/bin/ld_fisher
+-- Installing: /home/projects/localization_ws/devel/bin/ld_smooth
+-- Installing: /home/projects/localization_ws/devel/bin/ld_resample
+-- Installing: /home/projects/localization_ws/devel/bin/ld_remove_doubles
+-- Installing: /home/projects/localization_ws/devel/bin/ld_alternate
+-- Installing: /home/projects/localization_ws/devel/bin/ld_recover
+-- Installing: /home/projects/localization_ws/devel/bin/ld_purify
+-- Installing: /home/projects/localization_ws/devel/bin/ld_select
+-- Installing: /home/projects/localization_ws/devel/bin/ld_cluster_curv
+-- Installing: /home/projects/localization_ws/devel/bin/ld_linearize
+-- Installing: /home/projects/localization_ws/devel/bin/json2matlab
+-- Installing: /home/projects/localization_ws/devel/bin/ld_exp_tro1
+-- Installing: /home/projects/localization_ws/devel/bin/test_json_ld
+-- Installing: /home/projects/localization_ws/devel/bin/test_json
+-- Installing: /home/projects/localization_ws/devel/bin/sm_animate
+-- Installing: /home/projects/localization_ws/devel/bin/log2pdf
+-- Installing: /home/projects/localization_ws/devel/lib/libcsm-static.a
+-- Installing: /home/projects/localization_ws/devel/lib/libcsm.so
+-- Installing: /home/projects/localization_ws/devel/include/options/options.h
+-- Installing: /home/projects/localization_ws/devel/lib/liboptions.a
+-- Installing: /home/projects/localization_ws/devel/include/json-c/JSON_checker.h
+-- Installing: /home/projects/localization_ws/devel/include/json-c/arraylist.h
+-- Installing: /home/projects/localization_ws/devel/include/json-c/bits.h
+-- Installing: /home/projects/localization_ws/devel/include/json-c/debug.h
+-- Installing: /home/projects/localization_ws/devel/include/json-c/json.h
+-- Installing: /home/projects/localization_ws/devel/include/json-c/json_more_utils.h
+-- Installing: /home/projects/localization_ws/devel/include/json-c/json_object.h
+-- Installing: /home/projects/localization_ws/devel/include/json-c/json_object_private.h
+-- Installing: /home/projects/localization_ws/devel/include/json-c/json_tokener.h
+-- Installing: /home/projects/localization_ws/devel/include/json-c/json_util.h
+-- Installing: /home/projects/localization_ws/devel/include/json-c/linkhash.h
+-- Installing: /home/projects/localization_ws/devel/include/json-c/printbuf.h
+-- Installing: /home/projects/localization_ws/devel/include/json-c/config.h
+-- Installing: /home/projects/localization_ws/devel/include/egsl/egsl.h
+-- Installing: /home/projects/localization_ws/devel/include/egsl/egsl_imp.h
+-- Installing: /home/projects/localization_ws/devel/include/egsl/egsl_macros.h
+-- Installing: /home/projects/localization_ws/devel/lib/libegsl.a
+-- Installing: /home/projects/localization_ws/devel/include/csm/./algos.h
+-- Installing: /home/projects/localization_ws/devel/include/csm/./csm.h
+-- Installing: /home/projects/localization_ws/devel/include/csm/./csm_all.h
+-- Installing: /home/projects/localization_ws/devel/include/csm/./json_journal.h
+-- Installing: /home/projects/localization_ws/devel/include/csm/./laser_data.h
+-- Installing: /home/projects/localization_ws/devel/include/csm/./laser_data_cairo.h
+-- Installing: /home/projects/localization_ws/devel/include/csm/./laser_data_drawing.h
+-- Installing: /home/projects/localization_ws/devel/include/csm/./laser_data_inline.h
+-- Installing: /home/projects/localization_ws/devel/include/csm/./laser_data_json.h
+-- Installing: /home/projects/localization_ws/devel/include/csm/./logging.h
+-- Installing: /home/projects/localization_ws/devel/include/csm/./math_utils.h
+-- Installing: /home/projects/localization_ws/devel/include/csm/./math_utils_gsl.h
+-- Installing: /home/projects/localization_ws/devel/include/csm/./restrict.h
+-- Installing: /home/projects/localization_ws/devel/include/csm/./utils.h
+-- Installing: /home/projects/localization_ws/devel/include/csm/hsm/hsm.h
+-- Installing: /home/projects/localization_ws/devel/include/csm/hsm/hsm_interface.h
+-- Installing: /home/projects/localization_ws/devel/include/csm/mbicp/MbICP.h
+-- Installing: /home/projects/localization_ws/devel/include/csm/mbicp/MbICP2.h
+-- Installing: /home/projects/localization_ws/devel/include/csm/mbicp/TData.h
+-- Installing: /home/projects/localization_ws/devel/include/csm/mbicp/calcul.h
+-- Installing: /home/projects/localization_ws/devel/include/csm/mbicp/percolate.h
+-- Installing: /home/projects/localization_ws/devel/include/csm/mbicp/sp_matrix.h
+-- Installing: /home/projects/localization_ws/devel/include/csm/icp/fast_math.h
+-- Installing: /home/projects/localization_ws/devel/include/csm/icp/icp.h
+-- Installing: /home/projects/localization_ws/devel/include/csm/gpm/gpm.h
+-- Installing: /home/projects/localization_ws/devel/lib/pkgconfig/csm.pc

@@ -1,0 +1,5 @@
+topics:
+  -
+    topic: /conversion/pose  # ROS1 topic name
+    type: geometry_msgs/msg/PoseStamped  # ROS2 type name
+    queue_size: 1  # For the publisher back to ROS1

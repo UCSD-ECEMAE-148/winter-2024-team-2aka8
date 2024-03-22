@@ -1,0 +1,7 @@
+{
+  "package_name": "livox_interfaces",
+  "non_idl_tuples": [
+    "/home/projects/sensor_ws/src/lidars/livox/src/livox_ros2_driver/livox_interfaces:msg/CustomPoint.msg",
+    "/home/projects/sensor_ws/src/lidars/livox/src/livox_ros2_driver/livox_interfaces:msg/CustomMsg.msg"
+  ]
+}

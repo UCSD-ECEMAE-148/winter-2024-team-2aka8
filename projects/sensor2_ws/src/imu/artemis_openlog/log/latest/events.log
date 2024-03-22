@@ -1,0 +1,106 @@
+[0.000000] (-) TimerEvent: {}
+[0.002330] (razor_imu_9dof) JobQueued: {'identifier': 'razor_imu_9dof', 'dependencies': OrderedDict()}
+[0.003237] (razor_imu_9dof) JobStarted: {'identifier': 'razor_imu_9dof'}
+[0.098880] (-) TimerEvent: {}
+[0.200890] (-) TimerEvent: {}
+[0.303269] (-) TimerEvent: {}
+[0.405616] (-) TimerEvent: {}
+[0.508119] (-) TimerEvent: {}
+[0.610588] (-) TimerEvent: {}
+[0.713076] (-) TimerEvent: {}
+[0.815400] (-) TimerEvent: {}
+[0.917960] (-) TimerEvent: {}
+[1.020329] (-) TimerEvent: {}
+[1.122575] (-) TimerEvent: {}
+[1.225065] (-) TimerEvent: {}
+[1.327734] (-) TimerEvent: {}
+[1.430153] (-) TimerEvent: {}
+[1.532949] (-) TimerEvent: {}
+[1.635881] (-) TimerEvent: {}
+[1.739321] (-) TimerEvent: {}
+[1.842045] (-) TimerEvent: {}
+[1.944756] (-) TimerEvent: {}
+[2.047221] (-) TimerEvent: {}
+[2.149677] (-) TimerEvent: {}
+[2.252058] (-) TimerEvent: {}
+[2.354511] (-) TimerEvent: {}
+[2.456977] (-) TimerEvent: {}
+[2.559541] (-) TimerEvent: {}
+[2.666723] (-) TimerEvent: {}
+[2.767450] (-) TimerEvent: {}
+[2.870039] (-) TimerEvent: {}
+[2.972619] (-) TimerEvent: {}
+[3.075069] (-) TimerEvent: {}
+[3.177489] (-) TimerEvent: {}
+[3.280148] (-) TimerEvent: {}
+[3.382534] (-) TimerEvent: {}
+[3.485008] (-) TimerEvent: {}
+[3.587575] (-) TimerEvent: {}
+[3.690062] (-) TimerEvent: {}
+[3.792698] (-) TimerEvent: {}
+[3.895190] (-) TimerEvent: {}
+[3.997863] (-) TimerEvent: {}
+[4.094145] (razor_imu_9dof) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/razor_imu_9dof', 'build', '--build-base', '/home/projects/sensor2_ws/src/imu/artemis_openlog/build/razor_imu_9dof/build', 'install', '--prefix', '/home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof', '--record', '/home/projects/sensor2_ws/src/imu/artemis_openlog/build/razor_imu_9dof/install.log', '--single-version-externally-managed'], 'cwd': '/home/projects/sensor2_ws/src/imu/artemis_openlog/src/razor_imu_9dof', 'env': {'HOSTNAME': 'ucsdrobocar-djn', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/home/projects/sensor2_ws/src/imu/artemis_openlog/src/razor_imu_9dof', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/projects/sensor2_ws/src/imu/artemis_openlog/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'localhost:12.0', 'LANG': 'C.UTF-8', 'ROS1_DISTRO': 'noetic', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS2_DISTRO': 'foxy', 'AMENT_PREFIX_PATH': '/home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof:/opt/ros/foxy', 'PWD': '/home/projects/sensor2_ws/src/imu/artemis_openlog/build/razor_imu_9dof', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/lib/python3.8/site-packages:/home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[4.099823] (-) TimerEvent: {}
+[4.200541] (-) TimerEvent: {}
+[4.303306] (-) TimerEvent: {}
+[4.405830] (-) TimerEvent: {}
+[4.508378] (-) TimerEvent: {}
+[4.610885] (-) TimerEvent: {}
+[4.713383] (-) TimerEvent: {}
+[4.816027] (-) TimerEvent: {}
+[4.918857] (-) TimerEvent: {}
+[5.021518] (-) TimerEvent: {}
+[5.123973] (-) TimerEvent: {}
+[5.226694] (-) TimerEvent: {}
+[5.329386] (-) TimerEvent: {}
+[5.432110] (-) TimerEvent: {}
+[5.493642] (razor_imu_9dof) StdoutLine: {'line': b'running egg_info\n'}
+[5.496872] (razor_imu_9dof) StdoutLine: {'line': b'creating ../../build/razor_imu_9dof/razor_imu_9dof.egg-info\n'}
+[5.497979] (razor_imu_9dof) StdoutLine: {'line': b'writing ../../build/razor_imu_9dof/razor_imu_9dof.egg-info/PKG-INFO\n'}
+[5.499152] (razor_imu_9dof) StdoutLine: {'line': b'writing dependency_links to ../../build/razor_imu_9dof/razor_imu_9dof.egg-info/dependency_links.txt\n'}
+[5.499991] (razor_imu_9dof) StdoutLine: {'line': b'writing entry points to ../../build/razor_imu_9dof/razor_imu_9dof.egg-info/entry_points.txt\n'}
+[5.500870] (razor_imu_9dof) StdoutLine: {'line': b'writing requirements to ../../build/razor_imu_9dof/razor_imu_9dof.egg-info/requires.txt\n'}
+[5.501413] (razor_imu_9dof) StdoutLine: {'line': b'writing top-level names to ../../build/razor_imu_9dof/razor_imu_9dof.egg-info/top_level.txt\n'}
+[5.507061] (razor_imu_9dof) StdoutLine: {'line': b"writing manifest file '../../build/razor_imu_9dof/razor_imu_9dof.egg-info/SOURCES.txt'\n"}
+[5.532260] (-) TimerEvent: {}
+[5.634788] (-) TimerEvent: {}
+[5.737418] (-) TimerEvent: {}
+[5.739896] (razor_imu_9dof) StdoutLine: {'line': b"reading manifest file '../../build/razor_imu_9dof/razor_imu_9dof.egg-info/SOURCES.txt'\n"}
+[5.745059] (razor_imu_9dof) StdoutLine: {'line': b"writing manifest file '../../build/razor_imu_9dof/razor_imu_9dof.egg-info/SOURCES.txt'\n"}
+[5.746629] (razor_imu_9dof) StdoutLine: {'line': b'running build\n'}
+[5.747874] (razor_imu_9dof) StdoutLine: {'line': b'running build_py\n'}
+[5.748643] (razor_imu_9dof) StdoutLine: {'line': b'creating /home/projects/sensor2_ws/src/imu/artemis_openlog/build/razor_imu_9dof/build\n'}
+[5.749354] (razor_imu_9dof) StdoutLine: {'line': b'creating /home/projects/sensor2_ws/src/imu/artemis_openlog/build/razor_imu_9dof/build/lib\n'}
+[5.749939] (razor_imu_9dof) StdoutLine: {'line': b'creating /home/projects/sensor2_ws/src/imu/artemis_openlog/build/razor_imu_9dof/build/lib/razor_imu_9dof\n'}
+[5.750597] (razor_imu_9dof) StdoutLine: {'line': b'copying razor_imu_9dof/imu_node.py -> /home/projects/sensor2_ws/src/imu/artemis_openlog/build/razor_imu_9dof/build/lib/razor_imu_9dof\n'}
+[5.751129] (razor_imu_9dof) StdoutLine: {'line': b'copying razor_imu_9dof/__init__.py -> /home/projects/sensor2_ws/src/imu/artemis_openlog/build/razor_imu_9dof/build/lib/razor_imu_9dof\n'}
+[5.751772] (razor_imu_9dof) StdoutLine: {'line': b'running install\n'}
+[5.754032] (razor_imu_9dof) StdoutLine: {'line': b'running install_lib\n'}
+[5.759334] (razor_imu_9dof) StdoutLine: {'line': b'creating /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/lib/python3.8/site-packages/razor_imu_9dof\n'}
+[5.760362] (razor_imu_9dof) StdoutLine: {'line': b'copying /home/projects/sensor2_ws/src/imu/artemis_openlog/build/razor_imu_9dof/build/lib/razor_imu_9dof/imu_node.py -> /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/lib/python3.8/site-packages/razor_imu_9dof\n'}
+[5.761114] (razor_imu_9dof) StdoutLine: {'line': b'copying /home/projects/sensor2_ws/src/imu/artemis_openlog/build/razor_imu_9dof/build/lib/razor_imu_9dof/__init__.py -> /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/lib/python3.8/site-packages/razor_imu_9dof\n'}
+[5.763346] (razor_imu_9dof) StdoutLine: {'line': b'byte-compiling /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/lib/python3.8/site-packages/razor_imu_9dof/imu_node.py to imu_node.cpython-38.pyc\n'}
+[5.781983] (razor_imu_9dof) StdoutLine: {'line': b'byte-compiling /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/lib/python3.8/site-packages/razor_imu_9dof/__init__.py to __init__.cpython-38.pyc\n'}
+[5.782938] (razor_imu_9dof) StdoutLine: {'line': b'running install_data\n'}
+[5.786067] (razor_imu_9dof) StdoutLine: {'line': b'creating /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/share/ament_index\n'}
+[5.787131] (razor_imu_9dof) StdoutLine: {'line': b'creating /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/share/ament_index/resource_index\n'}
+[5.787902] (razor_imu_9dof) StdoutLine: {'line': b'creating /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/share/ament_index/resource_index/packages\n'}
+[5.788743] (razor_imu_9dof) StdoutLine: {'line': b'copying resource/razor_imu_9dof -> /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/share/ament_index/resource_index/packages\n'}
+[5.789460] (razor_imu_9dof) StdoutLine: {'line': b'copying package.xml -> /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/share/razor_imu_9dof\n'}
+[5.790218] (razor_imu_9dof) StdoutLine: {'line': b'creating /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/share/razor_imu_9dof/launch\n'}
+[5.790896] (razor_imu_9dof) StdoutLine: {'line': b'copying launch/razor-pub.launch.py -> /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/share/razor_imu_9dof/launch\n'}
+[5.791455] (razor_imu_9dof) StdoutLine: {'line': b'creating /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/share/razor_imu_9dof/param\n'}
+[5.792069] (razor_imu_9dof) StdoutLine: {'line': b'copying param/razor_diags.yaml -> /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/share/razor_imu_9dof/param\n'}
+[5.792598] (razor_imu_9dof) StdoutLine: {'line': b'copying param/razor.yaml -> /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/share/razor_imu_9dof/param\n'}
+[5.793120] (razor_imu_9dof) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.798832] (razor_imu_9dof) StdoutLine: {'line': b'Copying ../../build/razor_imu_9dof/razor_imu_9dof.egg-info to /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/lib/python3.8/site-packages/razor_imu_9dof-0.0.0-py3.8.egg-info\n'}
+[5.804387] (razor_imu_9dof) StdoutLine: {'line': b'running install_scripts\n'}
+[5.837584] (-) TimerEvent: {}
+[5.899904] (razor_imu_9dof) StdoutLine: {'line': b'Installing imu_node script to /home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/lib/razor_imu_9dof\n'}
+[5.901581] (razor_imu_9dof) StdoutLine: {'line': b"writing list of installed files to '/home/projects/sensor2_ws/src/imu/artemis_openlog/build/razor_imu_9dof/install.log'\n"}
+[5.937787] (-) TimerEvent: {}
+[6.020513] (razor_imu_9dof) CommandEnded: {'returncode': 0}
+[6.037984] (-) TimerEvent: {}
+[6.090054] (razor_imu_9dof) JobEnded: {'identifier': 'razor_imu_9dof', 'rc': 0}
+[6.093809] (-) EventReactorShutdown: {}

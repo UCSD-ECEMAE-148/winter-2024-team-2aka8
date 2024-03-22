@@ -1,0 +1,7 @@
+2d_localization/tf2pose
+/home/projects/localization_ws/devel/.private/tf2pose/cmake.lock /home/projects/localization_ws/devel/./cmake.lock
+/home/projects/localization_ws/devel/.private/tf2pose/lib/pkgconfig/tf2pose.pc /home/projects/localization_ws/devel/lib/pkgconfig/tf2pose.pc
+/home/projects/localization_ws/devel/.private/tf2pose/lib/tf2pose/tf2pose.py /home/projects/localization_ws/devel/lib/tf2pose/tf2pose.py
+/home/projects/localization_ws/devel/.private/tf2pose/lib/tf2pose/cmake.lock /home/projects/localization_ws/devel/lib/tf2pose/cmake.lock
+/home/projects/localization_ws/devel/.private/tf2pose/share/tf2pose/cmake/tf2poseConfig-version.cmake /home/projects/localization_ws/devel/share/tf2pose/cmake/tf2poseConfig-version.cmake
+/home/projects/localization_ws/devel/.private/tf2pose/share/tf2pose/cmake/tf2poseConfig.cmake /home/projects/localization_ws/devel/share/tf2pose/cmake/tf2poseConfig.cmake

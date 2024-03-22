@@ -1,0 +1,105 @@
+[1.353s] Invoking command in '/home/projects/sensor2_ws/src/vesc/build/ackermann_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_control2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg:/home/projects/rosboard_ws/install/rosboard:/home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof:/opt/ros/foxy /usr/bin/cmake /home/projects/sensor2_ws/src/vesc/src/ackermann_mux -DCMAKE_INSTALL_PREFIX=/home/projects/sensor2_ws/src/vesc/install/ackermann_mux
+[2.621s] -- The C compiler identification is GNU 9.3.0
+[2.622s] -- The CXX compiler identification is GNU 9.3.0
+[2.622s] -- Check for working C compiler: /usr/bin/cc
+[2.623s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.623s] -- Detecting C compiler ABI info
+[2.623s] -- Detecting C compiler ABI info - done
+[2.624s] -- Detecting C compile features
+[2.624s] -- Detecting C compile features - done
+[2.624s] -- Check for working CXX compiler: /usr/bin/c++
+[2.884s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.889s] -- Detecting CXX compiler ABI info
+[3.228s] -- Detecting CXX compiler ABI info - done
+[3.298s] -- Detecting CXX compile features
+[3.300s] -- Detecting CXX compile features - done
+[3.319s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.451s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.452s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.586s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.876s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.926s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.337s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.499s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.973s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.330s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.342s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.343s] -- Looking for pthread.h
+[6.627s] -- Looking for pthread.h - found
+[6.629s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.925s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.926s] -- Looking for pthread_create in pthreads
+[7.157s] -- Looking for pthread_create in pthreads - not found
+[7.160s] -- Looking for pthread_create in pthread
+[7.434s] -- Looking for pthread_create in pthread - found
+[7.440s] -- Found Threads: TRUE  
+[8.192s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[8.354s] -- Found diagnostic_updater: 2.0.8 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+[8.730s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[9.278s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[9.382s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[9.406s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[9.406s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.407s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[9.407s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[9.511s] -- Found PythonExtra: .so  
+[9.604s] -- Added test 'xmllint' to check XML markup files
+[9.607s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.623s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.624s] -- Configured cppcheck include dirs: /home/projects/sensor2_ws/src/vesc/src/ackermann_mux/include
+[9.624s] -- Configured cppcheck exclude dirs and/or files: 
+[9.639s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.639s] -- Configured cpplint exclude dirs and/or files: 
+[9.644s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.650s] -- Added test 'lint_cmake' to check CMake code style
+[9.657s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[9.673s] -- Added test 'uncrustify' to check C / C++ code style
+[9.674s] -- Configured uncrustify additional arguments: 
+[9.692s] -- Configuring done
+[9.912s] -- Generating done
+[9.920s] -- Build files have been written to: /home/projects/sensor2_ws/src/vesc/build/ackermann_mux
+[9.964s] Invoked command in '/home/projects/sensor2_ws/src/vesc/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_control2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg:/home/projects/rosboard_ws/install/rosboard:/home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof:/opt/ros/foxy /usr/bin/cmake /home/projects/sensor2_ws/src/vesc/src/ackermann_mux -DCMAKE_INSTALL_PREFIX=/home/projects/sensor2_ws/src/vesc/install/ackermann_mux
+[9.975s] Invoking command in '/home/projects/sensor2_ws/src/vesc/build/ackermann_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_control2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg:/home/projects/rosboard_ws/install/rosboard:/home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof:/opt/ros/foxy /usr/bin/cmake --build /home/projects/sensor2_ws/src/vesc/build/ackermann_mux -- -j6 -l6
+[10.279s] [35m[1mScanning dependencies of target ackermann_mux[0m
+[10.858s] [ 25%] [32mBuilding CXX object CMakeFiles/ackermann_mux.dir/src/ackermann_mux.cpp.o[0m
+[10.879s] [ 50%] [32mBuilding CXX object CMakeFiles/ackermann_mux.dir/src/ackermann_mux_node.cpp.o[0m
+[10.917s] [ 75%] [32mBuilding CXX object CMakeFiles/ackermann_mux.dir/src/ackermann_mux_diagnostics.cpp.o[0m
+[56.431s] [100%] [32m[1mLinking CXX executable ackermann_mux[0m
+[59.569s] [100%] Built target ackermann_mux
+[59.674s] Invoked command in '/home/projects/sensor2_ws/src/vesc/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_control2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg:/home/projects/rosboard_ws/install/rosboard:/home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof:/opt/ros/foxy /usr/bin/cmake --build /home/projects/sensor2_ws/src/vesc/build/ackermann_mux -- -j6 -l6
+[60.244s] Invoking command in '/home/projects/sensor2_ws/src/vesc/build/ackermann_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_control2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg:/home/projects/rosboard_ws/install/rosboard:/home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof:/opt/ros/foxy /usr/bin/cmake --install /home/projects/sensor2_ws/src/vesc/build/ackermann_mux
+[60.369s] -- Install configuration: ""
+[60.371s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/lib/ackermann_mux/ackermann_mux
+[60.458s] -- Set runtime path of "/home/projects/sensor2_ws/src/vesc/install/ackermann_mux/lib/ackermann_mux/ackermann_mux" to ""
+[60.459s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/share/ackermann_mux/launch
+[60.462s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/share/ackermann_mux/launch/ackermann_mux_launch.py
+[60.464s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/share/ackermann_mux/config
+[60.465s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_topics.yaml
+[60.466s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/share/ackermann_mux/config/joystick.yaml
+[60.466s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_locks.yaml
+[60.467s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/include
+[60.467s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/include/ackermann_mux
+[60.468s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics_status.hpp
+[60.468s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/include/ackermann_mux/ackermann_mux.hpp
+[60.470s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/include/ackermann_mux/params_helpers.hpp
+[60.475s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/include/ackermann_mux/utils.hpp
+[60.476s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/include/ackermann_mux/topic_handle.hpp
+[60.477s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics.hpp
+[60.482s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/share/ament_index/resource_index/package_run_dependencies/ackermann_mux
+[60.484s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/share/ament_index/resource_index/parent_prefix_path/ackermann_mux
+[60.491s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.sh
+[60.495s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.dsv
+[60.496s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/share/ackermann_mux/environment/path.sh
+[60.503s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/share/ackermann_mux/environment/path.dsv
+[60.504s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/share/ackermann_mux/local_setup.bash
+[60.505s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/share/ackermann_mux/local_setup.sh
+[60.506s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/share/ackermann_mux/local_setup.zsh
+[60.507s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/share/ackermann_mux/local_setup.dsv
+[60.516s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/share/ackermann_mux/package.dsv
+[60.518s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/share/ament_index/resource_index/packages/ackermann_mux
+[60.519s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_include_directories-extras.cmake
+[60.520s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_dependencies-extras.cmake
+[60.520s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig.cmake
+[60.521s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig-version.cmake
+[60.521s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/ackermann_mux/share/ackermann_mux/package.xml
+[60.564s] Invoked command in '/home/projects/sensor2_ws/src/vesc/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_control2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg:/home/projects/rosboard_ws/install/rosboard:/home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof:/opt/ros/foxy /usr/bin/cmake --install /home/projects/sensor2_ws/src/vesc/build/ackermann_mux

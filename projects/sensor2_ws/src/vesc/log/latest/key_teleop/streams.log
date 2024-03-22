@@ -1,0 +1,39 @@
+[4.751s] Invoking command in '/home/projects/sensor2_ws/src/vesc/src/teleop_tools/key_teleop': PYTHONPATH=/home/projects/sensor2_ws/src/vesc/install/key_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/key_teleop build --build-base /home/projects/sensor2_ws/src/vesc/build/key_teleop/build install --prefix /home/projects/sensor2_ws/src/vesc/install/key_teleop --record /home/projects/sensor2_ws/src/vesc/build/key_teleop/install.log --single-version-externally-managed
+[5.890s] running egg_info
+[5.891s] creating ../../../build/key_teleop/key_teleop.egg-info
+[5.892s] writing ../../../build/key_teleop/key_teleop.egg-info/PKG-INFO
+[5.892s] writing dependency_links to ../../../build/key_teleop/key_teleop.egg-info/dependency_links.txt
+[5.893s] writing entry points to ../../../build/key_teleop/key_teleop.egg-info/entry_points.txt
+[5.893s] writing requirements to ../../../build/key_teleop/key_teleop.egg-info/requires.txt
+[5.894s] writing top-level names to ../../../build/key_teleop/key_teleop.egg-info/top_level.txt
+[5.895s] writing manifest file '../../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'
+[6.063s] reading manifest file '../../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'
+[6.066s] writing manifest file '../../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'
+[6.067s] running build
+[6.067s] running build_py
+[6.068s] creating /home/projects/sensor2_ws/src/vesc/build/key_teleop/build
+[6.068s] creating /home/projects/sensor2_ws/src/vesc/build/key_teleop/build/lib
+[6.069s] creating /home/projects/sensor2_ws/src/vesc/build/key_teleop/build/lib/key_teleop
+[6.069s] copying key_teleop/__init__.py -> /home/projects/sensor2_ws/src/vesc/build/key_teleop/build/lib/key_teleop
+[6.070s] copying key_teleop/key_teleop.py -> /home/projects/sensor2_ws/src/vesc/build/key_teleop/build/lib/key_teleop
+[6.070s] running install
+[6.073s] running install_lib
+[6.078s] creating /home/projects/sensor2_ws/src/vesc/install/key_teleop/lib/python3.8/site-packages/key_teleop
+[6.079s] copying /home/projects/sensor2_ws/src/vesc/build/key_teleop/build/lib/key_teleop/__init__.py -> /home/projects/sensor2_ws/src/vesc/install/key_teleop/lib/python3.8/site-packages/key_teleop
+[6.079s] copying /home/projects/sensor2_ws/src/vesc/build/key_teleop/build/lib/key_teleop/key_teleop.py -> /home/projects/sensor2_ws/src/vesc/install/key_teleop/lib/python3.8/site-packages/key_teleop
+[6.087s] byte-compiling /home/projects/sensor2_ws/src/vesc/install/key_teleop/lib/python3.8/site-packages/key_teleop/__init__.py to __init__.cpython-38.pyc
+[6.089s] byte-compiling /home/projects/sensor2_ws/src/vesc/install/key_teleop/lib/python3.8/site-packages/key_teleop/key_teleop.py to key_teleop.cpython-38.pyc
+[6.094s] running install_data
+[6.096s] copying package.xml -> /home/projects/sensor2_ws/src/vesc/install/key_teleop/share/key_teleop
+[6.097s] creating /home/projects/sensor2_ws/src/vesc/install/key_teleop/share/key_teleop/config
+[6.098s] copying config/key_teleop.yaml -> /home/projects/sensor2_ws/src/vesc/install/key_teleop/share/key_teleop/config
+[6.099s] creating /home/projects/sensor2_ws/src/vesc/install/key_teleop/share/ament_index
+[6.099s] creating /home/projects/sensor2_ws/src/vesc/install/key_teleop/share/ament_index/resource_index
+[6.099s] creating /home/projects/sensor2_ws/src/vesc/install/key_teleop/share/ament_index/resource_index/packages
+[6.100s] copying resource/key_teleop -> /home/projects/sensor2_ws/src/vesc/install/key_teleop/share/ament_index/resource_index/packages
+[6.100s] running install_egg_info
+[6.106s] Copying ../../../build/key_teleop/key_teleop.egg-info to /home/projects/sensor2_ws/src/vesc/install/key_teleop/lib/python3.8/site-packages/key_teleop-0.3.0-py3.8.egg-info
+[6.110s] running install_scripts
+[6.189s] Installing key_teleop script to /home/projects/sensor2_ws/src/vesc/install/key_teleop/lib/key_teleop
+[6.191s] writing list of installed files to '/home/projects/sensor2_ws/src/vesc/build/key_teleop/install.log'
+[6.294s] Invoked command in '/home/projects/sensor2_ws/src/vesc/src/teleop_tools/key_teleop' returned '0': PYTHONPATH=/home/projects/sensor2_ws/src/vesc/install/key_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/key_teleop build --build-base /home/projects/sensor2_ws/src/vesc/build/key_teleop/build install --prefix /home/projects/sensor2_ws/src/vesc/install/key_teleop --record /home/projects/sensor2_ws/src/vesc/build/key_teleop/install.log --single-version-externally-managed

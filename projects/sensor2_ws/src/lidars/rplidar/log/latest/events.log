@@ -1,0 +1,791 @@
+[0.000000] (-) TimerEvent: {}
+[0.000500] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.001262] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.036459] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[0.037644] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2', '-DCMAKE_INSTALL_PREFIX=/home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros'], 'cwd': '/home/projects/sensor_ws/src/lidars/rplidar/build/rplidar_ros', 'env': OrderedDict([('HOSTNAME', '1abd581b2c91'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('ROS1_DISTRO', 'noetic'), ('ROS2_DISTRO', 'foxy'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/home/projects/sensor_ws/src/lidars/rplidar/build/rplidar_ros'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099009] (-) TimerEvent: {}
+[0.199474] (-) TimerEvent: {}
+[0.299896] (-) TimerEvent: {}
+[0.307127] (rplidar_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.400099] (-) TimerEvent: {}
+[0.500526] (-) TimerEvent: {}
+[0.542126] (rplidar_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.561920] (rplidar_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.600692] (-) TimerEvent: {}
+[0.701110] (-) TimerEvent: {}
+[0.759590] (rplidar_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.763333] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.801285] (-) TimerEvent: {}
+[0.901769] (-) TimerEvent: {}
+[0.964994] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.001929] (-) TimerEvent: {}
+[1.021900] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.023230] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.033978] (rplidar_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.102136] (-) TimerEvent: {}
+[1.202521] (-) TimerEvent: {}
+[1.253942] (rplidar_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.260276] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.302838] (-) TimerEvent: {}
+[1.403410] (-) TimerEvent: {}
+[1.484133] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.503525] (-) TimerEvent: {}
+[1.531591] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.533229] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.541100] (rplidar_ros) StdoutLine: {'line': b'-- Found ament_cmake_auto: 0.9.8 (/opt/ros/foxy/share/ament_cmake_auto/cmake)\n'}
+[1.603637] (-) TimerEvent: {}
+[1.619931] (rplidar_ros) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.620252] (rplidar_ros) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.703760] (-) TimerEvent: {}
+[1.803995] (-) TimerEvent: {}
+[1.904204] (-) TimerEvent: {}
+[2.004431] (-) TimerEvent: {}
+[2.104620] (-) TimerEvent: {}
+[2.137050] (rplidar_ros) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.204734] (-) TimerEvent: {}
+[2.304991] (-) TimerEvent: {}
+[2.405313] (-) TimerEvent: {}
+[2.483869] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.505500] (-) TimerEvent: {}
+[2.506184] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.605693] (-) TimerEvent: {}
+[2.706121] (-) TimerEvent: {}
+[2.727564] (rplidar_ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.806376] (-) TimerEvent: {}
+[2.818206] (rplidar_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.906569] (-) TimerEvent: {}
+[3.007026] (-) TimerEvent: {}
+[3.054045] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.107221] (-) TimerEvent: {}
+[3.207583] (-) TimerEvent: {}
+[3.231233] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.235672] (rplidar_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.238879] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.307942] (-) TimerEvent: {}
+[3.408658] (-) TimerEvent: {}
+[3.449737] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.451001] (rplidar_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.508814] (-) TimerEvent: {}
+[3.609276] (-) TimerEvent: {}
+[3.650044] (rplidar_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[3.650609] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[3.709442] (-) TimerEvent: {}
+[3.810607] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[3.811733] (-) TimerEvent: {}
+[3.811904] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[3.911959] (-) TimerEvent: {}
+[3.999844] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[4.001683] (rplidar_ros) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.012094] (-) TimerEvent: {}
+[4.112488] (-) TimerEvent: {}
+[4.212920] (-) TimerEvent: {}
+[4.313345] (-) TimerEvent: {}
+[4.413774] (-) TimerEvent: {}
+[4.514216] (-) TimerEvent: {}
+[4.614611] (-) TimerEvent: {}
+[4.715049] (-) TimerEvent: {}
+[4.815507] (-) TimerEvent: {}
+[4.915919] (-) TimerEvent: {}
+[4.939148] (rplidar_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.016129] (-) TimerEvent: {}
+[5.041104] (rplidar_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[5.046597] (rplidar_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/projects/sensor_ws/src/lidars/rplidar/build/rplidar_ros\n'}
+[5.070627] (rplidar_ros) CommandEnded: {'returncode': 0}
+[5.073805] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[5.073949] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/projects/sensor_ws/src/lidars/rplidar/build/rplidar_ros', '--', '-j8', '-l8'], 'cwd': '/home/projects/sensor_ws/src/lidars/rplidar/build/rplidar_ros', 'env': OrderedDict([('HOSTNAME', '1abd581b2c91'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('ROS1_DISTRO', 'noetic'), ('ROS2_DISTRO', 'foxy'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/home/projects/sensor_ws/src/lidars/rplidar/build/rplidar_ros'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[5.116359] (-) TimerEvent: {}
+[5.216775] (-) TimerEvent: {}
+[5.295800] (rplidar_ros) StdoutLine: {'line': b'Scanning dependencies of target rplidarNodeClient\n'}
+[5.301069] (rplidar_ros) StdoutLine: {'line': b'Scanning dependencies of target rplidar_composition_node\n'}
+[5.302841] (rplidar_ros) StdoutLine: {'line': b'Scanning dependencies of target rplidarNode\n'}
+[5.316960] (-) TimerEvent: {}
+[5.336547] (rplidar_ros) StdoutLine: {'line': b'[  5%] Building CXX object CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o\n'}
+[5.345705] (rplidar_ros) StdoutLine: {'line': b'[ 22%] Building CXX object CMakeFiles/rplidar_composition_node.dir/src/rplidar_node.cpp.o\n'}
+[5.346219] (rplidar_ros) StdoutLine: {'line': b'[ 22%] Building CXX object CMakeFiles/rplidarNode.dir/src/node.cpp.o\n'}
+[5.346543] (rplidar_ros) StdoutLine: {'line': b'[ 22%] Building CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/net_serial.cpp.o\n'}
+[5.347278] (rplidar_ros) StdoutLine: {'line': b'[ 27%] Building CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/timer.cpp.o\n'}
+[5.347670] (rplidar_ros) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/net_socket.cpp.o\n'}
+[5.356527] (rplidar_ros) StdoutLine: {'line': b'[ 38%] Building CXX object CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o\n'}
+[5.358068] (rplidar_ros) StdoutLine: {'line': b'[ 44%] Building CXX object CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o\n'}
+[5.417158] (-) TimerEvent: {}
+[5.517548] (-) TimerEvent: {}
+[5.617944] (-) TimerEvent: {}
+[5.718357] (-) TimerEvent: {}
+[5.818797] (-) TimerEvent: {}
+[5.892244] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/client.cpp:43: warning: "M_PI" redefined\n'}
+[5.892817] (rplidar_ros) StderrLine: {'line': b'   43 | #define M_PI 3.1415926535897932384626433832795\n'}
+[5.893087] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[5.893321] (rplidar_ros) StderrLine: {'line': b'In file included from /usr/include/c++/9/cmath:45,\n'}
+[5.893569] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/libstatistics_collector/moving_average_statistics/types.hpp:18,\n'}
+[5.893797] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:24,\n'}
+[5.894022] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23,\n'}
+[5.894240] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/subscription.hpp:50,\n'}
+[5.894457] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/any_executable.hpp:25,\n'}
+[5.894680] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24,\n'}
+[5.894896] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18,\n'}
+[5.895154] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/executor_options.hpp:20,\n'}
+[5.895403] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/executor.hpp:33,\n'}
+[5.895637] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25,\n'}
+[5.895855] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/executors.hpp:21,\n'}
+[5.896067] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/rclcpp.hpp:146,\n'}
+[5.896313] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/client.cpp:38:\n'}
+[5.896558] (rplidar_ros) StderrLine: {'line': b'/usr/include/math.h:1070: note: this is the location of the previous definition\n'}
+[5.896782] (rplidar_ros) StderrLine: {'line': b' 1070 | # define M_PI  3.14159265358979323846 /* pi */\n'}
+[5.897002] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[5.899297] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/node.cpp:51: warning: "M_PI" redefined\n'}
+[5.899709] (rplidar_ros) StderrLine: {'line': b'   51 | #define M_PI 3.1415926535897932384626433832795\n'}
+[5.899964] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[5.900201] (rplidar_ros) StderrLine: {'line': b'In file included from /usr/include/c++/9/cmath:45,\n'}
+[5.900433] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/libstatistics_collector/moving_average_statistics/types.hpp:18,\n'}
+[5.900662] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:24,\n'}
+[5.900891] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23,\n'}
+[5.901108] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/subscription.hpp:50,\n'}
+[5.901322] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/any_executable.hpp:25,\n'}
+[5.901540] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24,\n'}
+[5.901764] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18,\n'}
+[5.901995] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/executor_options.hpp:20,\n'}
+[5.902212] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/executor.hpp:33,\n'}
+[5.902428] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25,\n'}
+[5.902640] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/executors.hpp:21,\n'}
+[5.902855] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/rclcpp.hpp:146,\n'}
+[5.903093] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/node.cpp:36:\n'}
+[5.903376] (rplidar_ros) StderrLine: {'line': b'/usr/include/math.h:1070: note: this is the location of the previous definition\n'}
+[5.903601] (rplidar_ros) StderrLine: {'line': b' 1070 | # define M_PI  3.14159265358979323846 /* pi */\n'}
+[5.903820] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[5.904049] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/node.cpp:231:14: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]\n'}
+[5.904269] (rplidar_ros) StderrLine: {'line': b'  231 |     ROS_INFO("RPLIDAR running on ROS package rplidar_ros. SDK Version:"RPLIDAR_SDK_VERSION"");\n'}
+[5.904482] (rplidar_ros) StderrLine: {'line': b'      |              ^\n'}
+[5.912031] (rplidar_ros) StderrLine: {'line': b'In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp:36:\n'}
+[5.912476] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/include/rplidar_node.hpp:50: warning: "M_PI" redefined\n'}
+[5.912724] (rplidar_ros) StderrLine: {'line': b'   50 | #define M_PI 3.1415926535897932384626433832795\n'}
+[5.912958] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[5.913183] (rplidar_ros) StderrLine: {'line': b'In file included from /usr/include/c++/9/cmath:45,\n'}
+[5.913415] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/libstatistics_collector/moving_average_statistics/types.hpp:18,\n'}
+[5.913671] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:24,\n'}
+[5.913896] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23,\n'}
+[5.914116] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/subscription.hpp:50,\n'}
+[5.914331] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/any_executable.hpp:25,\n'}
+[5.914594] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24,\n'}
+[5.914829] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18,\n'}
+[5.915047] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/executor_options.hpp:20,\n'}
+[5.915342] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/executor.hpp:33,\n'}
+[5.915580] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25,\n'}
+[5.915802] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/executors.hpp:21,\n'}
+[5.916022] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/rclcpp.hpp:146,\n'}
+[5.916237] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/include/rplidar_node.hpp:34,\n'}
+[5.916454] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp:36:\n'}
+[5.916686] (rplidar_ros) StderrLine: {'line': b'/usr/include/math.h:1070: note: this is the location of the previous definition\n'}
+[5.916907] (rplidar_ros) StderrLine: {'line': b' 1070 | # define M_PI  3.14159265358979323846 /* pi */\n'}
+[5.917133] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[5.927286] (-) TimerEvent: {}
+[6.027688] (-) TimerEvent: {}
+[6.128109] (-) TimerEvent: {}
+[6.228688] (-) TimerEvent: {}
+[6.329143] (-) TimerEvent: {}
+[6.429583] (-) TimerEvent: {}
+[6.530032] (-) TimerEvent: {}
+[6.596362] (rplidar_ros) StderrLine: {'line': b'In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:39,\n'}
+[6.597066] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/sdkcommon.h:48,\n'}
+[6.597376] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10:\n'}
+[6.597637] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14: warning: ISO C++ forbids zero-size array \xe2\x80\x98data\xe2\x80\x99 [-Wpedantic]\n'}
+[6.597920] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[0];\n'}
+[6.598227] (rplidar_ros) StderrLine: {'line': b'      |              ^\n'}
+[6.598948] (rplidar_ros) StderrLine: {'line': b'In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:40,\n'}
+[6.599405] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/sdkcommon.h:48,\n'}
+[6.600756] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10:\n'}
+[6.601176] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18: warning: ISO C++ forbids zero-size array \xe2\x80\x98payload\xe2\x80\x99 [-Wpedantic]\n'}
+[6.601428] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[0];\n'}
+[6.601640] (rplidar_ros) StderrLine: {'line': b'      |                  ^\n'}
+[6.620643] (rplidar_ros) StderrLine: {'line': b'In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:39,\n'}
+[6.621129] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/sdkcommon.h:48,\n'}
+[6.621410] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10:\n'}
+[6.621662] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14: warning: ISO C++ forbids zero-size array \xe2\x80\x98data\xe2\x80\x99 [-Wpedantic]\n'}
+[6.621954] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[0];\n'}
+[6.622189] (rplidar_ros) StderrLine: {'line': b'      |              ^\n'}
+[6.625640] (rplidar_ros) StderrLine: {'line': b'In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:40,\n'}
+[6.627332] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/sdkcommon.h:48,\n'}
+[6.627688] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10:\n'}
+[6.627976] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18: warning: ISO C++ forbids zero-size array \xe2\x80\x98payload\xe2\x80\x99 [-Wpedantic]\n'}
+[6.628249] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[0];\n'}
+[6.628502] (rplidar_ros) StderrLine: {'line': b'      |                  ^\n'}
+[6.629273] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp: In member function \xe2\x80\x98virtual u_result rp::net::SocketAddress::getAddressAsString(char*, size_t) const\xe2\x80\x99:\n'}
+[6.629724] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:170:17: warning: ordered comparison of pointer with integer zero [-Wextra]\n'}
+[6.630000] (-) TimerEvent: {}
+[6.630065] (rplidar_ros) StderrLine: {'line': b'  170 |     return ans<=0?RESULT_OPERATION_FAIL:RESULT_OK;\n'}
+[6.630290] (rplidar_ros) StderrLine: {'line': b'      |                 ^\n'}
+[6.648887] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp: In member function \xe2\x80\x98virtual u_result rp::arch::net::StreamSocketImpl::send(const void*, size_t)\xe2\x80\x99:\n'}
+[6.649415] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:438:17: warning: comparison of integer expressions of different signedness: \xe2\x80\x98size_t\xe2\x80\x99 {aka \xe2\x80\x98long unsigned int\xe2\x80\x99} and \xe2\x80\x98int\xe2\x80\x99 [-Wsign-compare]\n'}
+[6.649749] (rplidar_ros) StderrLine: {'line': b'  438 |         if (ans == (int)len) {\n'}
+[6.650010] (rplidar_ros) StderrLine: {'line': b'      |             ~~~~^~~~~~~~~~~\n'}
+[6.659507] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp: In member function \xe2\x80\x98virtual u_result rp::net::SocketAddress::getAddressAsString(char*, size_t) const\xe2\x80\x99:\n'}
+[6.661231] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:170:17: warning: ordered comparison of pointer with integer zero [-Wextra]\n'}
+[6.661694] (rplidar_ros) StderrLine: {'line': b'  170 |     return ans<=0?RESULT_OPERATION_FAIL:RESULT_OK;\n'}
+[6.661998] (rplidar_ros) StderrLine: {'line': b'      |                 ^\n'}
+[6.664770] (rplidar_ros) StderrLine: {'line': b'In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/arch/linux/arch_linux.h:42,\n'}
+[6.665267] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/sdkcommon.h:40,\n'}
+[6.665554] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10:\n'}
+[6.665799] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp: In member function \xe2\x80\x98virtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress&, const void*, size_t)\xe2\x80\x99:\n'}
+[6.666069] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:726:24: warning: comparison of integer expressions of different signedness: \xe2\x80\x98size_t\xe2\x80\x99 {aka \xe2\x80\x98long unsigned int\xe2\x80\x99} and \xe2\x80\x98int\xe2\x80\x99 [-Wsign-compare]\n'}
+[6.666342] (rplidar_ros) StderrLine: {'line': b'  726 |             assert(ans == (int)len);\n'}
+[6.666577] (rplidar_ros) StderrLine: {'line': b'      |                    ~~~~^~~~~~~~~~~\n'}
+[6.679704] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp: In member function \xe2\x80\x98virtual u_result rp::arch::net::StreamSocketImpl::send(const void*, size_t)\xe2\x80\x99:\n'}
+[6.680269] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:438:17: warning: comparison of integer expressions of different signedness: \xe2\x80\x98size_t\xe2\x80\x99 {aka \xe2\x80\x98long unsigned int\xe2\x80\x99} and \xe2\x80\x98int\xe2\x80\x99 [-Wsign-compare]\n'}
+[6.680571] (rplidar_ros) StderrLine: {'line': b'  438 |         if (ans == (int)len) {\n'}
+[6.680812] (rplidar_ros) StderrLine: {'line': b'      |             ~~~~^~~~~~~~~~~\n'}
+[6.690939] (rplidar_ros) StderrLine: {'line': b'In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/arch/linux/arch_linux.h:42,\n'}
+[6.691521] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/sdkcommon.h:40,\n'}
+[6.691842] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10:\n'}
+[6.692113] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp: In member function \xe2\x80\x98virtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress&, const void*, size_t)\xe2\x80\x99:\n'}
+[6.692397] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:726:24: warning: comparison of integer expressions of different signedness: \xe2\x80\x98size_t\xe2\x80\x99 {aka \xe2\x80\x98long unsigned int\xe2\x80\x99} and \xe2\x80\x98int\xe2\x80\x99 [-Wsign-compare]\n'}
+[6.692655] (rplidar_ros) StderrLine: {'line': b'  726 |             assert(ans == (int)len);\n'}
+[6.692883] (rplidar_ros) StderrLine: {'line': b'      |                    ~~~~^~~~~~~~~~~\n'}
+[6.730284] (-) TimerEvent: {}
+[6.785434] (rplidar_ros) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/hal/thread.cpp.o\n'}
+[6.830490] (-) TimerEvent: {}
+[6.930916] (-) TimerEvent: {}
+[7.031396] (-) TimerEvent: {}
+[7.106200] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp: In member function \xe2\x80\x98bool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)\xe2\x80\x99:\n'}
+[7.106731] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74: warning: unused parameter \xe2\x80\x98flags\xe2\x80\x99 [-Wunused-parameter]\n'}
+[7.107055] (rplidar_ros) StderrLine: {'line': b'   97 | bool raw_serial::open(const char * portname, uint32_t baudrate, uint32_t flags)\n'}
+[7.107391] (rplidar_ros) StderrLine: {'line': b'      |                                                                 ~~~~~~~~~^~~~~\n'}
+[7.108453] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp: In member function \xe2\x80\x98virtual void rp::arch::net::raw_serial::flush(_u32)\xe2\x80\x99:\n'}
+[7.108880] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30: warning: unused parameter \xe2\x80\x98flags\xe2\x80\x99 [-Wunused-parameter]\n'}
+[7.109132] (rplidar_ros) StderrLine: {'line': b'  281 | void raw_serial::flush( _u32 flags)\n'}
+[7.109349] (rplidar_ros) StderrLine: {'line': b'      |                         ~~~~~^~~~~\n'}
+[7.109572] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp: In member function \xe2\x80\x98virtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)\xe2\x80\x99:\n'}
+[7.109793] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34: warning: unused parameter \xe2\x80\x98timeout\xe2\x80\x99 [-Wunused-parameter]\n'}
+[7.110010] (rplidar_ros) StderrLine: {'line': b'  286 | int raw_serial::waitforsent(_u32 timeout, size_t * returned_size)\n'}
+[7.110238] (rplidar_ros) StderrLine: {'line': b'      |                             ~~~~~^~~~~~~\n'}
+[7.110449] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp: In member function \xe2\x80\x98virtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)\xe2\x80\x99:\n'}
+[7.110661] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34: warning: unused parameter \xe2\x80\x98timeout\xe2\x80\x99 [-Wunused-parameter]\n'}
+[7.110902] (rplidar_ros) StderrLine: {'line': b'  292 | int raw_serial::waitforrecv(_u32 timeout, size_t * returned_size)\n'}
+[7.111245] (rplidar_ros) StderrLine: {'line': b'      |                             ~~~~~^~~~~~~\n'}
+[7.111951] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp: In member function \xe2\x80\x98bool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)\xe2\x80\x99:\n'}
+[7.112251] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74: warning: unused parameter \xe2\x80\x98flags\xe2\x80\x99 [-Wunused-parameter]\n'}
+[7.112473] (rplidar_ros) StderrLine: {'line': b'   97 | bool raw_serial::open(const char * portname, uint32_t baudrate, uint32_t flags)\n'}
+[7.112683] (rplidar_ros) StderrLine: {'line': b'      |                                                                 ~~~~~~~~~^~~~~\n'}
+[7.114436] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp: In member function \xe2\x80\x98virtual void rp::arch::net::raw_serial::flush(_u32)\xe2\x80\x99:\n'}
+[7.114807] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30: warning: unused parameter \xe2\x80\x98flags\xe2\x80\x99 [-Wunused-parameter]\n'}
+[7.115056] (rplidar_ros) StderrLine: {'line': b'  281 | void raw_serial::flush( _u32 flags)\n'}
+[7.115392] (rplidar_ros) StderrLine: {'line': b'      |                         ~~~~~^~~~~\n'}
+[7.115610] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp: In member function \xe2\x80\x98virtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)\xe2\x80\x99:\n'}
+[7.115832] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34: warning: unused parameter \xe2\x80\x98timeout\xe2\x80\x99 [-Wunused-parameter]\n'}
+[7.116045] (rplidar_ros) StderrLine: {'line': b'  286 | int raw_serial::waitforsent(_u32 timeout, size_t * returned_size)\n'}
+[7.116254] (rplidar_ros) StderrLine: {'line': b'      |                             ~~~~~^~~~~~~\n'}
+[7.116895] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp: In member function \xe2\x80\x98virtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)\xe2\x80\x99:\n'}
+[7.117205] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34: warning: unused parameter \xe2\x80\x98timeout\xe2\x80\x99 [-Wunused-parameter]\n'}
+[7.117432] (rplidar_ros) StderrLine: {'line': b'  292 | int raw_serial::waitforrecv(_u32 timeout, size_t * returned_size)\n'}
+[7.117643] (rplidar_ros) StderrLine: {'line': b'      |                             ~~~~~^~~~~~~\n'}
+[7.131607] (-) TimerEvent: {}
+[7.232003] (-) TimerEvent: {}
+[7.295670] (rplidar_ros) StdoutLine: {'line': b'[ 55%] Building CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/rplidar_driver.cpp.o\n'}
+[7.298791] (rplidar_ros) StdoutLine: {'line': b'[ 61%] Building CXX object CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o\n'}
+[7.332216] (-) TimerEvent: {}
+[7.432643] (-) TimerEvent: {}
+[7.517054] (rplidar_ros) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o\n'}
+[7.532829] (-) TimerEvent: {}
+[7.537670] (rplidar_ros) StdoutLine: {'line': b'[ 72%] Building CXX object CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o\n'}
+[7.633035] (-) TimerEvent: {}
+[7.733449] (-) TimerEvent: {}
+[7.833876] (-) TimerEvent: {}
+[7.930835] (rplidar_ros) StderrLine: {'line': b'In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:39,\n'}
+[7.931387] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/sdkcommon.h:48,\n'}
+[7.931649] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/hal/thread.cpp:35:\n'}
+[7.931894] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14: warning: ISO C++ forbids zero-size array \xe2\x80\x98data\xe2\x80\x99 [-Wpedantic]\n'}
+[7.932122] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[0];\n'}
+[7.932343] (rplidar_ros) StderrLine: {'line': b'      |              ^\n'}
+[7.933286] (rplidar_ros) StderrLine: {'line': b'In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:40,\n'}
+[7.933679] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/sdkcommon.h:48,\n'}
+[7.933920] (-) TimerEvent: {}
+[7.933982] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/hal/thread.cpp:35:\n'}
+[7.934207] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18: warning: ISO C++ forbids zero-size array \xe2\x80\x98payload\xe2\x80\x99 [-Wpedantic]\n'}
+[7.934428] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[0];\n'}
+[7.934634] (rplidar_ros) StderrLine: {'line': b'      |                  ^\n'}
+[7.943053] (rplidar_ros) StderrLine: {'line': b'In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/hal/thread.cpp:43:\n'}
+[7.943577] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp: In static member function \xe2\x80\x98static rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)\xe2\x80\x99:\n'}
+[7.943856] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:48:77: warning: cast between incompatible function types from \xe2\x80\x98thread_proc_t\xe2\x80\x99 {aka \xe2\x80\x98long unsigned int (*)(void*)\xe2\x80\x99} to \xe2\x80\x98void* (*)(void*)\xe2\x80\x99 [-Wcast-function-type]\n'}
+[7.944117] (rplidar_ros) StderrLine: {'line': b'   48 |     pthread_create((pthread_t *)&newborn._handle, NULL, (void * (*)(void *))proc, data);\n'}
+[7.944339] (rplidar_ros) StderrLine: {'line': b'      |                                                                             ^~~~\n'}
+[7.947406] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp: In member function \xe2\x80\x98u_result rp::hal::Thread::join(long unsigned int)\xe2\x80\x99:\n'}
+[7.947817] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:129:37: warning: unused parameter \xe2\x80\x98timeout\xe2\x80\x99 [-Wunused-parameter]\n'}
+[7.948057] (rplidar_ros) StderrLine: {'line': b'  129 | u_result Thread::join(unsigned long timeout)\n'}
+[7.948274] (rplidar_ros) StderrLine: {'line': b'      |                       ~~~~~~~~~~~~~~^~~~~~~\n'}
+[8.034162] (-) TimerEvent: {}
+[8.134605] (-) TimerEvent: {}
+[8.235054] (-) TimerEvent: {}
+[8.335513] (-) TimerEvent: {}
+[8.435932] (-) TimerEvent: {}
+[8.492605] (rplidar_ros) StderrLine: {'line': b'In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:39,\n'}
+[8.493088] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/sdkcommon.h:48,\n'}
+[8.493365] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:35:\n'}
+[8.493615] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14: warning: ISO C++ forbids zero-size array \xe2\x80\x98data\xe2\x80\x99 [-Wpedantic]\n'}
+[8.493851] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[0];\n'}
+[8.495482] (rplidar_ros) StderrLine: {'line': b'      |              ^\n'}
+[8.496252] (rplidar_ros) StderrLine: {'line': b'In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:40,\n'}
+[8.496549] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/sdkcommon.h:48,\n'}
+[8.496799] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:35:\n'}
+[8.497020] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18: warning: ISO C++ forbids zero-size array \xe2\x80\x98payload\xe2\x80\x99 [-Wpedantic]\n'}
+[8.497245] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[0];\n'}
+[8.497454] (rplidar_ros) StderrLine: {'line': b'      |                  ^\n'}
+[8.536154] (-) TimerEvent: {}
+[8.628847] (rplidar_ros) StderrLine: {'line': b'In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:39,\n'}
+[8.629329] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/sdkcommon.h:48,\n'}
+[8.629601] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/hal/thread.cpp:35:\n'}
+[8.629832] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14: warning: ISO C++ forbids zero-size array \xe2\x80\x98data\xe2\x80\x99 [-Wpedantic]\n'}
+[8.630076] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[0];\n'}
+[8.630305] (rplidar_ros) StderrLine: {'line': b'      |              ^\n'}
+[8.631390] (rplidar_ros) StderrLine: {'line': b'In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:40,\n'}
+[8.631777] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/sdkcommon.h:48,\n'}
+[8.632019] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/hal/thread.cpp:35:\n'}
+[8.632271] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18: warning: ISO C++ forbids zero-size array \xe2\x80\x98payload\xe2\x80\x99 [-Wpedantic]\n'}
+[8.632500] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[0];\n'}
+[8.632712] (rplidar_ros) StderrLine: {'line': b'      |                  ^\n'}
+[8.636331] (-) TimerEvent: {}
+[8.637389] (rplidar_ros) StderrLine: {'line': b'In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/hal/thread.cpp:43:\n'}
+[8.637824] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp: In static member function \xe2\x80\x98static rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)\xe2\x80\x99:\n'}
+[8.638094] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:48:77: warning: cast between incompatible function types from \xe2\x80\x98thread_proc_t\xe2\x80\x99 {aka \xe2\x80\x98long unsigned int (*)(void*)\xe2\x80\x99} to \xe2\x80\x98void* (*)(void*)\xe2\x80\x99 [-Wcast-function-type]\n'}
+[8.638369] (rplidar_ros) StderrLine: {'line': b'   48 |     pthread_create((pthread_t *)&newborn._handle, NULL, (void * (*)(void *))proc, data);\n'}
+[8.638588] (rplidar_ros) StderrLine: {'line': b'      |                                                                             ^~~~\n'}
+[8.639463] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp: In member function \xe2\x80\x98u_result rp::hal::Thread::join(long unsigned int)\xe2\x80\x99:\n'}
+[8.639809] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:129:37: warning: unused parameter \xe2\x80\x98timeout\xe2\x80\x99 [-Wunused-parameter]\n'}
+[8.640044] (rplidar_ros) StderrLine: {'line': b'  129 | u_result Thread::join(unsigned long timeout)\n'}
+[8.640294] (rplidar_ros) StderrLine: {'line': b'      |                       ~~~~~~~~~~~~~~^~~~~~~\n'}
+[8.684207] (rplidar_ros) StderrLine: {'line': b'In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:39,\n'}
+[8.684694] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/sdkcommon.h:48,\n'}
+[8.684948] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:35:\n'}
+[8.685182] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14: warning: ISO C++ forbids zero-size array \xe2\x80\x98data\xe2\x80\x99 [-Wpedantic]\n'}
+[8.685406] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[0];\n'}
+[8.685629] (rplidar_ros) StderrLine: {'line': b'      |              ^\n'}
+[8.686658] (rplidar_ros) StderrLine: {'line': b'In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:40,\n'}
+[8.687003] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/sdkcommon.h:48,\n'}
+[8.687333] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:35:\n'}
+[8.687615] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18: warning: ISO C++ forbids zero-size array \xe2\x80\x98payload\xe2\x80\x99 [-Wpedantic]\n'}
+[8.687841] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[0];\n'}
+[8.688051] (rplidar_ros) StderrLine: {'line': b'      |                  ^\n'}
+[8.736541] (-) TimerEvent: {}
+[8.836982] (-) TimerEvent: {}
+[8.937394] (-) TimerEvent: {}
+[8.970920] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function \xe2\x80\x98virtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::reset(_u32)\xe2\x80\x99:\n'}
+[8.971504] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:121:46: warning: unused parameter \xe2\x80\x98timeout\xe2\x80\x99 [-Wunused-parameter]\n'}
+[8.971783] (rplidar_ros) StderrLine: {'line': b'  121 | u_result RPlidarDriverImplCommon::reset(_u32 timeout)\n'}
+[8.972017] (rplidar_ros) StderrLine: {'line': b'      |                                         ~~~~~^~~~~~~\n'}
+[8.975879] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function \xe2\x80\x98virtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::checkIfTofLidar(bool&, _u32)\xe2\x80\x99:\n'}
+[8.976421] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:274:75: warning: unused parameter \xe2\x80\x98timeout\xe2\x80\x99 [-Wunused-parameter]\n'}
+[8.976694] (rplidar_ros) StderrLine: {'line': b'  274 | u_result RPlidarDriverImplCommon::checkIfTofLidar(bool & isTofLidar, _u32 timeout)\n'}
+[8.976959] (rplidar_ros) StderrLine: {'line': b'      |                                                                      ~~~~~^~~~~~~\n'}
+[8.996877] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function \xe2\x80\x98virtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_dense_capsuleToNormal(const rplidar_response_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)\xe2\x80\x99:\n'}
+[8.997369] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:872:108: warning: type qualifiers ignored on cast result type [-Wignored-qualifiers]\n'}
+[8.997644] (rplidar_ros) StderrLine: {'line': b'  872 |             const int dist = static_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance);\n'}
+[8.997878] (rplidar_ros) StderrLine: {'line': b'      |                                                                                                            ^\n'}
+[9.001527] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In function \xe2\x80\x98_u32 rp::standalone::rplidar::_crc32cal(_u32, void*, _u16)\xe2\x80\x99:\n'}
+[9.002062] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:996:23: warning: suggest parentheses around \xe2\x80\x98-\xe2\x80\x99 in operand of \xe2\x80\x98&\xe2\x80\x99 [-Wparentheses]\n'}
+[9.002472] (rplidar_ros) StderrLine: {'line': b'  996 |     _u8 leftBytes = 4 - len & 0x3;\n'}
+[9.002789] (rplidar_ros) StderrLine: {'line': b'      |                     ~~^~~~~\n'}
+[9.009270] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function \xe2\x80\x98virtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_ultraCapsuleToNormal(const rplidar_response_ultra_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)\xe2\x80\x99:\n'}
+[9.009767] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1207:32: warning: comparison of integer expressions of different signedness: \xe2\x80\x98int\xe2\x80\x99 and \xe2\x80\x98unsigned int\xe2\x80\x99 [-Wsign-compare]\n'}
+[9.010010] (rplidar_ros) StderrLine: {'line': b' 1207 |             if ((dist_predict1 == 0xFFFFFE00) || (dist_predict1 == 0x1FF)) {\n'}
+[9.010246] (rplidar_ros) StderrLine: {'line': b'      |                  ~~~~~~~~~~~~~~^~~~~~~~~~~~~\n'}
+[9.010483] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1215:32: warning: comparison of integer expressions of different signedness: \xe2\x80\x98int\xe2\x80\x99 and \xe2\x80\x98unsigned int\xe2\x80\x99 [-Wsign-compare]\n'}
+[9.010714] (rplidar_ros) StderrLine: {'line': b' 1215 |             if ((dist_predict2 == 0xFFFFFE00) || (dist_predict2 == 0x1FF)) {\n'}
+[9.010916] (rplidar_ros) StderrLine: {'line': b'      |                  ~~~~~~~~~~~~~~^~~~~~~~~~~~~\n'}
+[9.030479] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function \xe2\x80\x98virtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<rp::standalone::rplidar::RplidarScanMode>&, _u32)\xe2\x80\x99:\n'}
+[9.031009] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1453:105: warning: unused parameter \xe2\x80\x98timeoutInMs\xe2\x80\x99 [-Wunused-parameter]\n'}
+[9.031438] (rplidar_ros) StderrLine: {'line': b' 1453 | u_result RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<RplidarScanMode>& outModes, _u32 timeoutInMs)\n'}
+[9.031694] (rplidar_ros) StderrLine: {'line': b'      |                                                                                                    ~~~~~^~~~~~~~~~~\n'}
+[9.034085] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function \xe2\x80\x98virtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::startScan(bool, bool, _u32, rp::standalone::rplidar::RplidarScanMode*)\xe2\x80\x99:\n'}
+[9.034516] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1550:83: warning: unused parameter \xe2\x80\x98options\xe2\x80\x99 [-Wunused-parameter]\n'}
+[9.034762] (rplidar_ros) StderrLine: {'line': b' 1550 | u_result RPlidarDriverImplCommon::startScan(bool force, bool useTypicalScan, _u32 options, RplidarScanMode* outUsedScanMode)\n'}
+[9.034975] (rplidar_ros) StderrLine: {'line': b'      |                                                                              ~~~~~^~~~~~~\n'}
+[9.037567] (-) TimerEvent: {}
+[9.039743] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function \xe2\x80\x98virtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::stop(_u32)\xe2\x80\x99:\n'}
+[9.040179] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1774:45: warning: unused parameter \xe2\x80\x98timeout\xe2\x80\x99 [-Wunused-parameter]\n'}
+[9.040418] (rplidar_ros) StderrLine: {'line': b' 1774 | u_result RPlidarDriverImplCommon::stop(_u32 timeout)\n'}
+[9.040629] (rplidar_ros) StderrLine: {'line': b'      |                                        ~~~~~^~~~~~~\n'}
+[9.052617] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function \xe2\x80\x98virtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::setLidarSpinSpeed(_u16, _u32)\xe2\x80\x99:\n'}
+[9.053248] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2162:68: warning: unused parameter \xe2\x80\x98timeout\xe2\x80\x99 [-Wunused-parameter]\n'}
+[9.053598] (rplidar_ros) StderrLine: {'line': b' 2162 | u_result RPlidarDriverImplCommon::setLidarSpinSpeed(_u16 rpm, _u32 timeout)\n'}
+[9.053909] (rplidar_ros) StderrLine: {'line': b'      |                                                               ~~~~~^~~~~~~\n'}
+[9.056539] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function \xe2\x80\x98virtual u_result rp::standalone::rplidar::RPlidarDriverSerial::connect(const char*, _u32, _u32)\xe2\x80\x99:\n'}
+[9.057011] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2240:83: warning: unused parameter \xe2\x80\x98flag\xe2\x80\x99 [-Wunused-parameter]\n'}
+[9.057260] (rplidar_ros) StderrLine: {'line': b' 2240 | u_result RPlidarDriverSerial::connect(const char * port_path, _u32 baudrate, _u32 flag)\n'}
+[9.057505] (rplidar_ros) StderrLine: {'line': b'      |                                                                              ~~~~~^~~~\n'}
+[9.058617] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function \xe2\x80\x98virtual u_result rp::standalone::rplidar::RPlidarDriverTCP::connect(const char*, _u32, _u32)\xe2\x80\x99:\n'}
+[9.058975] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2282:72: warning: unused parameter \xe2\x80\x98flag\xe2\x80\x99 [-Wunused-parameter]\n'}
+[9.059348] (rplidar_ros) StderrLine: {'line': b' 2282 | u_result RPlidarDriverTCP::connect(const char * ipStr, _u32 port, _u32 flag)\n'}
+[9.059576] (rplidar_ros) StderrLine: {'line': b'      |                                                                   ~~~~~^~~~\n'}
+[9.137822] (-) TimerEvent: {}
+[9.155459] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function \xe2\x80\x98virtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::reset(_u32)\xe2\x80\x99:\n'}
+[9.155960] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:121:46: warning: unused parameter \xe2\x80\x98timeout\xe2\x80\x99 [-Wunused-parameter]\n'}
+[9.156291] (rplidar_ros) StderrLine: {'line': b'  121 | u_result RPlidarDriverImplCommon::reset(_u32 timeout)\n'}
+[9.156539] (rplidar_ros) StderrLine: {'line': b'      |                                         ~~~~~^~~~~~~\n'}
+[9.160065] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function \xe2\x80\x98virtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::checkIfTofLidar(bool&, _u32)\xe2\x80\x99:\n'}
+[9.160585] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:274:75: warning: unused parameter \xe2\x80\x98timeout\xe2\x80\x99 [-Wunused-parameter]\n'}
+[9.160859] (rplidar_ros) StderrLine: {'line': b'  274 | u_result RPlidarDriverImplCommon::checkIfTofLidar(bool & isTofLidar, _u32 timeout)\n'}
+[9.161086] (rplidar_ros) StderrLine: {'line': b'      |                                                                      ~~~~~^~~~~~~\n'}
+[9.181032] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function \xe2\x80\x98virtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_dense_capsuleToNormal(const rplidar_response_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)\xe2\x80\x99:\n'}
+[9.181533] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:872:108: warning: type qualifiers ignored on cast result type [-Wignored-qualifiers]\n'}
+[9.181845] (rplidar_ros) StderrLine: {'line': b'  872 |             const int dist = static_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance);\n'}
+[9.182080] (rplidar_ros) StderrLine: {'line': b'      |                                                                                                            ^\n'}
+[9.185576] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In function \xe2\x80\x98_u32 rp::standalone::rplidar::_crc32cal(_u32, void*, _u16)\xe2\x80\x99:\n'}
+[9.186077] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:996:23: warning: suggest parentheses around \xe2\x80\x98-\xe2\x80\x99 in operand of \xe2\x80\x98&\xe2\x80\x99 [-Wparentheses]\n'}
+[9.186365] (rplidar_ros) StderrLine: {'line': b'  996 |     _u8 leftBytes = 4 - len & 0x3;\n'}
+[9.186586] (rplidar_ros) StderrLine: {'line': b'      |                     ~~^~~~~\n'}
+[9.191889] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function \xe2\x80\x98virtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_ultraCapsuleToNormal(const rplidar_response_ultra_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)\xe2\x80\x99:\n'}
+[9.192362] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1207:32: warning: comparison of integer expressions of different signedness: \xe2\x80\x98int\xe2\x80\x99 and \xe2\x80\x98unsigned int\xe2\x80\x99 [-Wsign-compare]\n'}
+[9.192629] (rplidar_ros) StderrLine: {'line': b' 1207 |             if ((dist_predict1 == 0xFFFFFE00) || (dist_predict1 == 0x1FF)) {\n'}
+[9.192836] (rplidar_ros) StderrLine: {'line': b'      |                  ~~~~~~~~~~~~~~^~~~~~~~~~~~~\n'}
+[9.193080] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1215:32: warning: comparison of integer expressions of different signedness: \xe2\x80\x98int\xe2\x80\x99 and \xe2\x80\x98unsigned int\xe2\x80\x99 [-Wsign-compare]\n'}
+[9.193294] (rplidar_ros) StderrLine: {'line': b' 1215 |             if ((dist_predict2 == 0xFFFFFE00) || (dist_predict2 == 0x1FF)) {\n'}
+[9.193504] (rplidar_ros) StderrLine: {'line': b'      |                  ~~~~~~~~~~~~~~^~~~~~~~~~~~~\n'}
+[9.212422] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function \xe2\x80\x98virtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<rp::standalone::rplidar::RplidarScanMode>&, _u32)\xe2\x80\x99:\n'}
+[9.212902] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1453:105: warning: unused parameter \xe2\x80\x98timeoutInMs\xe2\x80\x99 [-Wunused-parameter]\n'}
+[9.213186] (rplidar_ros) StderrLine: {'line': b' 1453 | u_result RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<RplidarScanMode>& outModes, _u32 timeoutInMs)\n'}
+[9.213429] (rplidar_ros) StderrLine: {'line': b'      |                                                                                                    ~~~~~^~~~~~~~~~~\n'}
+[9.215840] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function \xe2\x80\x98virtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::startScan(bool, bool, _u32, rp::standalone::rplidar::RplidarScanMode*)\xe2\x80\x99:\n'}
+[9.216280] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1550:83: warning: unused parameter \xe2\x80\x98options\xe2\x80\x99 [-Wunused-parameter]\n'}
+[9.216522] (rplidar_ros) StderrLine: {'line': b' 1550 | u_result RPlidarDriverImplCommon::startScan(bool force, bool useTypicalScan, _u32 options, RplidarScanMode* outUsedScanMode)\n'}
+[9.216733] (rplidar_ros) StderrLine: {'line': b'      |                                                                              ~~~~~^~~~~~~\n'}
+[9.221715] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function \xe2\x80\x98virtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::stop(_u32)\xe2\x80\x99:\n'}
+[9.222209] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1774:45: warning: unused parameter \xe2\x80\x98timeout\xe2\x80\x99 [-Wunused-parameter]\n'}
+[9.222499] (rplidar_ros) StderrLine: {'line': b' 1774 | u_result RPlidarDriverImplCommon::stop(_u32 timeout)\n'}
+[9.222722] (rplidar_ros) StderrLine: {'line': b'      |                                        ~~~~~^~~~~~~\n'}
+[9.234155] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function \xe2\x80\x98virtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::setLidarSpinSpeed(_u16, _u32)\xe2\x80\x99:\n'}
+[9.234664] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2162:68: warning: unused parameter \xe2\x80\x98timeout\xe2\x80\x99 [-Wunused-parameter]\n'}
+[9.234969] (rplidar_ros) StderrLine: {'line': b' 2162 | u_result RPlidarDriverImplCommon::setLidarSpinSpeed(_u16 rpm, _u32 timeout)\n'}
+[9.235368] (rplidar_ros) StderrLine: {'line': b'      |                                                               ~~~~~^~~~~~~\n'}
+[9.237539] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function \xe2\x80\x98virtual u_result rp::standalone::rplidar::RPlidarDriverSerial::connect(const char*, _u32, _u32)\xe2\x80\x99:\n'}
+[9.237976] (-) TimerEvent: {}
+[9.238049] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2240:83: warning: unused parameter \xe2\x80\x98flag\xe2\x80\x99 [-Wunused-parameter]\n'}
+[9.238309] (rplidar_ros) StderrLine: {'line': b' 2240 | u_result RPlidarDriverSerial::connect(const char * port_path, _u32 baudrate, _u32 flag)\n'}
+[9.238525] (rplidar_ros) StderrLine: {'line': b'      |                                                                              ~~~~~^~~~\n'}
+[9.239446] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In member function \xe2\x80\x98virtual u_result rp::standalone::rplidar::RPlidarDriverTCP::connect(const char*, _u32, _u32)\xe2\x80\x99:\n'}
+[9.239804] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2282:72: warning: unused parameter \xe2\x80\x98flag\xe2\x80\x99 [-Wunused-parameter]\n'}
+[9.240051] (rplidar_ros) StderrLine: {'line': b' 2282 | u_result RPlidarDriverTCP::connect(const char * ipStr, _u32 port, _u32 flag)\n'}
+[9.240278] (rplidar_ros) StderrLine: {'line': b'      |                                                                   ~~~~~^~~~\n'}
+[9.338225] (-) TimerEvent: {}
+[9.438675] (-) TimerEvent: {}
+[9.539163] (-) TimerEvent: {}
+[9.639608] (-) TimerEvent: {}
+[9.740031] (-) TimerEvent: {}
+[9.840472] (-) TimerEvent: {}
+[9.940907] (-) TimerEvent: {}
+[10.041352] (-) TimerEvent: {}
+[10.141804] (-) TimerEvent: {}
+[10.242240] (-) TimerEvent: {}
+[10.335981] (rplidar_ros) StderrLine: {'line': b'In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:39,\n'}
+[10.336494] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/node.cpp:45:\n'}
+[10.336814] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14: warning: ISO C++ forbids zero-size array \xe2\x80\x98data\xe2\x80\x99 [-Wpedantic]\n'}
+[10.337077] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[0];\n'}
+[10.337309] (rplidar_ros) StderrLine: {'line': b'      |              ^\n'}
+[10.337986] (rplidar_ros) StderrLine: {'line': b'In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:40,\n'}
+[10.338335] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/node.cpp:45:\n'}
+[10.338602] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18: warning: ISO C++ forbids zero-size array \xe2\x80\x98payload\xe2\x80\x99 [-Wpedantic]\n'}
+[10.338869] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[0];\n'}
+[10.339176] (rplidar_ros) StderrLine: {'line': b'      |                  ^\n'}
+[10.342424] (-) TimerEvent: {}
+[10.398237] (rplidar_ros) StderrLine: {'line': b'In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:39,\n'}
+[10.398776] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/include/rplidar_node.hpp:41,\n'}
+[10.399068] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp:36:\n'}
+[10.400137] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14: warning: ISO C++ forbids zero-size array \xe2\x80\x98data\xe2\x80\x99 [-Wpedantic]\n'}
+[10.400473] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[0];\n'}
+[10.400727] (rplidar_ros) StderrLine: {'line': b'      |              ^\n'}
+[10.401000] (rplidar_ros) StderrLine: {'line': b'In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:40,\n'}
+[10.401254] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/include/rplidar_node.hpp:41,\n'}
+[10.401486] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp:36:\n'}
+[10.401728] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18: warning: ISO C++ forbids zero-size array \xe2\x80\x98payload\xe2\x80\x99 [-Wpedantic]\n'}
+[10.401954] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[0];\n'}
+[10.402171] (rplidar_ros) StderrLine: {'line': b'      |                  ^\n'}
+[10.405601] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/node.cpp: In function \xe2\x80\x98bool stop_motor(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)\xe2\x80\x99:\n'}
+[10.406083] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/node.cpp:166:70: warning: unused parameter \xe2\x80\x98req\xe2\x80\x99 [-Wunused-parameter]\n'}
+[10.406381] (rplidar_ros) StderrLine: {'line': b'  166 | bool stop_motor(const std::shared_ptr<std_srvs::srv::Empty::Request> req,\n'}
+[10.407274] (rplidar_ros) StderrLine: {'line': b'      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\n'}
+[10.407555] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/node.cpp:167:65: warning: unused parameter \xe2\x80\x98res\xe2\x80\x99 [-Wunused-parameter]\n'}
+[10.407804] (rplidar_ros) StderrLine: {'line': b'  167 |                 std::shared_ptr<std_srvs::srv::Empty::Response> res)\n'}
+[10.408068] (rplidar_ros) StderrLine: {'line': b'      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\n'}
+[10.408344] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/node.cpp: In function \xe2\x80\x98bool start_motor(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)\xe2\x80\x99:\n'}
+[10.408601] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/node.cpp:178:71: warning: unused parameter \xe2\x80\x98req\xe2\x80\x99 [-Wunused-parameter]\n'}
+[10.408829] (rplidar_ros) StderrLine: {'line': b'  178 | bool start_motor(const std::shared_ptr<std_srvs::srv::Empty::Request> req,\n'}
+[10.409082] (rplidar_ros) StderrLine: {'line': b'      |                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\n'}
+[10.409324] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/node.cpp:179:66: warning: unused parameter \xe2\x80\x98res\xe2\x80\x99 [-Wunused-parameter]\n'}
+[10.409585] (rplidar_ros) StderrLine: {'line': b'  179 |                  std::shared_ptr<std_srvs::srv::Empty::Response> res)\n'}
+[10.409819] (rplidar_ros) StderrLine: {'line': b'      |                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\n'}
+[10.442639] (-) TimerEvent: {}
+[10.488207] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/node.cpp: In function \xe2\x80\x98int main(int, char**)\xe2\x80\x99:\n'}
+[10.488734] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/node.cpp:356:60: warning: ISO C++ forbids variable length array \xe2\x80\x98angle_compensate_nodes\xe2\x80\x99 [-Wvla]\n'}
+[10.489054] (rplidar_ros) StderrLine: {'line': b'  356 |                     rplidar_response_measurement_node_hq_t angle_compensate_nodes[angle_compensate_nodes_count];\n'}
+[10.489356] (rplidar_ros) StderrLine: {'line': b'      |                                                            ^~~~~~~~~~~~~~~~~~~~~~\n'}
+[10.489610] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/node.cpp:360:30: warning: comparison of integer expressions of different signedness: \xe2\x80\x98int\xe2\x80\x99 and \xe2\x80\x98size_t\xe2\x80\x99 {aka \xe2\x80\x98long unsigned int\xe2\x80\x99} [-Wsign-compare]\n'}
+[10.489904] (rplidar_ros) StderrLine: {'line': b'  360 |                     for( ; i < count; i++ ) {\n'}
+[10.490184] (rplidar_ros) StderrLine: {'line': b'      |                            ~~^~~~~~~\n'}
+[10.542853] (-) TimerEvent: {}
+[10.643290] (-) TimerEvent: {}
+[10.645035] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp: In member function \xe2\x80\x98void rplidar_ros::rplidar_node::stop_motor({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)\xe2\x80\x99:\n'}
+[10.645582] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp:245:50: warning: unused parameter \xe2\x80\x98req\xe2\x80\x99 [-Wunused-parameter]\n'}
+[10.645936] (rplidar_ros) StderrLine: {'line': b'  245 | void rplidar_node::stop_motor(const EmptyRequest req, EmptyResponse res)\n'}
+[10.646223] (rplidar_ros) StderrLine: {'line': b'      |                               ~~~~~~~~~~~~~~~~~~~^~~\n'}
+[10.646557] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp:245:69: warning: unused parameter \xe2\x80\x98res\xe2\x80\x99 [-Wunused-parameter]\n'}
+[10.646810] (rplidar_ros) StderrLine: {'line': b'  245 | void rplidar_node::stop_motor(const EmptyRequest req, EmptyResponse res)\n'}
+[10.647798] (rplidar_ros) StderrLine: {'line': b'      |                                                       ~~~~~~~~~~~~~~^~~\n'}
+[10.648102] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp: In member function \xe2\x80\x98void rplidar_ros::rplidar_node::start_motor({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)\xe2\x80\x99:\n'}
+[10.648392] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp:256:51: warning: unused parameter \xe2\x80\x98req\xe2\x80\x99 [-Wunused-parameter]\n'}
+[10.648645] (rplidar_ros) StderrLine: {'line': b'  256 | void rplidar_node::start_motor(const EmptyRequest req, EmptyResponse res)\n'}
+[10.648902] (rplidar_ros) StderrLine: {'line': b'      |                                ~~~~~~~~~~~~~~~~~~~^~~\n'}
+[10.649162] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp:256:70: warning: unused parameter \xe2\x80\x98res\xe2\x80\x99 [-Wunused-parameter]\n'}
+[10.649420] (rplidar_ros) StderrLine: {'line': b'  256 | void rplidar_node::start_motor(const EmptyRequest req, EmptyResponse res)\n'}
+[10.649722] (rplidar_ros) StderrLine: {'line': b'      |                                                        ~~~~~~~~~~~~~~^~~\n'}
+[10.669140] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp: In member function \xe2\x80\x98void rplidar_ros::rplidar_node::publish_loop()\xe2\x80\x99:\n'}
+[10.670215] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp:343:46: warning: ISO C++ forbids variable length array \xe2\x80\x98angle_compensate_nodes\xe2\x80\x99 [-Wvla]\n'}
+[10.670584] (rplidar_ros) StderrLine: {'line': b'  343 |       rplidar_response_measurement_node_hq_t angle_compensate_nodes[angle_compensate_nodes_count];\n'}
+[10.670951] (rplidar_ros) StderrLine: {'line': b'      |                                              ^~~~~~~~~~~~~~~~~~~~~~\n'}
+[10.671344] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp:353:25: warning: comparison of integer expressions of different signedness: \xe2\x80\x98size_t\xe2\x80\x99 {aka \xe2\x80\x98long unsigned int\xe2\x80\x99} and \xe2\x80\x98int\xe2\x80\x99 [-Wsign-compare]\n'}
+[10.671612] (rplidar_ros) StderrLine: {'line': b'  353 |           for (j = 0; j < m_angle_compensate_multiple; j++) {\n'}
+[10.671885] (rplidar_ros) StderrLine: {'line': b'      |                       ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[10.673605] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp:374:44: warning: comparison of integer expressions of different signedness: \xe2\x80\x98size_t\xe2\x80\x99 {aka \xe2\x80\x98long unsigned int\xe2\x80\x99} and \xe2\x80\x98int\xe2\x80\x99 [-Wsign-compare]\n'}
+[10.674027] (rplidar_ros) StderrLine: {'line': b'  374 |       for (size_t x = start_node, y = 0; x < end_node; ++x, ++y) {\n'}
+[10.674399] (rplidar_ros) StderrLine: {'line': b'      |                                          ~~^~~~~~~~~~\n'}
+[10.675034] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp:381:11: warning: unused variable \xe2\x80\x98angle_min\xe2\x80\x99 [-Wunused-variable]\n'}
+[10.675368] (rplidar_ros) StderrLine: {'line': b'  381 |     float angle_min = deg_2_rad(0.0f);\n'}
+[10.675687] (rplidar_ros) StderrLine: {'line': b'      |           ^~~~~~~~~\n'}
+[10.675922] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/rplidar_node.cpp:382:11: warning: unused variable \xe2\x80\x98angle_max\xe2\x80\x99 [-Wunused-variable]\n'}
+[10.676145] (rplidar_ros) StderrLine: {'line': b'  382 |     float angle_max = deg_2_rad(359.0f);\n'}
+[10.676352] (rplidar_ros) StderrLine: {'line': b'      |           ^~~~~~~~~\n'}
+[10.743530] (-) TimerEvent: {}
+[10.843980] (-) TimerEvent: {}
+[10.944472] (-) TimerEvent: {}
+[11.044928] (-) TimerEvent: {}
+[11.145366] (-) TimerEvent: {}
+[11.245845] (-) TimerEvent: {}
+[11.346312] (-) TimerEvent: {}
+[11.446818] (-) TimerEvent: {}
+[11.547293] (-) TimerEvent: {}
+[11.647742] (-) TimerEvent: {}
+[11.748227] (-) TimerEvent: {}
+[11.848694] (-) TimerEvent: {}
+[11.949169] (-) TimerEvent: {}
+[12.049608] (-) TimerEvent: {}
+[12.150043] (-) TimerEvent: {}
+[12.250479] (-) TimerEvent: {}
+[12.350998] (-) TimerEvent: {}
+[12.451519] (-) TimerEvent: {}
+[12.551999] (-) TimerEvent: {}
+[12.652463] (-) TimerEvent: {}
+[12.752947] (-) TimerEvent: {}
+[12.853468] (-) TimerEvent: {}
+[12.953964] (-) TimerEvent: {}
+[13.054453] (-) TimerEvent: {}
+[13.154943] (-) TimerEvent: {}
+[13.255541] (-) TimerEvent: {}
+[13.357208] (-) TimerEvent: {}
+[13.457724] (-) TimerEvent: {}
+[13.558195] (-) TimerEvent: {}
+[13.658690] (-) TimerEvent: {}
+[13.759209] (-) TimerEvent: {}
+[13.859662] (-) TimerEvent: {}
+[13.960143] (-) TimerEvent: {}
+[14.060589] (-) TimerEvent: {}
+[14.161020] (-) TimerEvent: {}
+[14.261575] (-) TimerEvent: {}
+[14.362211] (-) TimerEvent: {}
+[14.462671] (-) TimerEvent: {}
+[14.563241] (-) TimerEvent: {}
+[14.663696] (-) TimerEvent: {}
+[14.764198] (-) TimerEvent: {}
+[14.864667] (-) TimerEvent: {}
+[14.965161] (-) TimerEvent: {}
+[15.065641] (-) TimerEvent: {}
+[15.166086] (-) TimerEvent: {}
+[15.266591] (-) TimerEvent: {}
+[15.367087] (-) TimerEvent: {}
+[15.467671] (-) TimerEvent: {}
+[15.568132] (-) TimerEvent: {}
+[15.668622] (-) TimerEvent: {}
+[15.769047] (-) TimerEvent: {}
+[15.869507] (-) TimerEvent: {}
+[15.970006] (-) TimerEvent: {}
+[16.070485] (-) TimerEvent: {}
+[16.171032] (-) TimerEvent: {}
+[16.271639] (-) TimerEvent: {}
+[16.372139] (-) TimerEvent: {}
+[16.472620] (-) TimerEvent: {}
+[16.573115] (-) TimerEvent: {}
+[16.673637] (-) TimerEvent: {}
+[16.736441] (rplidar_ros) StdoutLine: {'line': b'[ 77%] Linking CXX executable rplidarNode\n'}
+[16.773892] (-) TimerEvent: {}
+[16.874383] (-) TimerEvent: {}
+[16.974891] (-) TimerEvent: {}
+[17.075447] (-) TimerEvent: {}
+[17.175956] (-) TimerEvent: {}
+[17.276487] (-) TimerEvent: {}
+[17.281956] (rplidar_ros) StdoutLine: {'line': b'[ 77%] Built target rplidarNode\n'}
+[17.376710] (-) TimerEvent: {}
+[17.467374] (rplidar_ros) StdoutLine: {'line': b'[ 83%] Linking CXX shared library librplidar_composition_node.so\n'}
+[17.476877] (-) TimerEvent: {}
+[17.577327] (-) TimerEvent: {}
+[17.677815] (-) TimerEvent: {}
+[17.778268] (-) TimerEvent: {}
+[17.878735] (-) TimerEvent: {}
+[17.979265] (-) TimerEvent: {}
+[17.997104] (rplidar_ros) StdoutLine: {'line': b'[ 83%] Built target rplidar_composition_node\n'}
+[18.079525] (-) TimerEvent: {}
+[18.088512] (rplidar_ros) StdoutLine: {'line': b'Scanning dependencies of target rplidar_composition\n'}
+[18.127644] (rplidar_ros) StdoutLine: {'line': b'[ 88%] Building CXX object CMakeFiles/rplidar_composition.dir/src/standalone_rplidar.cpp.o\n'}
+[18.179753] (-) TimerEvent: {}
+[18.280214] (-) TimerEvent: {}
+[18.380703] (-) TimerEvent: {}
+[18.403466] (rplidar_ros) StderrLine: {'line': b'In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/standalone_rplidar.cpp:16:\n'}
+[18.404022] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/include/rplidar_node.hpp:50: warning: "M_PI" redefined\n'}
+[18.404357] (rplidar_ros) StderrLine: {'line': b'   50 | #define M_PI 3.1415926535897932384626433832795\n'}
+[18.404668] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[18.404902] (rplidar_ros) StderrLine: {'line': b'In file included from /usr/include/c++/9/cmath:45,\n'}
+[18.405173] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/libstatistics_collector/moving_average_statistics/types.hpp:18,\n'}
+[18.405416] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:24,\n'}
+[18.405683] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23,\n'}
+[18.405924] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/subscription.hpp:50,\n'}
+[18.406144] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/any_executable.hpp:25,\n'}
+[18.406438] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24,\n'}
+[18.406661] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18,\n'}
+[18.406869] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/executor_options.hpp:20,\n'}
+[18.407147] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/executor.hpp:33,\n'}
+[18.407439] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25,\n'}
+[18.407669] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/executors.hpp:21,\n'}
+[18.407925] (rplidar_ros) StderrLine: {'line': b'                 from /opt/ros/foxy/include/rclcpp/rclcpp.hpp:146,\n'}
+[18.408192] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/include/rplidar_node.hpp:34,\n'}
+[18.408413] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/standalone_rplidar.cpp:16:\n'}
+[18.408618] (rplidar_ros) StderrLine: {'line': b'/usr/include/math.h:1070: note: this is the location of the previous definition\n'}
+[18.408884] (rplidar_ros) StderrLine: {'line': b' 1070 | # define M_PI  3.14159265358979323846 /* pi */\n'}
+[18.409111] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[18.480930] (-) TimerEvent: {}
+[18.581368] (-) TimerEvent: {}
+[18.681803] (-) TimerEvent: {}
+[18.782232] (-) TimerEvent: {}
+[18.882638] (-) TimerEvent: {}
+[18.983014] (-) TimerEvent: {}
+[19.083483] (-) TimerEvent: {}
+[19.183876] (-) TimerEvent: {}
+[19.284262] (-) TimerEvent: {}
+[19.384700] (-) TimerEvent: {}
+[19.485104] (-) TimerEvent: {}
+[19.585545] (-) TimerEvent: {}
+[19.685953] (-) TimerEvent: {}
+[19.786401] (-) TimerEvent: {}
+[19.846332] (rplidar_ros) StdoutLine: {'line': b'[ 94%] Linking CXX executable rplidarNodeClient\n'}
+[19.886641] (-) TimerEvent: {}
+[19.987160] (-) TimerEvent: {}
+[20.087640] (-) TimerEvent: {}
+[20.188078] (-) TimerEvent: {}
+[20.288559] (-) TimerEvent: {}
+[20.389014] (-) TimerEvent: {}
+[20.416620] (rplidar_ros) StdoutLine: {'line': b'[ 94%] Built target rplidarNodeClient\n'}
+[20.489170] (-) TimerEvent: {}
+[20.589537] (-) TimerEvent: {}
+[20.689807] (-) TimerEvent: {}
+[20.790062] (-) TimerEvent: {}
+[20.890367] (-) TimerEvent: {}
+[20.990670] (-) TimerEvent: {}
+[21.090975] (-) TimerEvent: {}
+[21.191281] (-) TimerEvent: {}
+[21.291545] (-) TimerEvent: {}
+[21.391804] (-) TimerEvent: {}
+[21.492393] (-) TimerEvent: {}
+[21.592803] (-) TimerEvent: {}
+[21.693127] (-) TimerEvent: {}
+[21.793386] (-) TimerEvent: {}
+[21.893621] (-) TimerEvent: {}
+[21.993839] (-) TimerEvent: {}
+[22.094076] (-) TimerEvent: {}
+[22.159700] (rplidar_ros) StderrLine: {'line': b'In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:39,\n'}
+[22.160206] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/include/rplidar_node.hpp:41,\n'}
+[22.160519] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/standalone_rplidar.cpp:16:\n'}
+[22.160793] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14: warning: ISO C++ forbids zero-size array \xe2\x80\x98data\xe2\x80\x99 [-Wpedantic]\n'}
+[22.161349] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[0];\n'}
+[22.161640] (rplidar_ros) StderrLine: {'line': b'      |              ^\n'}
+[22.161846] (rplidar_ros) StderrLine: {'line': b'In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar.h:40,\n'}
+[22.162146] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/include/rplidar_node.hpp:41,\n'}
+[22.162381] (rplidar_ros) StderrLine: {'line': b'                 from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/standalone_rplidar.cpp:16:\n'}
+[22.162649] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18: warning: ISO C++ forbids zero-size array \xe2\x80\x98payload\xe2\x80\x99 [-Wpedantic]\n'}
+[22.162901] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[0];\n'}
+[22.163254] (rplidar_ros) StderrLine: {'line': b'      |                  ^\n'}
+[22.194236] (-) TimerEvent: {}
+[22.294447] (-) TimerEvent: {}
+[22.394631] (-) TimerEvent: {}
+[22.494804] (-) TimerEvent: {}
+[22.594984] (-) TimerEvent: {}
+[22.695337] (-) TimerEvent: {}
+[22.795742] (-) TimerEvent: {}
+[22.896074] (-) TimerEvent: {}
+[22.996371] (-) TimerEvent: {}
+[23.096621] (-) TimerEvent: {}
+[23.196845] (-) TimerEvent: {}
+[23.297127] (-) TimerEvent: {}
+[23.397987] (-) TimerEvent: {}
+[23.498386] (-) TimerEvent: {}
+[23.598720] (-) TimerEvent: {}
+[23.624743] (rplidar_ros) StderrLine: {'line': b'In file included from /home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/src/standalone_rplidar.cpp:16:\n'}
+[23.625209] (rplidar_ros) StderrLine: {'line': b'/home/projects/sensor_ws/src/lidars/rplidar/src/rplidar_ros2/include/rplidar_node.hpp:76:14: warning: \xe2\x80\x98float rplidar_ros::getAngle(const rplidar_response_measurement_node_hq_t&)\xe2\x80\x99 defined but not used [-Wunused-function]\n'}
+[23.625469] (rplidar_ros) StderrLine: {'line': b'   76 | static float getAngle(const rplidar_response_measurement_node_hq_t& node)\n'}
+[23.625698] (rplidar_ros) StderrLine: {'line': b'      |              ^~~~~~~~\n'}
+[23.698858] (-) TimerEvent: {}
+[23.799245] (-) TimerEvent: {}
+[23.899547] (-) TimerEvent: {}
+[23.916392] (rplidar_ros) StdoutLine: {'line': b'[100%] Linking CXX executable rplidar_composition\n'}
+[23.999793] (-) TimerEvent: {}
+[24.100160] (-) TimerEvent: {}
+[24.200545] (-) TimerEvent: {}
+[24.277600] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_composition\n'}
+[24.300681] (-) TimerEvent: {}
+[24.305634] (rplidar_ros) CommandEnded: {'returncode': 0}
+[24.401381] (-) TimerEvent: {}
+[24.453734] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[24.488695] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/projects/sensor_ws/src/lidars/rplidar/build/rplidar_ros'], 'cwd': '/home/projects/sensor_ws/src/lidars/rplidar/build/rplidar_ros', 'env': OrderedDict([('HOSTNAME', '1abd581b2c91'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('ROS1_DISTRO', 'noetic'), ('ROS2_DISTRO', 'foxy'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/home/projects/sensor_ws/src/lidars/rplidar/build/rplidar_ros'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[24.501401] (-) TimerEvent: {}
+[24.518147] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.519408] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/lib/rplidar_ros/rplidarNode\n'}
+[24.523764] (rplidar_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/lib/rplidar_ros/rplidarNode" to ""\n'}
+[24.524286] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/lib/rplidar_ros/rplidarNodeClient\n'}
+[24.531282] (rplidar_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/lib/rplidar_ros/rplidarNodeClient" to ""\n'}
+[24.531959] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[24.533278] (rplidar_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/lib/rplidar_ros/rplidar_composition" to ""\n'}
+[24.534228] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/share/rplidar_ros/launch\n'}
+[24.535505] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py\n'}
+[24.536314] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py\n'}
+[24.536879] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar.launch.py\n'}
+[24.537493] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py\n'}
+[24.537698] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py\n'}
+[24.538127] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py\n'}
+[24.538372] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py\n'}
+[24.538567] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py\n'}
+[24.538772] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py\n'}
+[24.539032] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py\n'}
+[24.539290] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/share/rplidar_ros/rviz\n'}
+[24.539512] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz\n'}
+[24.539743] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/lib/librplidar_composition_node.so\n'}
+[24.545144] (rplidar_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/lib/librplidar_composition_node.so" to ""\n'}
+[24.545712] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/include\n'}
+[24.546085] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/include/visibility.h\n'}
+[24.546343] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/include/rplidar_node.hpp\n'}
+[24.546808] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/lib/rplidar_ros/rplidarNode\n'}
+[24.548021] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/lib/rplidar_ros/rplidarNodeClient\n'}
+[24.549001] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[24.549855] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[24.550677] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[24.551165] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[24.551587] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[24.552016] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[24.552467] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[24.552890] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[24.553261] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[24.553673] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[24.554321] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[24.554608] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[24.555063] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[24.555497] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[24.555853] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[24.556362] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[24.556810] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[24.557038] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/rplidar/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[24.561161] (rplidar_ros) CommandEnded: {'returncode': 0}
+[24.601529] (-) TimerEvent: {}
+[24.702894] (-) TimerEvent: {}
+[24.804177] (-) TimerEvent: {}
+[24.806032] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[24.809005] (-) EventReactorShutdown: {}

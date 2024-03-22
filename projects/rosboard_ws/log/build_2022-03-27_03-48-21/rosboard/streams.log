@@ -1,0 +1,249 @@
+[4.609s] Invoking command in '/home/projects/rosboard_ws/src/rosboard': PYTHONPATH=/home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rosboard build --build-base /home/projects/rosboard_ws/build/rosboard/build install --prefix /home/projects/rosboard_ws/install/rosboard --record /home/projects/rosboard_ws/build/rosboard/install.log --single-version-externally-managed
+[6.031s] running egg_info
+[6.033s] creating ../../build/rosboard/rosboard.egg-info
+[6.034s] writing ../../build/rosboard/rosboard.egg-info/PKG-INFO
+[6.035s] writing dependency_links to ../../build/rosboard/rosboard.egg-info/dependency_links.txt
+[6.036s] writing entry points to ../../build/rosboard/rosboard.egg-info/entry_points.txt
+[6.037s] writing requirements to ../../build/rosboard/rosboard.egg-info/requires.txt
+[6.038s] writing top-level names to ../../build/rosboard/rosboard.egg-info/top_level.txt
+[6.050s] writing manifest file '../../build/rosboard/rosboard.egg-info/SOURCES.txt'
+[6.321s] reading manifest file '../../build/rosboard/rosboard.egg-info/SOURCES.txt'
+[6.330s] writing manifest file '../../build/rosboard/rosboard.egg-info/SOURCES.txt'
+[6.334s] running build
+[6.335s] running build_py
+[6.335s] creating /home/projects/rosboard_ws/build/rosboard/build
+[6.336s] creating /home/projects/rosboard_ws/build/rosboard/build/lib
+[6.337s] creating /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard
+[6.338s] copying rosboard/cv_bridge.py -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard
+[6.338s] copying rosboard/serialization.py -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard
+[6.339s] copying rosboard/message_serialization.py -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard
+[6.339s] copying rosboard/rosboard.py -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard
+[6.340s] copying rosboard/handlers.py -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard
+[6.341s] copying rosboard/__init__.py -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard
+[6.342s] copying rosboard/compression.py -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard
+[6.342s] creating /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/subscribers
+[6.343s] copying rosboard/subscribers/dummy_subscriber.py -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/subscribers
+[6.344s] copying rosboard/subscribers/system_stats_subscriber.py -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/subscribers
+[6.344s] copying rosboard/subscribers/processes_subscriber.py -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/subscribers
+[6.345s] copying rosboard/subscribers/__init__.py -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/subscribers
+[6.346s] copying rosboard/subscribers/dmesg_subscriber.py -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/subscribers
+[6.347s] creating /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/rospy2
+[6.347s] copying rosboard/rospy2/__init__.py -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/rospy2
+[6.348s] copying rosboard/rospy2/constants.py -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/rospy2
+[6.349s] creating /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html
+[6.350s] copying rosboard/html/index.html -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html
+[6.350s] creating /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts
+[6.351s] copying rosboard/html/fonts/MaterialIcons-Regular.ijmap -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts
+[6.352s] copying rosboard/html/fonts/titillium-web-v10-latin-300.woff -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts
+[6.352s] copying rosboard/html/fonts/titillium-web-v10-latin-700.woff -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts
+[6.353s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-300.svg -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts
+[6.354s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-300.woff -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts
+[6.354s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-700.svg -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts
+[6.355s] copying rosboard/html/fonts/titillium-web-v10-latin-700.svg -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts
+[6.356s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-700.eot -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts
+[6.357s] copying rosboard/html/fonts/titillium-web-v10-latin-300.woff2 -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts
+[6.358s] copying rosboard/html/fonts/titillium-web-v10-latin-300.ttf -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts
+[6.359s] copying rosboard/html/fonts/titillium-web-v10-latin-300.svg -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts
+[6.361s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-300.eot -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts
+[6.362s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-700.woff2 -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts
+[6.362s] copying rosboard/html/fonts/titillium-web-v10-latin-300.eot -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts
+[6.363s] copying rosboard/html/fonts/MaterialIcons-Regular.svg -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts
+[6.366s] copying rosboard/html/fonts/MaterialIcons-Regular.woff2 -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts
+[6.367s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-300.ttf -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts
+[6.368s] copying rosboard/html/fonts/titillium-web-v10-latin-700.ttf -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts
+[6.369s] copying rosboard/html/fonts/titillium-web-v10-latin-700.woff2 -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts
+[6.370s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-300.woff2 -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts
+[6.371s] copying rosboard/html/fonts/MaterialIcons-Regular.woff -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts
+[6.372s] copying rosboard/html/fonts/MaterialIcons-Regular.eot -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts
+[6.375s] copying rosboard/html/fonts/titillium-web-v10-latin-700.eot -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts
+[6.376s] copying rosboard/html/fonts/MaterialIcons-Regular.ttf -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts
+[6.377s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-700.woff -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts
+[6.378s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-700.ttf -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts
+[6.379s] creating /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css
+[6.380s] copying rosboard/html/css/material.light_green-lime.min.css -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css
+[6.381s] copying rosboard/html/css/material.indigo-blue.min.css -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css
+[6.383s] copying rosboard/html/css/index.css -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css
+[6.385s] copying rosboard/html/css/material-icons.css -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css
+[6.386s] copying rosboard/html/css/leaflet.css -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css
+[6.387s] copying rosboard/html/css/material.blue_grey-indigo.min.css -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css
+[6.387s] copying rosboard/html/css/leaflet.easy-button.css -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css
+[6.388s] copying rosboard/html/css/uPlot.min.css -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css
+[6.390s] creating /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/images
+[6.390s] copying rosboard/html/css/images/layers.png -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/images
+[6.391s] copying rosboard/html/css/images/layers-2x.png -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/images
+[6.392s] copying rosboard/html/css/images/marker-shadow.png -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/images
+[6.392s] copying rosboard/html/css/images/marker-icon.png -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/images
+[6.393s] copying rosboard/html/css/images/marker-icon-2x.png -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/images
+[6.394s] creating /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js
+[6.395s] copying rosboard/html/js/uPlot.iife.min.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js
+[6.396s] copying rosboard/html/js/eventemitter2.min.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js
+[6.396s] copying rosboard/html/js/leaflet.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js
+[6.398s] copying rosboard/html/js/material.min.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js
+[6.399s] copying rosboard/html/js/gl-matrix.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js
+[6.402s] copying rosboard/html/js/index.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js
+[6.409s] copying rosboard/html/js/leaflet-src.esm.js.map -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js
+[6.409s] copying rosboard/html/js/litegl.min.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js
+[6.411s] copying rosboard/html/js/masonry.pkgd.min.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js
+[6.412s] copying rosboard/html/js/leaflet-src.esm.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js
+[6.415s] copying rosboard/html/js/leaflet-src.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js
+[6.419s] copying rosboard/html/js/leaflet.easy-button.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js
+[6.420s] copying rosboard/html/js/rosbag.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js
+[6.421s] copying rosboard/html/js/leaflet.js.map -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js
+[6.423s] copying rosboard/html/js/leaflet-src.js.map -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js
+[6.429s] copying rosboard/html/js/jquery.transit.min.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js
+[6.430s] copying rosboard/html/js/jquery-3.1.0.min.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js
+[6.431s] copying rosboard/html/js/draggabilly.pkgd.min.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js
+[6.432s] copying rosboard/html/js/json5.min.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js
+[6.433s] copying rosboard/html/js/import-helper.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js
+[6.434s] copying rosboard/html/js/material.min.js.map -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js
+[6.436s] creating /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers
+[6.436s] copying rosboard/html/js/viewers/ImageViewer.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers
+[6.437s] copying rosboard/html/js/viewers/PolygonViewer.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers
+[6.438s] copying rosboard/html/js/viewers/LogViewer.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers
+[6.439s] copying rosboard/html/js/viewers/DiagnosticViewer.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers
+[6.440s] copying rosboard/html/js/viewers/GeometryViewer.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers
+[6.440s] copying rosboard/html/js/viewers/GenericViewer.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers
+[6.441s] copying rosboard/html/js/viewers/ProcessListViewer.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers
+[6.442s] copying rosboard/html/js/viewers/PointCloud2Viewer.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers
+[6.443s] copying rosboard/html/js/viewers/MapViewer.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers
+[6.443s] copying rosboard/html/js/viewers/TimeSeriesPlotViewer.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers
+[6.444s] copying rosboard/html/js/viewers/LaserScanViewer.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers
+[6.445s] creating /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/meta
+[6.446s] copying rosboard/html/js/viewers/meta/Viewer.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/meta
+[6.447s] copying rosboard/html/js/viewers/meta/Space3DViewer.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/meta
+[6.448s] copying rosboard/html/js/viewers/meta/Space2DViewer.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/meta
+[6.449s] creating /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/transports
+[6.449s] copying rosboard/html/js/transports/RosBridgeTransport.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/transports
+[6.450s] copying rosboard/html/js/transports/WebSocketV1Transport.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/transports
+[6.451s] copying rosboard/html/js/transports/DeviceSensorTransport.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/transports
+[6.451s] copying rosboard/html/js/transports/RosbagTransport.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/transports
+[6.452s] copying rosboard/html/js/transports/Rosbag2Transport.js -> /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/transports
+[6.455s] running install
+[6.460s] running install_lib
+[6.465s] creating /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard
+[6.466s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/cv_bridge.py -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard
+[6.467s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/serialization.py -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard
+[6.468s] creating /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/subscribers
+[6.469s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/subscribers/dummy_subscriber.py -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/subscribers
+[6.470s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/subscribers/system_stats_subscriber.py -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/subscribers
+[6.471s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/subscribers/processes_subscriber.py -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/subscribers
+[6.471s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/subscribers/__init__.py -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/subscribers
+[6.472s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/subscribers/dmesg_subscriber.py -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/subscribers
+[6.473s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/message_serialization.py -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard
+[6.477s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/rosboard.py -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard
+[6.479s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/handlers.py -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard
+[6.480s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/__init__.py -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard
+[6.481s] creating /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html
+[6.482s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/index.html -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html
+[6.483s] creating /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js
+[6.484s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/uPlot.iife.min.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js
+[6.484s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/eventemitter2.min.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js
+[6.487s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/leaflet.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js
+[6.487s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/material.min.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js
+[6.488s] creating /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/transports
+[6.488s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/transports/RosBridgeTransport.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/transports
+[6.489s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/transports/WebSocketV1Transport.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/transports
+[6.490s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/transports/DeviceSensorTransport.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/transports
+[6.490s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/transports/RosbagTransport.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/transports
+[6.491s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/transports/Rosbag2Transport.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/transports
+[6.492s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/gl-matrix.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js
+[6.492s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/index.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js
+[6.493s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/leaflet-src.esm.js.map -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js
+[6.494s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/litegl.min.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js
+[6.495s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/masonry.pkgd.min.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js
+[6.495s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/leaflet-src.esm.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js
+[6.497s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/leaflet-src.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js
+[6.500s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/leaflet.easy-button.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js
+[6.509s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/rosbag.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js
+[6.510s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/leaflet.js.map -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js
+[6.511s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/leaflet-src.js.map -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js
+[6.512s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/jquery.transit.min.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js
+[6.513s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/jquery-3.1.0.min.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js
+[6.513s] creating /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers
+[6.514s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/ImageViewer.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers
+[6.515s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/PolygonViewer.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers
+[6.516s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/LogViewer.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers
+[6.517s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/DiagnosticViewer.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers
+[6.517s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/GeometryViewer.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers
+[6.518s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/GenericViewer.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers
+[6.519s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/ProcessListViewer.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers
+[6.520s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/PointCloud2Viewer.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers
+[6.521s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/MapViewer.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers
+[6.522s] creating /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers/meta
+[6.523s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/meta/Viewer.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers/meta
+[6.525s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/meta/Space3DViewer.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers/meta
+[6.525s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/meta/Space2DViewer.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers/meta
+[6.526s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/TimeSeriesPlotViewer.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers
+[6.527s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/viewers/LaserScanViewer.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js/viewers
+[6.528s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/draggabilly.pkgd.min.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js
+[6.528s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/json5.min.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js
+[6.529s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/import-helper.js -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js
+[6.530s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/js/material.min.js.map -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/js
+[6.530s] creating /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/css
+[6.531s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/material.light_green-lime.min.css -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/css
+[6.532s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/material.indigo-blue.min.css -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/css
+[6.533s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/index.css -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/css
+[6.534s] creating /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/css/images
+[6.535s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/images/layers.png -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/css/images
+[6.536s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/images/layers-2x.png -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/css/images
+[6.537s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/images/marker-shadow.png -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/css/images
+[6.537s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/images/marker-icon.png -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/css/images
+[6.538s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/images/marker-icon-2x.png -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/css/images
+[6.539s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/material-icons.css -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/css
+[6.539s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/leaflet.css -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/css
+[6.540s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/material.blue_grey-indigo.min.css -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/css
+[6.541s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/leaflet.easy-button.css -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/css
+[6.542s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/css/uPlot.min.css -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/css
+[6.543s] creating /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts
+[6.544s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/MaterialIcons-Regular.ijmap -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts
+[6.545s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-300.woff -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts
+[6.545s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-700.woff -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts
+[6.546s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-300.svg -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts
+[6.547s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-300.woff -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts
+[6.548s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-700.svg -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts
+[6.548s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-700.svg -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts
+[6.549s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-700.eot -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts
+[6.550s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-300.woff2 -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts
+[6.551s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-300.ttf -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts
+[6.552s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-300.svg -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts
+[6.553s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-300.eot -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts
+[6.554s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-700.woff2 -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts
+[6.554s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-300.eot -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts
+[6.555s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/MaterialIcons-Regular.svg -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts
+[6.558s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/MaterialIcons-Regular.woff2 -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts
+[6.559s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-300.ttf -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts
+[6.560s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-700.ttf -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts
+[6.561s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-700.woff2 -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts
+[6.562s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-300.woff2 -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts
+[6.562s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/MaterialIcons-Regular.woff -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts
+[6.563s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/MaterialIcons-Regular.eot -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts
+[6.565s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-700.eot -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts
+[6.566s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/MaterialIcons-Regular.ttf -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts
+[6.567s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-700.woff -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts
+[6.568s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-700.ttf -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/html/fonts
+[6.569s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/compression.py -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard
+[6.570s] creating /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/rospy2
+[6.571s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/rospy2/__init__.py -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/rospy2
+[6.571s] copying /home/projects/rosboard_ws/build/rosboard/build/lib/rosboard/rospy2/constants.py -> /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/rospy2
+[6.576s] byte-compiling /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/cv_bridge.py to cv_bridge.cpython-38.pyc
+[6.588s] byte-compiling /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/serialization.py to serialization.cpython-38.pyc
+[6.592s] byte-compiling /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/subscribers/dummy_subscriber.py to dummy_subscriber.cpython-38.pyc
+[6.594s] byte-compiling /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/subscribers/system_stats_subscriber.py to system_stats_subscriber.cpython-38.pyc
+[6.597s] byte-compiling /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/subscribers/processes_subscriber.py to processes_subscriber.cpython-38.pyc
+[6.599s] byte-compiling /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/subscribers/__init__.py to __init__.cpython-38.pyc
+[6.601s] byte-compiling /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/subscribers/dmesg_subscriber.py to dmesg_subscriber.cpython-38.pyc
+[6.604s] byte-compiling /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/message_serialization.py to message_serialization.cpython-38.pyc
+[6.611s] byte-compiling /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/rosboard.py to rosboard.cpython-38.pyc
+[6.616s] byte-compiling /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/handlers.py to handlers.cpython-38.pyc
+[6.623s] byte-compiling /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/__init__.py to __init__.cpython-38.pyc
+[6.624s] byte-compiling /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/compression.py to compression.cpython-38.pyc
+[6.640s] byte-compiling /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/rospy2/__init__.py to __init__.cpython-38.pyc
+[6.659s] byte-compiling /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard/rospy2/constants.py to constants.cpython-38.pyc
+[6.660s] running install_data
+[6.663s] copying package.xml -> /home/projects/rosboard_ws/install/rosboard/share/rosboard
+[6.664s] running install_egg_info
+[6.671s] Copying ../../build/rosboard/rosboard.egg-info to /home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages/rosboard-1.2.1-py3.8.egg-info
+[6.681s] running install_scripts
+[6.787s] Installing rosboard_node script to /home/projects/rosboard_ws/install/rosboard/lib/rosboard
+[6.794s] writing list of installed files to '/home/projects/rosboard_ws/build/rosboard/install.log'
+[6.931s] Invoked command in '/home/projects/rosboard_ws/src/rosboard' returned '0': PYTHONPATH=/home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rosboard build --build-base /home/projects/rosboard_ws/build/rosboard/build install --prefix /home/projects/rosboard_ws/install/rosboard --record /home/projects/rosboard_ws/build/rosboard/install.log --single-version-externally-managed

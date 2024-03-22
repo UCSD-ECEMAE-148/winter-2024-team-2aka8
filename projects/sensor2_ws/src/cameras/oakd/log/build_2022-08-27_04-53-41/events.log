@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.000736] (multi_cam) JobQueued: {'identifier': 'multi_cam', 'dependencies': OrderedDict()}
+[0.002373] (multi_cam) JobStarted: {'identifier': 'multi_cam'}
+[0.097852] (-) TimerEvent: {}
+[0.199412] (-) TimerEvent: {}
+[0.300204] (-) TimerEvent: {}
+[0.401121] (-) TimerEvent: {}
+[0.502038] (-) TimerEvent: {}
+[0.602920] (-) TimerEvent: {}
+[0.703822] (-) TimerEvent: {}
+[0.804779] (-) TimerEvent: {}
+[0.905640] (-) TimerEvent: {}
+[1.006570] (-) TimerEvent: {}
+[1.107975] (-) TimerEvent: {}
+[1.210721] (-) TimerEvent: {}
+[1.312778] (-) TimerEvent: {}
+[1.414320] (-) TimerEvent: {}
+[1.515196] (-) TimerEvent: {}
+[1.616055] (-) TimerEvent: {}
+[1.717046] (-) TimerEvent: {}
+[1.817997] (-) TimerEvent: {}
+[1.918976] (-) TimerEvent: {}
+[2.019920] (-) TimerEvent: {}
+[2.120899] (-) TimerEvent: {}
+[2.221977] (-) TimerEvent: {}
+[2.324309] (-) TimerEvent: {}
+[2.426926] (-) TimerEvent: {}
+[2.529607] (-) TimerEvent: {}
+[2.632140] (-) TimerEvent: {}
+[2.734876] (-) TimerEvent: {}
+[2.837704] (-) TimerEvent: {}
+[2.940639] (-) TimerEvent: {}
+[3.042817] (-) TimerEvent: {}
+[3.069167] (multi_cam) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/multi_cam', 'build', '--build-base', '/home/projects/sensor2_ws/src/cameras/oakd/build/multi_cam/build', 'install', '--prefix', '/home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam', '--record', '/home/projects/sensor2_ws/src/cameras/oakd/build/multi_cam/install.log', '--single-version-externally-managed'], 'cwd': '/home/projects/sensor2_ws/src/cameras/oakd/src/multi_cam_oak_lite', 'env': {'HOSTNAME': 'ucsd-robocar-djn', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/projects/sensor2_ws/src/vesc/install/vesc_driver/lib:/home/projects/sensor2_ws/src/vesc/install/vesc_ackermann/lib:/home/projects/sensor2_ws/src/vesc/install/vesc_msgs/lib:/home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/home/projects/sensor2_ws/src/cameras/oakd/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/projects/ros2_ws/install:/home/projects/rosboard_ws/install:/home/projects/sensor2_ws/src/lidars/ld06/ros2/install:/home/projects/sensor2_ws/src/vesc/install:/home/projects/sensor2_ws/src/imu/artemis_openlog/install:/home/projects/sensor2_ws/src/cameras/oakd/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'ROS1_DISTRO': 'noetic', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS2_DISTRO': 'foxy', 'ROS_DOMAIN_ID': '96', 'AMENT_PREFIX_PATH': '/home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam:/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_control2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_basics2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg:/home/projects/rosboard_ws/install/rosboard:/home/projects/sensor2_ws/src/lidars/ld06/ros2/install/ldlidar:/home/projects/sensor2_ws/src/vesc/install/vesc:/home/projects/sensor2_ws/src/vesc/install/vesc_driver:/home/projects/sensor2_ws/src/vesc/install/vesc_ackermann:/home/projects/sensor2_ws/src/vesc/install/vesc_msgs:/home/projects/sensor2_ws/src/vesc/install/teleop_tools:/home/projects/sensor2_ws/src/vesc/install/joy_teleop:/home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs:/home/projects/sensor2_ws/src/vesc/install/mouse_teleop:/home/projects/sensor2_ws/src/vesc/install/key_teleop:/home/projects/sensor2_ws/src/vesc/install/ackermann_mux:/home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof:/opt/ros/foxy', 'PWD': '/home/projects/sensor2_ws/src/cameras/oakd/build/multi_cam', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/lib/python3.8/site-packages:/home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_basics2_pkg/lib/python3.8/site-packages:/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg/lib/python3.8/site-packages:/home/projects/rosboard_ws/install/rosboard/lib/python3.8/site-packages:/home/projects/sensor2_ws/src/vesc/install/vesc_msgs/lib/python3.8/site-packages:/home/projects/sensor2_ws/src/vesc/install/joy_teleop/lib/python3.8/site-packages:/home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/projects/sensor2_ws/src/vesc/install/mouse_teleop/lib/python3.8/site-packages:/home/projects/sensor2_ws/src/vesc/install/key_teleop/lib/python3.8/site-packages:/home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/projects/sensor2_ws/src/lidars/ld06/ros2/install/ldlidar:/home/projects/sensor2_ws/src/vesc/install/vesc:/home/projects/sensor2_ws/src/vesc/install/vesc_driver:/home/projects/sensor2_ws/src/vesc/install/vesc_ackermann:/home/projects/sensor2_ws/src/vesc/install/vesc_msgs:/home/projects/sensor2_ws/src/vesc/install/teleop_tools:/home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs:/home/projects/sensor2_ws/src/vesc/install/ackermann_mux'}, 'shell': False}
+[3.143160] (-) TimerEvent: {}
+[3.244582] (-) TimerEvent: {}
+[3.345661] (-) TimerEvent: {}
+[3.446495] (-) TimerEvent: {}
+[3.547455] (-) TimerEvent: {}
+[3.648252] (-) TimerEvent: {}
+[3.749296] (-) TimerEvent: {}
+[3.850235] (-) TimerEvent: {}
+[3.951186] (-) TimerEvent: {}
+[4.052141] (-) TimerEvent: {}
+[4.110117] (multi_cam) StdoutLine: {'line': b'running egg_info\n'}
+[4.112559] (multi_cam) StdoutLine: {'line': b'creating ../../build/multi_cam/multi_cam.egg-info\n'}
+[4.113411] (multi_cam) StdoutLine: {'line': b'writing ../../build/multi_cam/multi_cam.egg-info/PKG-INFO\n'}
+[4.114605] (multi_cam) StdoutLine: {'line': b'writing dependency_links to ../../build/multi_cam/multi_cam.egg-info/dependency_links.txt\n'}
+[4.115319] (multi_cam) StdoutLine: {'line': b'writing entry points to ../../build/multi_cam/multi_cam.egg-info/entry_points.txt\n'}
+[4.115887] (multi_cam) StdoutLine: {'line': b'writing requirements to ../../build/multi_cam/multi_cam.egg-info/requires.txt\n'}
+[4.116541] (multi_cam) StdoutLine: {'line': b'writing top-level names to ../../build/multi_cam/multi_cam.egg-info/top_level.txt\n'}
+[4.121843] (multi_cam) StdoutLine: {'line': b"writing manifest file '../../build/multi_cam/multi_cam.egg-info/SOURCES.txt'\n"}
+[4.152297] (-) TimerEvent: {}
+[4.253199] (-) TimerEvent: {}
+[4.273191] (multi_cam) StdoutLine: {'line': b"reading manifest file '../../build/multi_cam/multi_cam.egg-info/SOURCES.txt'\n"}
+[4.276125] (multi_cam) StdoutLine: {'line': b"writing manifest file '../../build/multi_cam/multi_cam.egg-info/SOURCES.txt'\n"}
+[4.277032] (multi_cam) StdoutLine: {'line': b'running build\n'}
+[4.277614] (multi_cam) StdoutLine: {'line': b'running build_py\n'}
+[4.278213] (multi_cam) StdoutLine: {'line': b'creating /home/projects/sensor2_ws/src/cameras/oakd/build/multi_cam/build\n'}
+[4.278619] (multi_cam) StdoutLine: {'line': b'creating /home/projects/sensor2_ws/src/cameras/oakd/build/multi_cam/build/lib\n'}
+[4.279053] (multi_cam) StdoutLine: {'line': b'creating /home/projects/sensor2_ws/src/cameras/oakd/build/multi_cam/build/lib/multi_cam\n'}
+[4.279744] (multi_cam) StdoutLine: {'line': b'copying multi_cam/cam_subscriber_node.py -> /home/projects/sensor2_ws/src/cameras/oakd/build/multi_cam/build/lib/multi_cam\n'}
+[4.280227] (multi_cam) StdoutLine: {'line': b'copying multi_cam/__init__.py -> /home/projects/sensor2_ws/src/cameras/oakd/build/multi_cam/build/lib/multi_cam\n'}
+[4.280643] (multi_cam) StdoutLine: {'line': b'copying multi_cam/multi_cam_node.py -> /home/projects/sensor2_ws/src/cameras/oakd/build/multi_cam/build/lib/multi_cam\n'}
+[4.280976] (multi_cam) StdoutLine: {'line': b'running install\n'}
+[4.283787] (multi_cam) StdoutLine: {'line': b'running install_lib\n'}
+[4.288306] (multi_cam) StdoutLine: {'line': b'creating /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/lib/python3.8/site-packages/multi_cam\n'}
+[4.289172] (multi_cam) StdoutLine: {'line': b'copying /home/projects/sensor2_ws/src/cameras/oakd/build/multi_cam/build/lib/multi_cam/cam_subscriber_node.py -> /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/lib/python3.8/site-packages/multi_cam\n'}
+[4.289793] (multi_cam) StdoutLine: {'line': b'copying /home/projects/sensor2_ws/src/cameras/oakd/build/multi_cam/build/lib/multi_cam/__init__.py -> /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/lib/python3.8/site-packages/multi_cam\n'}
+[4.290431] (multi_cam) StdoutLine: {'line': b'copying /home/projects/sensor2_ws/src/cameras/oakd/build/multi_cam/build/lib/multi_cam/multi_cam_node.py -> /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/lib/python3.8/site-packages/multi_cam\n'}
+[4.292584] (multi_cam) StdoutLine: {'line': b'byte-compiling /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/lib/python3.8/site-packages/multi_cam/cam_subscriber_node.py to cam_subscriber_node.cpython-38.pyc\n'}
+[4.299772] (multi_cam) StdoutLine: {'line': b'byte-compiling /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/lib/python3.8/site-packages/multi_cam/__init__.py to __init__.cpython-38.pyc\n'}
+[4.300693] (multi_cam) StdoutLine: {'line': b'byte-compiling /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/lib/python3.8/site-packages/multi_cam/multi_cam_node.py to multi_cam_node.cpython-38.pyc\n'}
+[4.304998] (multi_cam) StdoutLine: {'line': b'running install_data\n'}
+[4.307096] (multi_cam) StdoutLine: {'line': b'creating /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/share/ament_index\n'}
+[4.307915] (multi_cam) StdoutLine: {'line': b'creating /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/share/ament_index/resource_index\n'}
+[4.308560] (multi_cam) StdoutLine: {'line': b'creating /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/share/ament_index/resource_index/packages\n'}
+[4.309116] (multi_cam) StdoutLine: {'line': b'copying resource/multi_cam -> /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/share/ament_index/resource_index/packages\n'}
+[4.309479] (multi_cam) StdoutLine: {'line': b'copying package.xml -> /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/share/multi_cam\n'}
+[4.309816] (multi_cam) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.315183] (multi_cam) StdoutLine: {'line': b'Copying ../../build/multi_cam/multi_cam.egg-info to /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/lib/python3.8/site-packages/multi_cam-0.0.0-py3.8.egg-info\n'}
+[4.318754] (multi_cam) StdoutLine: {'line': b'running install_scripts\n'}
+[4.353375] (-) TimerEvent: {}
+[4.390389] (multi_cam) StdoutLine: {'line': b'Installing oakd_publisher script to /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/lib/multi_cam/\n'}
+[4.391250] (multi_cam) StdoutLine: {'line': b'Installing oakd_subscriber script to /home/projects/sensor2_ws/src/cameras/oakd/install/multi_cam/lib/multi_cam/\n'}
+[4.392200] (multi_cam) StdoutLine: {'line': b"writing list of installed files to '/home/projects/sensor2_ws/src/cameras/oakd/build/multi_cam/install.log'\n"}
+[4.453606] (-) TimerEvent: {}
+[4.473424] (multi_cam) CommandEnded: {'returncode': 0}
+[4.526117] (multi_cam) JobEnded: {'identifier': 'multi_cam', 'rc': 0}
+[4.529613] (-) EventReactorShutdown: {}

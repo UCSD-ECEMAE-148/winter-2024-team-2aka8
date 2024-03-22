@@ -1,0 +1,8 @@
+prefix=/home/projects/ros1_ws/devel
+
+Name: ucsd_robocar_path1_pkg
+Description: Description of ucsd_robocar_path1_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

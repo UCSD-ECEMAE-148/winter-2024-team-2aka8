@@ -1,0 +1,217 @@
+[0.249s] Invoking command in '/home/projects/sensor2_ws/src/vesc/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_control2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg:/home/projects/rosboard_ws/install/rosboard:/home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof:/opt/ros/foxy /usr/bin/cmake /home/projects/sensor2_ws/src/vesc/src/teleop_tools/teleop_tools_msgs -DCMAKE_INSTALL_PREFIX=/home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs
+[2.698s] -- The C compiler identification is GNU 9.3.0
+[2.699s] -- The CXX compiler identification is GNU 9.3.0
+[2.699s] -- Check for working C compiler: /usr/bin/cc
+[2.700s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.700s] -- Detecting C compiler ABI info
+[2.701s] -- Detecting C compiler ABI info - done
+[2.713s] -- Detecting C compile features
+[2.715s] -- Detecting C compile features - done
+[2.715s] -- Check for working CXX compiler: /usr/bin/c++
+[2.716s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.716s] -- Detecting CXX compiler ABI info
+[2.717s] -- Detecting CXX compiler ABI info - done
+[2.717s] -- Detecting CXX compile features
+[2.717s] -- Detecting CXX compile features - done
+[2.718s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.718s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.718s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.445s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[3.479s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.531s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.070s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.238s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.724s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.910s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.440s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[6.137s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[6.865s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.013s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.148s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[7.162s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[7.284s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[7.285s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.286s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[7.286s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[7.392s] -- Found PythonExtra: .so  
+[7.679s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.686s] -- Added test 'lint_cmake' to check CMake code style
+[7.690s] -- Added test 'xmllint' to check XML markup files
+[7.722s] -- Configuring done
+[7.958s] -- Generating done
+[7.973s] -- Build files have been written to: /home/projects/sensor2_ws/src/vesc/build/teleop_tools_msgs
+[8.017s] Invoked command in '/home/projects/sensor2_ws/src/vesc/build/teleop_tools_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_control2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg:/home/projects/rosboard_ws/install/rosboard:/home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof:/opt/ros/foxy /usr/bin/cmake /home/projects/sensor2_ws/src/vesc/src/teleop_tools/teleop_tools_msgs -DCMAKE_INSTALL_PREFIX=/home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs
+[8.023s] Invoking command in '/home/projects/sensor2_ws/src/vesc/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_control2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg:/home/projects/rosboard_ws/install/rosboard:/home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof:/opt/ros/foxy /usr/bin/cmake --build /home/projects/sensor2_ws/src/vesc/build/teleop_tools_msgs -- -j6 -l6
+[8.169s] [35m[1mScanning dependencies of target teleop_tools_msgs__cpp[0m
+[8.174s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.213s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[9.888s] [35m[1mScanning dependencies of target teleop_tools_msgs__rosidl_generator_c[0m
+[10.026s] [  6%] Built target teleop_tools_msgs__cpp
+[10.054s] [  9%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_generator_c.dir/rosidl_generator_c/teleop_tools_msgs/action/detail/increment__functions.c.o[0m
+[10.085s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.089s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.105s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.586s] [ 22%] [32m[1mLinking C shared library libteleop_tools_msgs__rosidl_generator_c.so[0m
+[10.792s] [ 22%] Built target teleop_tools_msgs__rosidl_generator_c
+[10.893s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.914s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[11.914s] [35m[1mScanning dependencies of target teleop_tools_msgs__rosidl_typesupport_cpp[0m
+[12.088s] [ 32%] [32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/teleop_tools_msgs/action/increment__type_support.cpp.o[0m
+[12.209s] [35m[1mScanning dependencies of target teleop_tools_msgs__rosidl_typesupport_introspection_cpp[0m
+[12.389s] [ 35%] [32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/teleop_tools_msgs/action/detail/increment__type_support.cpp.o[0m
+[13.076s] [35m[1mScanning dependencies of target teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[13.363s] [ 38%] [32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/teleop_tools_msgs/action/detail/dds_fastrtps/increment__type_support.cpp.o[0m
+[13.394s] [35m[1mScanning dependencies of target teleop_tools_msgs__rosidl_typesupport_c[0m
+[13.502s] [ 41%] [32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/teleop_tools_msgs/action/increment__type_support.cpp.o[0m
+[13.566s] [35m[1mScanning dependencies of target teleop_tools_msgs__rosidl_typesupport_introspection_c[0m
+[13.807s] [ 45%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/teleop_tools_msgs/action/detail/increment__type_support.c.o[0m
+[14.199s] [ 48%] [32m[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_c.so[0m
+[14.505s] [ 51%] [32m[1mLinking C shared library libteleop_tools_msgs__rosidl_typesupport_introspection_c.so[0m
+[14.741s] [ 51%] Built target teleop_tools_msgs__rosidl_typesupport_c
+[14.978s] [ 51%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_c
+[15.566s] [ 54%] [32m[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_cpp.so[0m
+[15.950s] [ 54%] Built target teleop_tools_msgs__rosidl_typesupport_cpp
+[16.375s] [ 58%] [32m[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[17.081s] [ 58%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_cpp
+[18.577s] [ 61%] [32m[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[19.321s] [ 61%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp
+[19.424s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[22.337s] [35m[1mScanning dependencies of target teleop_tools_msgs__rosidl_typesupport_fastrtps_c[0m
+[22.554s] [ 67%] [32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_tools_msgs/action/detail/increment__type_support_c.cpp.o[0m
+[25.532s] [ 70%] [32m[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[26.095s] [ 70%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_c
+[26.140s] [35m[1mScanning dependencies of target teleop_tools_msgs[0m
+[26.177s] [ 70%] Built target teleop_tools_msgs
+[26.217s] [35m[1mScanning dependencies of target teleop_tools_msgs__py[0m
+[26.259s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[29.710s] [ 74%] Built target teleop_tools_msgs__py
+[29.838s] [35m[1mScanning dependencies of target teleop_tools_msgs__python[0m
+[30.120s] [ 77%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__python.dir/rosidl_generator_py/teleop_tools_msgs/action/_increment_s.c.o[0m
+[31.332s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/teleop_tools_msgs/libteleop_tools_msgs__python.so[0m
+[31.504s] [ 80%] Built target teleop_tools_msgs__python
+[31.546s] [35m[1mScanning dependencies of target teleop_tools_msgs__rosidl_typesupport_c__pyext[0m
+[31.553s] [35m[1mScanning dependencies of target teleop_tools_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[31.558s] [35m[1mScanning dependencies of target teleop_tools_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[31.636s] [ 83%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[31.675s] [ 90%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[31.676s] [ 90%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[32.249s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[32.273s] [ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[32.284s] [100%] [32m[1mLinking C shared library rosidl_generator_py/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[32.463s] [100%] Built target teleop_tools_msgs__rosidl_typesupport_c__pyext
+[32.486s] [100%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_c__pyext
+[32.594s] [100%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_c__pyext
+[32.641s] Invoked command in '/home/projects/sensor2_ws/src/vesc/build/teleop_tools_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_control2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg:/home/projects/rosboard_ws/install/rosboard:/home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof:/opt/ros/foxy /usr/bin/cmake --build /home/projects/sensor2_ws/src/vesc/build/teleop_tools_msgs -- -j6 -l6
+[32.877s] Invoking command in '/home/projects/sensor2_ws/src/vesc/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_control2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg:/home/projects/rosboard_ws/install/rosboard:/home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof:/opt/ros/foxy /usr/bin/cmake --install /home/projects/sensor2_ws/src/vesc/build/teleop_tools_msgs
+[32.910s] -- Install configuration: ""
+[32.910s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/ament_index/resource_index/rosidl_interfaces/teleop_tools_msgs
+[32.913s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs
+[32.915s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/action
+[32.916s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail
+[32.917s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__type_support.h
+[32.918s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__functions.c
+[32.920s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__struct.h
+[32.921s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__functions.h
+[32.921s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/action/increment.h
+[32.922s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/msg
+[32.922s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/msg/rosidl_generator_c__visibility_control.h
+[32.922s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/library_path.sh
+[32.923s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/library_path.dsv
+[32.923s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_generator_c.so
+[32.924s] -- Set runtime path of "/home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_generator_c.so" to ""
+[32.925s] -- Up-to-date: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs
+[32.925s] -- Up-to-date: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/action
+[32.926s] -- Up-to-date: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail
+[32.926s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__rosidl_typesupport_fastrtps_c.h
+[32.927s] -- Up-to-date: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/msg
+[32.927s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[32.928s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_fastrtps_c.so
+[32.929s] -- Set runtime path of "/home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[32.930s] -- Up-to-date: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs
+[32.930s] -- Up-to-date: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/action
+[32.931s] -- Up-to-date: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail
+[32.931s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/dds_fastrtps
+[32.932s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__rosidl_typesupport_fastrtps_cpp.hpp
+[32.932s] -- Up-to-date: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/msg
+[32.939s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[32.940s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.so
+[32.941s] -- Set runtime path of "/home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[32.941s] -- Up-to-date: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs
+[32.942s] -- Up-to-date: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/action
+[32.942s] -- Up-to-date: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail
+[32.943s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__rosidl_typesupport_introspection_c.h
+[32.943s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__type_support.c
+[32.944s] -- Up-to-date: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/msg
+[32.944s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[32.945s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_introspection_c.so
+[32.945s] -- Set runtime path of "/home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_introspection_c.so" to ""
+[32.946s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_c.so
+[32.946s] -- Set runtime path of "/home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_c.so" to ""
+[32.947s] -- Up-to-date: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs
+[32.947s] -- Up-to-date: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/action
+[32.948s] -- Up-to-date: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail
+[32.949s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__builder.hpp
+[32.949s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__struct.hpp
+[32.950s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__traits.hpp
+[32.950s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/action/increment.hpp
+[32.950s] -- Up-to-date: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs
+[32.951s] -- Up-to-date: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/action
+[32.951s] -- Up-to-date: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail
+[32.951s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__type_support.cpp
+[32.952s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__rosidl_typesupport_introspection_cpp.hpp
+[32.952s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_introspection_cpp.so
+[32.954s] -- Set runtime path of "/home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[32.955s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_cpp.so
+[32.955s] -- Set runtime path of "/home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_cpp.so" to ""
+[32.956s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/pythonpath.sh
+[32.956s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/pythonpath.dsv
+[32.957s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/__init__.py
+[33.107s] Compiling '/home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/__init__.py'...
+[33.134s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/action
+[33.137s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/action/__init__.py
+[33.140s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/action/_increment.py
+[33.141s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/action/_increment_s.c
+[33.142s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[33.143s] -- Set runtime path of "/home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[33.143s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[33.144s] -- Set runtime path of "/home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[33.144s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[33.145s] -- Set runtime path of "/home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[33.146s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib/libteleop_tools_msgs__python.so
+[33.146s] -- Set runtime path of "/home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/lib/libteleop_tools_msgs__python.so" to ""
+[33.147s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/action/Increment.idl
+[33.147s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/action/Increment.action
+[33.149s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/ament_index/resource_index/package_run_dependencies/teleop_tools_msgs
+[33.149s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/ament_index/resource_index/parent_prefix_path/teleop_tools_msgs
+[33.150s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/ament_prefix_path.sh
+[33.150s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/ament_prefix_path.dsv
+[33.151s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/path.sh
+[33.151s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/path.dsv
+[33.152s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/local_setup.bash
+[33.153s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/local_setup.sh
+[33.154s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/local_setup.zsh
+[33.155s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/local_setup.dsv
+[33.155s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/package.dsv
+[33.156s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/ament_index/resource_index/packages/teleop_tools_msgs
+[33.156s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_generator_cExport.cmake
+[33.157s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_generator_cExport-noconfig.cmake
+[33.158s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_introspection_cExport.cmake
+[33.158s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[33.158s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_cExport.cmake
+[33.159s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[33.160s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_generator_cppExport.cmake
+[33.161s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[33.161s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[33.162s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_cppExport.cmake
+[33.162s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[33.162s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/rosidl_cmake-extras.cmake
+[33.163s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[33.164s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[33.164s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[33.165s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[33.166s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[33.166s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[33.167s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgsConfig.cmake
+[33.167s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgsConfig-version.cmake
+[33.168s] -- Installing: /home/projects/sensor2_ws/src/vesc/install/teleop_tools_msgs/share/teleop_tools_msgs/package.xml
+[33.183s] Invoked command in '/home/projects/sensor2_ws/src/vesc/build/teleop_tools_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/projects/ros2_ws/install/ucsd_robocar_sensor2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_path2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_lane_detection2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_control2_pkg:/home/projects/ros2_ws/install/ucsd_robocar_actuator2_pkg:/home/projects/rosboard_ws/install/rosboard:/home/projects/sensor2_ws/src/imu/artemis_openlog/install/razor_imu_9dof:/opt/ros/foxy /usr/bin/cmake --install /home/projects/sensor2_ws/src/vesc/build/teleop_tools_msgs

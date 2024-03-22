@@ -1,0 +1,15 @@
+/home/projects/sensor2_ws/src/vesc/install/vesc/share/ament_index/resource_index/package_run_dependencies/vesc
+/home/projects/sensor2_ws/src/vesc/install/vesc/share/ament_index/resource_index/parent_prefix_path/vesc
+/home/projects/sensor2_ws/src/vesc/install/vesc/share/vesc/environment/ament_prefix_path.sh
+/home/projects/sensor2_ws/src/vesc/install/vesc/share/vesc/environment/ament_prefix_path.dsv
+/home/projects/sensor2_ws/src/vesc/install/vesc/share/vesc/environment/path.sh
+/home/projects/sensor2_ws/src/vesc/install/vesc/share/vesc/environment/path.dsv
+/home/projects/sensor2_ws/src/vesc/install/vesc/share/vesc/local_setup.bash
+/home/projects/sensor2_ws/src/vesc/install/vesc/share/vesc/local_setup.sh
+/home/projects/sensor2_ws/src/vesc/install/vesc/share/vesc/local_setup.zsh
+/home/projects/sensor2_ws/src/vesc/install/vesc/share/vesc/local_setup.dsv
+/home/projects/sensor2_ws/src/vesc/install/vesc/share/vesc/package.dsv
+/home/projects/sensor2_ws/src/vesc/install/vesc/share/ament_index/resource_index/packages/vesc
+/home/projects/sensor2_ws/src/vesc/install/vesc/share/vesc/cmake/vescConfig.cmake
+/home/projects/sensor2_ws/src/vesc/install/vesc/share/vesc/cmake/vescConfig-version.cmake
+/home/projects/sensor2_ws/src/vesc/install/vesc/share/vesc/package.xml

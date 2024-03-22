@@ -1,0 +1,1330 @@
+[0.000000] (-) TimerEvent: {}
+[0.000343] (livox_interfaces) JobQueued: {'identifier': 'livox_interfaces', 'dependencies': OrderedDict()}
+[0.000439] (livox_sdk_vendor) JobQueued: {'identifier': 'livox_sdk_vendor', 'dependencies': OrderedDict()}
+[0.000565] (livox_ros2_driver) JobQueued: {'identifier': 'livox_ros2_driver', 'dependencies': OrderedDict([('livox_interfaces', '/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces'), ('livox_sdk_vendor', '/home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor')])}
+[0.001823] (livox_interfaces) JobStarted: {'identifier': 'livox_interfaces'}
+[0.027247] (livox_sdk_vendor) JobStarted: {'identifier': 'livox_sdk_vendor'}
+[0.052876] (livox_interfaces) JobProgress: {'identifier': 'livox_interfaces', 'progress': 'cmake'}
+[0.054052] (livox_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/projects/sensor_ws/src/lidars/livox/src/livox_ros2_driver/livox_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces'], 'cwd': '/home/projects/sensor_ws/src/lidars/livox/build/livox_interfaces', 'env': OrderedDict([('HOSTNAME', '292cb891839e'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('ROS1_DISTRO', 'noetic'), ('ROS2_DISTRO', 'foxy'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/home/projects/sensor_ws/src/lidars/livox/build/livox_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.063637] (livox_sdk_vendor) JobProgress: {'identifier': 'livox_sdk_vendor', 'progress': 'cmake'}
+[0.064420] (livox_sdk_vendor) Command: {'cmd': ['/usr/bin/cmake', '/home/projects/sensor_ws/src/lidars/livox/src/livox_ros2_driver/livox_sdk_vendor', '-DCMAKE_INSTALL_PREFIX=/home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor'], 'cwd': '/home/projects/sensor_ws/src/lidars/livox/build/livox_sdk_vendor', 'env': OrderedDict([('HOSTNAME', '292cb891839e'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('ROS1_DISTRO', 'noetic'), ('ROS2_DISTRO', 'foxy'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/home/projects/sensor_ws/src/lidars/livox/build/livox_sdk_vendor'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099275] (-) TimerEvent: {}
+[0.199823] (-) TimerEvent: {}
+[0.226569] (livox_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.229260] (livox_sdk_vendor) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.300066] (-) TimerEvent: {}
+[0.387787] (livox_sdk_vendor) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.389375] (livox_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.400191] (-) TimerEvent: {}
+[0.404424] (livox_sdk_vendor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.405992] (livox_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.500414] (-) TimerEvent: {}
+[0.593718] (livox_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.594262] (livox_sdk_vendor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.596527] (livox_sdk_vendor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.596883] (livox_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.600509] (-) TimerEvent: {}
+[0.700879] (-) TimerEvent: {}
+[0.782018] (livox_sdk_vendor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.782732] (livox_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.801036] (-) TimerEvent: {}
+[0.826003] (livox_sdk_vendor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.827060] (livox_sdk_vendor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.827778] (livox_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.828644] (livox_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.836297] (livox_sdk_vendor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.837454] (livox_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.901212] (-) TimerEvent: {}
+[1.001643] (-) TimerEvent: {}
+[1.034545] (livox_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.035356] (livox_sdk_vendor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.038054] (livox_sdk_vendor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.038461] (livox_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.101806] (-) TimerEvent: {}
+[1.202265] (-) TimerEvent: {}
+[1.240399] (livox_sdk_vendor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.240924] (livox_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.283493] (livox_sdk_vendor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.283927] (livox_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.284835] (livox_sdk_vendor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.285350] (livox_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.291784] (livox_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.292086] (livox_sdk_vendor) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.302395] (-) TimerEvent: {}
+[1.361507] (livox_sdk_vendor) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.361948] (livox_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.362247] (livox_sdk_vendor) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.362484] (livox_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.402553] (-) TimerEvent: {}
+[1.502907] (-) TimerEvent: {}
+[1.603248] (-) TimerEvent: {}
+[1.703615] (-) TimerEvent: {}
+[1.804101] (-) TimerEvent: {}
+[1.876703] (livox_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 2.0.4 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[1.904287] (-) TimerEvent: {}
+[1.950751] (livox_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.970140] (livox_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.004490] (-) TimerEvent: {}
+[2.104892] (-) TimerEvent: {}
+[2.176405] (livox_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.181749] (livox_sdk_vendor) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.193074] (livox_sdk_vendor) StdoutLine: {'line': b'-- Generating done\n'}
+[2.196158] (livox_sdk_vendor) StdoutLine: {'line': b'-- Build files have been written to: /home/projects/sensor_ws/src/lidars/livox/build/livox_sdk_vendor\n'}
+[2.205049] (-) TimerEvent: {}
+[2.209295] (livox_sdk_vendor) CommandEnded: {'returncode': 0}
+[2.210908] (livox_sdk_vendor) JobProgress: {'identifier': 'livox_sdk_vendor', 'progress': 'build'}
+[2.213665] (livox_sdk_vendor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/projects/sensor_ws/src/lidars/livox/build/livox_sdk_vendor', '--', '-j8', '-l8'], 'cwd': '/home/projects/sensor_ws/src/lidars/livox/build/livox_sdk_vendor', 'env': OrderedDict([('HOSTNAME', '292cb891839e'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('ROS1_DISTRO', 'noetic'), ('ROS2_DISTRO', 'foxy'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/home/projects/sensor_ws/src/lidars/livox/build/livox_sdk_vendor'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[2.252979] (livox_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.305287] (-) TimerEvent: {}
+[2.311190] (livox_sdk_vendor) StdoutLine: {'line': b'Scanning dependencies of target livox-sdk-v2.3.0\n'}
+[2.334338] (livox_sdk_vendor) StdoutLine: {'line': b"[ 12%] Creating directories for 'livox-sdk-v2.3.0'\n"}
+[2.405538] (-) TimerEvent: {}
+[2.478130] (livox_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.493012] (livox_sdk_vendor) StdoutLine: {'line': b"[ 25%] Performing download step (git clone) for 'livox-sdk-v2.3.0'\n"}
+[2.505772] (-) TimerEvent: {}
+[2.535615] (livox_sdk_vendor) StderrLine: {'line': b"Cloning into 'livox-sdk-v2.3.0'...\n"}
+[2.605982] (-) TimerEvent: {}
+[2.614583] (livox_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[2.701258] (livox_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.706066] (-) TimerEvent: {}
+[2.806350] (-) TimerEvent: {}
+[2.906728] (-) TimerEvent: {}
+[3.007095] (-) TimerEvent: {}
+[3.107435] (-) TimerEvent: {}
+[3.166825] (livox_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[3.207553] (-) TimerEvent: {}
+[3.307896] (-) TimerEvent: {}
+[3.408278] (-) TimerEvent: {}
+[3.508624] (-) TimerEvent: {}
+[3.609087] (-) TimerEvent: {}
+[3.709536] (-) TimerEvent: {}
+[3.733486] (livox_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.809900] (-) TimerEvent: {}
+[3.910458] (-) TimerEvent: {}
+[3.949820] (livox_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.010606] (-) TimerEvent: {}
+[4.034015] (livox_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[4.038005] (livox_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[4.108681] (livox_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[4.109287] (livox_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.109569] (livox_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[4.109862] (livox_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[4.110696] (-) TimerEvent: {}
+[4.166067] (livox_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.210901] (-) TimerEvent: {}
+[4.311287] (-) TimerEvent: {}
+[4.341575] (livox_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[4.399438] (livox_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.403880] (livox_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.406829] (livox_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.411431] (-) TimerEvent: {}
+[4.419280] (livox_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.511670] (-) TimerEvent: {}
+[4.575595] (livox_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[4.584576] (livox_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/projects/sensor_ws/src/lidars/livox/build/livox_interfaces\n'}
+[4.608189] (livox_interfaces) CommandEnded: {'returncode': 0}
+[4.610514] (livox_interfaces) JobProgress: {'identifier': 'livox_interfaces', 'progress': 'build'}
+[4.612284] (livox_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/projects/sensor_ws/src/lidars/livox/build/livox_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/projects/sensor_ws/src/lidars/livox/build/livox_interfaces', 'env': OrderedDict([('HOSTNAME', '292cb891839e'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('ROS1_DISTRO', 'noetic'), ('ROS2_DISTRO', 'foxy'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/home/projects/sensor_ws/src/lidars/livox/build/livox_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[4.618037] (-) TimerEvent: {}
+[4.718584] (-) TimerEvent: {}
+[4.724829] (livox_interfaces) StdoutLine: {'line': b'[  2%] Generating C code for ROS interfaces\n'}
+[4.726465] (livox_interfaces) StdoutLine: {'line': b'Scanning dependencies of target livox_interfaces__cpp\n'}
+[4.752471] (livox_interfaces) StdoutLine: {'line': b'[  5%] Generating C++ code for ROS interfaces\n'}
+[4.818765] (-) TimerEvent: {}
+[4.919125] (-) TimerEvent: {}
+[5.019521] (-) TimerEvent: {}
+[5.119898] (-) TimerEvent: {}
+[5.220265] (-) TimerEvent: {}
+[5.320709] (-) TimerEvent: {}
+[5.421174] (-) TimerEvent: {}
+[5.521572] (-) TimerEvent: {}
+[5.622026] (-) TimerEvent: {}
+[5.665076] (livox_sdk_vendor) StderrLine: {'line': b"Note: switching to 'v2.3.0'.\n"}
+[5.665676] (livox_sdk_vendor) StderrLine: {'line': b'\n'}
+[5.665955] (livox_sdk_vendor) StderrLine: {'line': b"You are in 'detached HEAD' state. You can look around, make experimental\n"}
+[5.666263] (livox_sdk_vendor) StderrLine: {'line': b'changes and commit them, and you can discard any commits you make in this\n'}
+[5.666510] (livox_sdk_vendor) StderrLine: {'line': b'state without impacting any branches by switching back to a branch.\n'}
+[5.666714] (livox_sdk_vendor) StderrLine: {'line': b'\n'}
+[5.666923] (livox_sdk_vendor) StderrLine: {'line': b'If you want to create a new branch to retain commits you create, you may\n'}
+[5.667131] (livox_sdk_vendor) StderrLine: {'line': b'do so (now or later) by using -c with the switch command. Example:\n'}
+[5.667425] (livox_sdk_vendor) StderrLine: {'line': b'\n'}
+[5.667654] (livox_sdk_vendor) StderrLine: {'line': b'  git switch -c <new-branch-name>\n'}
+[5.667847] (livox_sdk_vendor) StderrLine: {'line': b'\n'}
+[5.668037] (livox_sdk_vendor) StderrLine: {'line': b'Or undo this operation with:\n'}
+[5.668227] (livox_sdk_vendor) StderrLine: {'line': b'\n'}
+[5.668448] (livox_sdk_vendor) StderrLine: {'line': b'  git switch -\n'}
+[5.668760] (livox_sdk_vendor) StderrLine: {'line': b'\n'}
+[5.669044] (livox_sdk_vendor) StderrLine: {'line': b'Turn off this advice by setting config variable advice.detachedHead to false\n'}
+[5.669267] (livox_sdk_vendor) StderrLine: {'line': b'\n'}
+[5.669514] (livox_sdk_vendor) StderrLine: {'line': b'HEAD is now at 7cf759a remove dependency on APR library\n'}
+[5.722172] (-) TimerEvent: {}
+[5.786148] (livox_sdk_vendor) StdoutLine: {'line': b"[ 50%] Performing update step for 'livox-sdk-v2.3.0'\n"}
+[5.786726] (livox_sdk_vendor) StdoutLine: {'line': b"[ 50%] No patch step for 'livox-sdk-v2.3.0'\n"}
+[5.822341] (-) TimerEvent: {}
+[5.842568] (livox_sdk_vendor) StdoutLine: {'line': b"[ 62%] Performing configure step for 'livox-sdk-v2.3.0'\n"}
+[5.922555] (-) TimerEvent: {}
+[5.974096] (livox_interfaces) StdoutLine: {'line': b'[  5%] Built target livox_interfaces__cpp\n'}
+[5.997334] (livox_interfaces) StdoutLine: {'line': b'Scanning dependencies of target livox_interfaces__rosidl_generator_c\n'}
+[6.001843] (livox_interfaces) StdoutLine: {'line': b'[ 10%] Generating C++ type support dispatch for ROS interfaces\n'}
+[6.002365] (livox_interfaces) StdoutLine: {'line': b'[ 12%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[6.002672] (livox_interfaces) StdoutLine: {'line': b'[ 12%] Generating C++ introspection for ROS interfaces\n'}
+[6.022744] (-) TimerEvent: {}
+[6.025351] (livox_interfaces) StdoutLine: {'line': b'[ 15%] Building C object CMakeFiles/livox_interfaces__rosidl_generator_c.dir/rosidl_generator_c/livox_interfaces/msg/detail/custom_point__functions.c.o\n'}
+[6.035061] (livox_sdk_vendor) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[6.045832] (livox_interfaces) StdoutLine: {'line': b'[ 17%] Building C object CMakeFiles/livox_interfaces__rosidl_generator_c.dir/rosidl_generator_c/livox_interfaces/msg/detail/custom_msg__functions.c.o\n'}
+[6.122974] (-) TimerEvent: {}
+[6.166743] (livox_interfaces) StdoutLine: {'line': b'[ 20%] Linking C shared library liblivox_interfaces__rosidl_generator_c.so\n'}
+[6.216823] (livox_sdk_vendor) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[6.223137] (-) TimerEvent: {}
+[6.237650] (livox_sdk_vendor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[6.256366] (livox_interfaces) StdoutLine: {'line': b'[ 20%] Built target livox_interfaces__rosidl_generator_c\n'}
+[6.282417] (livox_interfaces) StdoutLine: {'line': b'[ 25%] Generating C introspection for ROS interfaces\n'}
+[6.282949] (livox_interfaces) StdoutLine: {'line': b'[ 25%] Generating C type support dispatch for ROS interfaces\n'}
+[6.323326] (-) TimerEvent: {}
+[6.420606] (livox_sdk_vendor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[6.422001] (livox_sdk_vendor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.423472] (-) TimerEvent: {}
+[6.523808] (-) TimerEvent: {}
+[6.605423] (livox_sdk_vendor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.623974] (-) TimerEvent: {}
+[6.642967] (livox_sdk_vendor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.644112] (livox_sdk_vendor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.656329] (livox_sdk_vendor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[6.724181] (-) TimerEvent: {}
+[6.824548] (-) TimerEvent: {}
+[6.861380] (livox_sdk_vendor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[6.861932] (livox_sdk_vendor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.924851] (-) TimerEvent: {}
+[7.025253] (-) TimerEvent: {}
+[7.055820] (livox_interfaces) StdoutLine: {'line': b'Scanning dependencies of target livox_interfaces__rosidl_typesupport_cpp\n'}
+[7.057414] (livox_sdk_vendor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.085837] (livox_interfaces) StdoutLine: {'line': b'[ 28%] Building CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_interfaces/msg/custom_point__type_support.cpp.o\n'}
+[7.103829] (livox_interfaces) StdoutLine: {'line': b'[ 30%] Building CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_interfaces/msg/custom_msg__type_support.cpp.o\n'}
+[7.110346] (livox_sdk_vendor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.112452] (livox_sdk_vendor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.116706] (livox_interfaces) StdoutLine: {'line': b'Scanning dependencies of target livox_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[7.118459] (livox_sdk_vendor) StdoutLine: {'line': b'-- main project dir: /home/projects/sensor_ws/src/lidars/livox/build/livox_sdk_vendor/livox-sdk-v2.3.0-prefix/src/livox-sdk-v2.3.0\n'}
+[7.125435] (-) TimerEvent: {}
+[7.138522] (livox_sdk_vendor) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.152429] (livox_interfaces) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_interfaces/msg/detail/custom_point__type_support.cpp.o\n'}
+[7.170525] (livox_interfaces) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_interfaces/msg/detail/custom_msg__type_support.cpp.o\n'}
+[7.204554] (livox_interfaces) StdoutLine: {'line': b'Scanning dependencies of target livox_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[7.225693] (-) TimerEvent: {}
+[7.228810] (livox_sdk_vendor) StdoutLine: {'line': b'-- Generating done\n'}
+[7.236533] (livox_sdk_vendor) StdoutLine: {'line': b'-- Build files have been written to: /home/projects/sensor_ws/src/lidars/livox/build/livox_sdk_vendor/livox-sdk-v2.3.0-prefix/src/livox-sdk-v2.3.0-build\n'}
+[7.260867] (livox_interfaces) StdoutLine: {'line': b'[ 38%] Building CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_interfaces/msg/detail/dds_fastrtps/custom_point__type_support.cpp.o\n'}
+[7.282106] (livox_interfaces) StdoutLine: {'line': b'[ 41%] Building CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_interfaces/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o\n'}
+[7.304409] (livox_sdk_vendor) StdoutLine: {'line': b"[ 75%] Performing build step for 'livox-sdk-v2.3.0'\n"}
+[7.325914] (-) TimerEvent: {}
+[7.388792] (livox_interfaces) StdoutLine: {'line': b'Scanning dependencies of target livox_interfaces__rosidl_typesupport_c\n'}
+[7.426147] (-) TimerEvent: {}
+[7.432832] (livox_interfaces) StdoutLine: {'line': b'[ 43%] Building CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_interfaces/msg/custom_point__type_support.cpp.o\n'}
+[7.475919] (livox_interfaces) StdoutLine: {'line': b'Scanning dependencies of target livox_interfaces__rosidl_typesupport_introspection_c\n'}
+[7.526408] (-) TimerEvent: {}
+[7.536866] (livox_interfaces) StdoutLine: {'line': b'[ 46%] Building C object CMakeFiles/livox_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_interfaces/msg/detail/custom_point__type_support.c.o\n'}
+[7.562731] (livox_interfaces) StdoutLine: {'line': b'[ 48%] Building CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_interfaces/msg/custom_msg__type_support.cpp.o\n'}
+[7.597180] (livox_sdk_vendor) StdoutLine: {'line': b'Scanning dependencies of target livox_sdk_static\n'}
+[7.626652] (-) TimerEvent: {}
+[7.673341] (livox_sdk_vendor) StdoutLine: {'line': b'[  2%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/third_party/FastCRC/FastCRCsw.cpp.o\n'}
+[7.697172] (livox_sdk_vendor) StdoutLine: {'line': b'[  4%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/io_loop.cpp.o\n'}
+[7.723324] (livox_interfaces) StdoutLine: {'line': b'[ 51%] Building C object CMakeFiles/livox_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_interfaces/msg/detail/custom_msg__type_support.c.o\n'}
+[7.726855] (-) TimerEvent: {}
+[7.733453] (livox_sdk_vendor) StdoutLine: {'line': b'[  6%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/io_thread.cpp.o\n'}
+[7.739100] (livox_sdk_vendor) StdoutLine: {'line': b'[  8%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/thread_base.cpp.o\n'}
+[7.760605] (livox_sdk_vendor) StdoutLine: {'line': b'[ 10%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/logging.cpp.o\n'}
+[7.778943] (livox_sdk_vendor) StdoutLine: {'line': b'[ 12%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/network/unix/network_util.cpp.o\n'}
+[7.827092] (-) TimerEvent: {}
+[7.852261] (livox_sdk_vendor) StdoutLine: {'line': b'[ 14%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/livox_sdk.cpp.o\n'}
+[7.899813] (livox_sdk_vendor) StdoutLine: {'line': b'[ 16%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/device_discovery.cpp.o\n'}
+[7.914435] (livox_interfaces) StdoutLine: {'line': b'[ 53%] Linking CXX shared library liblivox_interfaces__rosidl_typesupport_c.so\n'}
+[7.927325] (-) TimerEvent: {}
+[8.027766] (-) TimerEvent: {}
+[8.124594] (livox_interfaces) StdoutLine: {'line': b'[ 56%] Linking C shared library liblivox_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[8.127939] (-) TimerEvent: {}
+[8.160824] (livox_interfaces) StdoutLine: {'line': b'[ 56%] Built target livox_interfaces__rosidl_typesupport_c\n'}
+[8.208189] (livox_sdk_vendor) StdoutLine: {'line': b'[ 18%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/device_manager.cpp.o\n'}
+[8.228164] (-) TimerEvent: {}
+[8.259402] (livox_interfaces) StdoutLine: {'line': b'[ 58%] Linking CXX shared library liblivox_interfaces__rosidl_typesupport_cpp.so\n'}
+[8.328376] (-) TimerEvent: {}
+[8.373346] (livox_interfaces) StdoutLine: {'line': b'[ 58%] Built target livox_interfaces__rosidl_typesupport_introspection_c\n'}
+[8.428641] (-) TimerEvent: {}
+[8.454014] (livox_interfaces) StdoutLine: {'line': b'[ 61%] Linking CXX shared library liblivox_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[8.528966] (-) TimerEvent: {}
+[8.586137] (livox_interfaces) StdoutLine: {'line': b'[ 61%] Built target livox_interfaces__rosidl_typesupport_cpp\n'}
+[8.629150] (-) TimerEvent: {}
+[8.729584] (-) TimerEvent: {}
+[8.830054] (-) TimerEvent: {}
+[8.849813] (livox_sdk_vendor) StdoutLine: {'line': b'[ 20%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/comm/comm_port.cpp.o\n'}
+[8.930628] (livox_interfaces) StdoutLine: {'line': b'[ 61%] Built target livox_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[8.931171] (-) TimerEvent: {}
+[9.031533] (-) TimerEvent: {}
+[9.132436] (-) TimerEvent: {}
+[9.154234] (livox_interfaces) StdoutLine: {'line': b'[ 64%] Linking CXX shared library liblivox_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.232703] (-) TimerEvent: {}
+[9.333158] (-) TimerEvent: {}
+[9.433588] (-) TimerEvent: {}
+[9.534037] (-) TimerEvent: {}
+[9.616847] (livox_sdk_vendor) StdoutLine: {'line': b'[ 22%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/comm/sdk_protocol.cpp.o\n'}
+[9.634272] (-) TimerEvent: {}
+[9.647691] (livox_interfaces) StdoutLine: {'line': b'[ 64%] Built target livox_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[9.734513] (-) TimerEvent: {}
+[9.743943] (livox_interfaces) StdoutLine: {'line': b'[ 66%] Generating C type support for eProsima Fast-RTPS\n'}
+[9.835157] (-) TimerEvent: {}
+[9.883348] (livox_sdk_vendor) StdoutLine: {'line': b'[ 25%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/data_handler/data_handler.cpp.o\n'}
+[9.907751] (livox_sdk_vendor) StdoutLine: {'line': b'[ 27%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/data_handler/hub_data_handler.cpp.o\n'}
+[9.935375] (-) TimerEvent: {}
+[10.035824] (-) TimerEvent: {}
+[10.136265] (-) TimerEvent: {}
+[10.236689] (-) TimerEvent: {}
+[10.254671] (livox_sdk_vendor) StdoutLine: {'line': b'[ 29%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/data_handler/lidar_data_handler.cpp.o\n'}
+[10.336952] (-) TimerEvent: {}
+[10.437376] (-) TimerEvent: {}
+[10.537800] (-) TimerEvent: {}
+[10.638256] (-) TimerEvent: {}
+[10.740927] (-) TimerEvent: {}
+[10.841329] (-) TimerEvent: {}
+[10.941735] (-) TimerEvent: {}
+[11.042157] (-) TimerEvent: {}
+[11.142601] (-) TimerEvent: {}
+[11.243070] (-) TimerEvent: {}
+[11.343520] (-) TimerEvent: {}
+[11.363962] (livox_interfaces) StdoutLine: {'line': b'Scanning dependencies of target livox_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[11.443795] (-) TimerEvent: {}
+[11.496432] (livox_interfaces) StdoutLine: {'line': b'[ 69%] Building CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_interfaces/msg/detail/custom_msg__type_support_c.cpp.o\n'}
+[11.500946] (livox_interfaces) StdoutLine: {'line': b'[ 71%] Building CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_interfaces/msg/detail/custom_point__type_support_c.cpp.o\n'}
+[11.544030] (-) TimerEvent: {}
+[11.644508] (-) TimerEvent: {}
+[11.745059] (-) TimerEvent: {}
+[11.845513] (-) TimerEvent: {}
+[11.945935] (-) TimerEvent: {}
+[12.046442] (-) TimerEvent: {}
+[12.146923] (-) TimerEvent: {}
+[12.247399] (-) TimerEvent: {}
+[12.347895] (-) TimerEvent: {}
+[12.448382] (-) TimerEvent: {}
+[12.548925] (-) TimerEvent: {}
+[12.649376] (-) TimerEvent: {}
+[12.744601] (livox_sdk_vendor) StdoutLine: {'line': b'[ 31%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/command_handler/command_handler.cpp.o\n'}
+[12.749597] (-) TimerEvent: {}
+[12.850055] (-) TimerEvent: {}
+[12.950514] (-) TimerEvent: {}
+[12.960437] (livox_interfaces) StdoutLine: {'line': b'[ 74%] Linking CXX shared library liblivox_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[13.050780] (-) TimerEvent: {}
+[13.151254] (-) TimerEvent: {}
+[13.251727] (-) TimerEvent: {}
+[13.352233] (-) TimerEvent: {}
+[13.370711] (livox_interfaces) StdoutLine: {'line': b'[ 74%] Built target livox_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[13.452494] (-) TimerEvent: {}
+[13.463310] (livox_interfaces) StdoutLine: {'line': b'Scanning dependencies of target livox_interfaces\n'}
+[13.490211] (livox_interfaces) StdoutLine: {'line': b'[ 74%] Built target livox_interfaces\n'}
+[13.552792] (-) TimerEvent: {}
+[13.575957] (livox_interfaces) StdoutLine: {'line': b'Scanning dependencies of target livox_interfaces__py\n'}
+[13.652998] (-) TimerEvent: {}
+[13.653923] (livox_interfaces) StdoutLine: {'line': b'[ 76%] Generating Python code for ROS interfaces\n'}
+[13.753213] (-) TimerEvent: {}
+[13.853649] (-) TimerEvent: {}
+[13.954071] (-) TimerEvent: {}
+[14.054529] (-) TimerEvent: {}
+[14.154996] (-) TimerEvent: {}
+[14.255472] (-) TimerEvent: {}
+[14.356031] (-) TimerEvent: {}
+[14.456544] (-) TimerEvent: {}
+[14.557019] (-) TimerEvent: {}
+[14.657469] (-) TimerEvent: {}
+[14.757898] (-) TimerEvent: {}
+[14.858326] (-) TimerEvent: {}
+[14.958792] (-) TimerEvent: {}
+[15.059257] (-) TimerEvent: {}
+[15.159693] (-) TimerEvent: {}
+[15.260184] (-) TimerEvent: {}
+[15.360651] (-) TimerEvent: {}
+[15.461172] (-) TimerEvent: {}
+[15.561601] (-) TimerEvent: {}
+[15.661993] (-) TimerEvent: {}
+[15.762436] (-) TimerEvent: {}
+[15.862891] (-) TimerEvent: {}
+[15.963382] (-) TimerEvent: {}
+[16.063882] (-) TimerEvent: {}
+[16.164358] (-) TimerEvent: {}
+[16.264859] (-) TimerEvent: {}
+[16.365285] (-) TimerEvent: {}
+[16.465728] (-) TimerEvent: {}
+[16.566180] (-) TimerEvent: {}
+[16.666626] (-) TimerEvent: {}
+[16.767083] (-) TimerEvent: {}
+[16.867538] (-) TimerEvent: {}
+[16.967990] (-) TimerEvent: {}
+[17.068423] (-) TimerEvent: {}
+[17.168906] (-) TimerEvent: {}
+[17.269274] (-) TimerEvent: {}
+[17.369659] (-) TimerEvent: {}
+[17.470077] (-) TimerEvent: {}
+[17.570483] (-) TimerEvent: {}
+[17.588989] (livox_sdk_vendor) StdoutLine: {'line': b'[ 33%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/command_handler/command_channel.cpp.o\n'}
+[17.670731] (-) TimerEvent: {}
+[17.771196] (-) TimerEvent: {}
+[17.871675] (-) TimerEvent: {}
+[17.972124] (-) TimerEvent: {}
+[17.980119] (livox_interfaces) StdoutLine: {'line': b'[ 76%] Built target livox_interfaces__py\n'}
+[18.072428] (-) TimerEvent: {}
+[18.087848] (livox_sdk_vendor) StdoutLine: {'line': b'[ 35%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/command_handler/hub_command_handler.cpp.o\n'}
+[18.141949] (livox_interfaces) StdoutLine: {'line': b'Scanning dependencies of target livox_interfaces__python\n'}
+[18.172683] (-) TimerEvent: {}
+[18.257470] (livox_interfaces) StdoutLine: {'line': b'[ 79%] Building C object CMakeFiles/livox_interfaces__python.dir/rosidl_generator_py/livox_interfaces/msg/_custom_point_s.c.o\n'}
+[18.273011] (-) TimerEvent: {}
+[18.277616] (livox_interfaces) StdoutLine: {'line': b'[ 82%] Building C object CMakeFiles/livox_interfaces__python.dir/rosidl_generator_py/livox_interfaces/msg/_custom_msg_s.c.o\n'}
+[18.373229] (-) TimerEvent: {}
+[18.473694] (-) TimerEvent: {}
+[18.574142] (-) TimerEvent: {}
+[18.674612] (-) TimerEvent: {}
+[18.775070] (-) TimerEvent: {}
+[18.785249] (livox_sdk_vendor) StdoutLine: {'line': b'[ 37%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/command_handler/lidar_command_handler.cpp.o\n'}
+[18.875335] (-) TimerEvent: {}
+[18.975846] (-) TimerEvent: {}
+[19.005111] (livox_interfaces) StdoutLine: {'line': b'[ 84%] Linking C shared library rosidl_generator_py/livox_interfaces/liblivox_interfaces__python.so\n'}
+[19.076068] (-) TimerEvent: {}
+[19.105057] (livox_sdk_vendor) StdoutLine: {'line': b'[ 39%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/command_handler/command_impl.cpp.o\n'}
+[19.176311] (-) TimerEvent: {}
+[19.240683] (livox_interfaces) StdoutLine: {'line': b'[ 84%] Built target livox_interfaces__python\n'}
+[19.265437] (livox_sdk_vendor) StdoutLine: {'line': b'[ 41%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/multiple_io/multiple_io_base.cpp.o\n'}
+[19.276544] (-) TimerEvent: {}
+[19.376987] (-) TimerEvent: {}
+[19.397246] (livox_interfaces) StdoutLine: {'line': b'Scanning dependencies of target livox_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[19.418267] (livox_interfaces) StdoutLine: {'line': b'Scanning dependencies of target livox_interfaces__rosidl_typesupport_c__pyext\n'}
+[19.437620] (livox_interfaces) StdoutLine: {'line': b'Scanning dependencies of target livox_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[19.477209] (-) TimerEvent: {}
+[19.508959] (livox_sdk_vendor) StdoutLine: {'line': b'[ 43%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/multiple_io/multiple_io_epoll.cpp.o\n'}
+[19.535999] (livox_interfaces) StdoutLine: {'line': b'[ 87%] Building C object CMakeFiles/livox_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/livox_interfaces/_livox_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[19.543570] (livox_interfaces) StdoutLine: {'line': b'[ 89%] Building C object CMakeFiles/livox_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/livox_interfaces/_livox_interfaces_s.ep.rosidl_typesupport_c.c.o\n'}
+[19.561241] (livox_interfaces) StdoutLine: {'line': b'[ 92%] Building C object CMakeFiles/livox_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/livox_interfaces/_livox_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[19.577413] (-) TimerEvent: {}
+[19.677865] (-) TimerEvent: {}
+[19.778358] (-) TimerEvent: {}
+[19.878854] (-) TimerEvent: {}
+[19.979342] (-) TimerEvent: {}
+[20.079804] (-) TimerEvent: {}
+[20.180257] (-) TimerEvent: {}
+[20.196579] (livox_interfaces) StdoutLine: {'line': b'[ 94%] Linking CXX shared library rosidl_generator_py/livox_interfaces/livox_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[20.261932] (livox_interfaces) StdoutLine: {'line': b'[ 97%] Linking C shared library rosidl_generator_py/livox_interfaces/livox_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[20.280478] (-) TimerEvent: {}
+[20.312985] (livox_sdk_vendor) StdoutLine: {'line': b'[ 45%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/multiple_io/multiple_io_poll.cpp.o\n'}
+[20.322103] (livox_interfaces) StdoutLine: {'line': b'[100%] Linking C shared library rosidl_generator_py/livox_interfaces/livox_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[20.380768] (-) TimerEvent: {}
+[20.481189] (-) TimerEvent: {}
+[20.522560] (livox_interfaces) StdoutLine: {'line': b'[100%] Built target livox_interfaces__rosidl_typesupport_c__pyext\n'}
+[20.581397] (-) TimerEvent: {}
+[20.621374] (livox_interfaces) StdoutLine: {'line': b'[100%] Built target livox_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[20.627106] (livox_interfaces) StdoutLine: {'line': b'[100%] Built target livox_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[20.682202] (-) TimerEvent: {}
+[20.687067] (livox_interfaces) CommandEnded: {'returncode': 0}
+[20.782473] (-) TimerEvent: {}
+[20.791018] (livox_sdk_vendor) StdoutLine: {'line': b'[ 47%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/multiple_io/multiple_io_select.cpp.o\n'}
+[20.882691] (-) TimerEvent: {}
+[20.983130] (-) TimerEvent: {}
+[21.083588] (-) TimerEvent: {}
+[21.088633] (livox_sdk_vendor) StdoutLine: {'line': b'[ 50%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/multiple_io/multiple_io_kqueue.cpp.o\n'}
+[21.183835] (-) TimerEvent: {}
+[21.284290] (-) TimerEvent: {}
+[21.321951] (livox_sdk_vendor) StdoutLine: {'line': b'[ 52%] Building CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/wake_up/unix/wake_up_pipe.cpp.o\n'}
+[21.384523] (-) TimerEvent: {}
+[21.485027] (-) TimerEvent: {}
+[21.511900] (livox_interfaces) JobProgress: {'identifier': 'livox_interfaces', 'progress': 'install'}
+[21.543596] (livox_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/projects/sensor_ws/src/lidars/livox/build/livox_interfaces'], 'cwd': '/home/projects/sensor_ws/src/lidars/livox/build/livox_interfaces', 'env': OrderedDict([('HOSTNAME', '292cb891839e'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('ROS1_DISTRO', 'noetic'), ('ROS2_DISTRO', 'foxy'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/home/projects/sensor_ws/src/lidars/livox/build/livox_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[21.571673] (livox_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.573211] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/ament_index/resource_index/rosidl_interfaces/livox_interfaces\n'}
+[21.573730] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces\n'}
+[21.574019] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg\n'}
+[21.574907] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/custom_point.h\n'}
+[21.575345] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/custom_msg.h\n'}
+[21.575761] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail\n'}
+[21.576048] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__type_support.h\n'}
+[21.576407] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__functions.c\n'}
+[21.577330] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__functions.c\n'}
+[21.577765] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__type_support.h\n'}
+[21.578049] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__functions.h\n'}
+[21.578815] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__functions.h\n'}
+[21.579148] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__struct.h\n'}
+[21.579437] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__struct.h\n'}
+[21.579709] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[21.580291] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/environment/library_path.sh\n'}
+[21.580599] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/environment/library_path.dsv\n'}
+[21.581332] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/liblivox_interfaces__rosidl_generator_c.so\n'}
+[21.582249] (livox_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/liblivox_interfaces__rosidl_generator_c.so" to ""\n'}
+[21.582612] (livox_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces\n'}
+[21.583227] (livox_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg\n'}
+[21.583518] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[21.583809] (livox_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail\n'}
+[21.584055] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[21.584655] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h\n'}
+[21.585129] (-) TimerEvent: {}
+[21.585240] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[21.586258] (livox_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[21.586624] (livox_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces\n'}
+[21.586923] (livox_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg\n'}
+[21.587189] (livox_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail\n'}
+[21.587459] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.588142] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.588493] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail/dds_fastrtps\n'}
+[21.588829] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[21.589870] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[21.592330] (livox_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[21.592681] (livox_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces\n'}
+[21.593067] (livox_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg\n'}
+[21.593792] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[21.594057] (livox_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail\n'}
+[21.594289] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h\n'}
+[21.594527] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__rosidl_typesupport_introspection_c.h\n'}
+[21.594792] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__type_support.c\n'}
+[21.595020] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__type_support.c\n'}
+[21.595245] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[21.595470] (livox_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[21.596356] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_c.so\n'}
+[21.597621] (livox_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[21.598498] (livox_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces\n'}
+[21.605097] (livox_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg\n'}
+[21.605528] (livox_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail\n'}
+[21.605876] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__traits.hpp\n'}
+[21.606158] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__struct.hpp\n'}
+[21.606459] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__builder.hpp\n'}
+[21.606719] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__builder.hpp\n'}
+[21.606962] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__struct.hpp\n'}
+[21.607206] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__traits.hpp\n'}
+[21.607475] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/custom_msg.hpp\n'}
+[21.607816] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/custom_point.hpp\n'}
+[21.608119] (livox_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces\n'}
+[21.608383] (livox_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg\n'}
+[21.608648] (livox_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail\n'}
+[21.609067] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.609329] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__type_support.cpp\n'}
+[21.609591] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__type_support.cpp\n'}
+[21.609860] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.610130] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[21.610373] (livox_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[21.610619] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_cpp.so\n'}
+[21.611358] (livox_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[21.611718] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/environment/pythonpath.sh\n'}
+[21.611963] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/environment/pythonpath.dsv\n'}
+[21.612192] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/__init__.py\n'}
+[21.685343] (-) TimerEvent: {}
+[21.716536] (livox_interfaces) StdoutLine: {'line': b"Compiling '/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/__init__.py'...\n"}
+[21.731793] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/msg\n'}
+[21.733254] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/msg/_custom_point.py\n'}
+[21.734033] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/msg/__init__.py\n'}
+[21.736119] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/msg/_custom_msg_s.c\n'}
+[21.737012] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/msg/_custom_point_s.c\n'}
+[21.737352] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/msg/_custom_msg.py\n'}
+[21.737732] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[21.738685] (livox_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[21.738983] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[21.739265] (livox_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[21.739538] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[21.740826] (livox_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[21.741646] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/liblivox_interfaces__python.so\n'}
+[21.742471] (livox_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/liblivox_interfaces__python.so" to ""\n'}
+[21.743091] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/msg/CustomPoint.idl\n'}
+[21.743727] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/msg/CustomMsg.idl\n'}
+[21.744513] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/msg/CustomPoint.msg\n'}
+[21.744942] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/msg/CustomMsg.msg\n'}
+[21.745554] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/ament_index/resource_index/package_run_dependencies/livox_interfaces\n'}
+[21.746278] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/ament_index/resource_index/parent_prefix_path/livox_interfaces\n'}
+[21.746807] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/environment/ament_prefix_path.sh\n'}
+[21.747359] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/environment/ament_prefix_path.dsv\n'}
+[21.748149] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/environment/path.sh\n'}
+[21.748783] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/environment/path.dsv\n'}
+[21.749569] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/local_setup.bash\n'}
+[21.750145] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/local_setup.sh\n'}
+[21.750722] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/local_setup.zsh\n'}
+[21.751279] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/local_setup.dsv\n'}
+[21.751863] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/package.dsv\n'}
+[21.752205] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/ament_index/resource_index/packages/livox_interfaces\n'}
+[21.753071] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_generator_cExport.cmake\n'}
+[21.753419] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[21.754179] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[21.754491] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[21.754741] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[21.754996] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[21.755962] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_generator_cppExport.cmake\n'}
+[21.756994] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[21.757763] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[21.758739] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[21.759599] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[21.760453] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[21.761129] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[21.761482] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[21.761786] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[21.762686] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[21.763065] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[21.763679] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[21.764374] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfacesConfig.cmake\n'}
+[21.765336] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfacesConfig-version.cmake\n'}
+[21.765684] (livox_interfaces) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/share/livox_interfaces/package.xml\n'}
+[21.772660] (livox_interfaces) CommandEnded: {'returncode': 0}
+[21.786741] (-) TimerEvent: {}
+[21.887733] (-) TimerEvent: {}
+[21.988259] (-) TimerEvent: {}
+[22.070756] (livox_interfaces) JobEnded: {'identifier': 'livox_interfaces', 'rc': 0}
+[22.088405] (-) TimerEvent: {}
+[22.188758] (-) TimerEvent: {}
+[22.289111] (-) TimerEvent: {}
+[22.389372] (-) TimerEvent: {}
+[22.489770] (-) TimerEvent: {}
+[22.590213] (-) TimerEvent: {}
+[22.690601] (-) TimerEvent: {}
+[22.790880] (-) TimerEvent: {}
+[22.891139] (-) TimerEvent: {}
+[22.991409] (-) TimerEvent: {}
+[23.091743] (-) TimerEvent: {}
+[23.192120] (-) TimerEvent: {}
+[23.292409] (-) TimerEvent: {}
+[23.392671] (-) TimerEvent: {}
+[23.492962] (-) TimerEvent: {}
+[23.593323] (-) TimerEvent: {}
+[23.693718] (-) TimerEvent: {}
+[23.793975] (-) TimerEvent: {}
+[23.894251] (-) TimerEvent: {}
+[23.994477] (-) TimerEvent: {}
+[24.094728] (-) TimerEvent: {}
+[24.194993] (-) TimerEvent: {}
+[24.295240] (-) TimerEvent: {}
+[24.395470] (-) TimerEvent: {}
+[24.495721] (-) TimerEvent: {}
+[24.596099] (-) TimerEvent: {}
+[24.696476] (-) TimerEvent: {}
+[24.796849] (-) TimerEvent: {}
+[24.897113] (-) TimerEvent: {}
+[24.997366] (-) TimerEvent: {}
+[25.097597] (-) TimerEvent: {}
+[25.197852] (-) TimerEvent: {}
+[25.298102] (-) TimerEvent: {}
+[25.398287] (-) TimerEvent: {}
+[25.498551] (-) TimerEvent: {}
+[25.598786] (-) TimerEvent: {}
+[25.699003] (-) TimerEvent: {}
+[25.799269] (-) TimerEvent: {}
+[25.899480] (-) TimerEvent: {}
+[25.999707] (-) TimerEvent: {}
+[26.099920] (-) TimerEvent: {}
+[26.200249] (-) TimerEvent: {}
+[26.300711] (-) TimerEvent: {}
+[26.401260] (-) TimerEvent: {}
+[26.501721] (-) TimerEvent: {}
+[26.573103] (livox_sdk_vendor) StdoutLine: {'line': b'[ 54%] Linking CXX static library liblivox_sdk_static.a\n'}
+[26.601818] (-) TimerEvent: {}
+[26.702184] (-) TimerEvent: {}
+[26.802604] (-) TimerEvent: {}
+[26.902960] (-) TimerEvent: {}
+[26.981130] (livox_sdk_vendor) StdoutLine: {'line': b'[ 54%] Built target livox_sdk_static\n'}
+[27.003209] (-) TimerEvent: {}
+[27.011583] (livox_sdk_vendor) StdoutLine: {'line': b'Scanning dependencies of target hub_sample\n'}
+[27.014065] (livox_sdk_vendor) StdoutLine: {'line': b'Scanning dependencies of target lidar_sample\n'}
+[27.015463] (livox_sdk_vendor) StdoutLine: {'line': b'Scanning dependencies of target hub_lvx_sample\n'}
+[27.016345] (livox_sdk_vendor) StdoutLine: {'line': b'Scanning dependencies of target hub_sample_cc\n'}
+[27.019408] (livox_sdk_vendor) StdoutLine: {'line': b'Scanning dependencies of target lidar_sample_cc\n'}
+[27.019878] (livox_sdk_vendor) StdoutLine: {'line': b'Scanning dependencies of target trouble_shooting\n'}
+[27.020541] (livox_sdk_vendor) StdoutLine: {'line': b'Scanning dependencies of target lidar_lvx_sample\n'}
+[27.021074] (livox_sdk_vendor) StdoutLine: {'line': b'Scanning dependencies of target lidar_utc_sync\n'}
+[27.041498] (livox_sdk_vendor) StdoutLine: {'line': b'[ 56%] Building C object sample/lidar/CMakeFiles/lidar_sample.dir/main.c.o\n'}
+[27.043779] (livox_sdk_vendor) StdoutLine: {'line': b'[ 58%] Building CXX object sample/hub_lvx_file/CMakeFiles/hub_lvx_sample.dir/main.cpp.o\n'}
+[27.047749] (livox_sdk_vendor) StdoutLine: {'line': b'[ 60%] Building CXX object sample_cc/hub/CMakeFiles/hub_sample_cc.dir/lds_hub.cpp.o\n'}
+[27.048321] (livox_sdk_vendor) StdoutLine: {'line': b'[ 62%] Building CXX object sample_cc/trouble_shooting/CMakeFiles/trouble_shooting.dir/main.cpp.o\n'}
+[27.050208] (livox_sdk_vendor) StdoutLine: {'line': b'[ 64%] Building CXX object sample/lidar_lvx_file/CMakeFiles/lidar_lvx_sample.dir/main.cpp.o\n'}
+[27.051104] (livox_sdk_vendor) StdoutLine: {'line': b'[ 66%] Building CXX object sample_cc/lidar/CMakeFiles/lidar_sample_cc.dir/main.cpp.o\n'}
+[27.051457] (livox_sdk_vendor) StdoutLine: {'line': b'[ 68%] Building CXX object sample_cc/lidar_utc_sync/CMakeFiles/lidar_utc_sync.dir/main.cpp.o\n'}
+[27.053891] (livox_sdk_vendor) StdoutLine: {'line': b'[ 70%] Building C object sample/hub/CMakeFiles/hub_sample.dir/main.c.o\n'}
+[27.103430] (-) TimerEvent: {}
+[27.203840] (-) TimerEvent: {}
+[27.217655] (livox_sdk_vendor) StdoutLine: {'line': b'[ 72%] Linking CXX executable lidar_sample\n'}
+[27.225294] (livox_sdk_vendor) StdoutLine: {'line': b'[ 75%] Linking CXX executable hub_sample\n'}
+[27.304077] (-) TimerEvent: {}
+[27.404546] (-) TimerEvent: {}
+[27.505004] (-) TimerEvent: {}
+[27.605447] (-) TimerEvent: {}
+[27.705911] (-) TimerEvent: {}
+[27.806388] (-) TimerEvent: {}
+[27.906853] (-) TimerEvent: {}
+[28.007325] (-) TimerEvent: {}
+[28.037680] (livox_sdk_vendor) StdoutLine: {'line': b'[ 77%] Linking CXX executable trouble_shooting\n'}
+[28.107560] (-) TimerEvent: {}
+[28.141488] (livox_sdk_vendor) StdoutLine: {'line': b'[ 79%] Building CXX object sample_cc/hub/CMakeFiles/hub_sample_cc.dir/main.cpp.o\n'}
+[28.207868] (-) TimerEvent: {}
+[28.308381] (-) TimerEvent: {}
+[28.382079] (livox_sdk_vendor) StdoutLine: {'line': b'[ 79%] Built target lidar_sample\n'}
+[28.408610] (-) TimerEvent: {}
+[28.411028] (livox_sdk_vendor) StdoutLine: {'line': b'[ 81%] Building CXX object sample/hub_lvx_file/CMakeFiles/hub_lvx_sample.dir/lvx_file.cpp.o\n'}
+[28.422258] (livox_sdk_vendor) StdoutLine: {'line': b'[ 81%] Built target hub_sample\n'}
+[28.460194] (livox_sdk_vendor) StdoutLine: {'line': b'[ 83%] Building CXX object sample_cc/lidar_utc_sync/CMakeFiles/lidar_utc_sync.dir/lds_lidar.cpp.o\n'}
+[28.508859] (-) TimerEvent: {}
+[28.609252] (-) TimerEvent: {}
+[28.709705] (-) TimerEvent: {}
+[28.810181] (-) TimerEvent: {}
+[28.910628] (-) TimerEvent: {}
+[29.011061] (-) TimerEvent: {}
+[29.111518] (-) TimerEvent: {}
+[29.209004] (livox_sdk_vendor) StdoutLine: {'line': b'[ 83%] Built target trouble_shooting\n'}
+[29.211712] (-) TimerEvent: {}
+[29.233977] (livox_sdk_vendor) StdoutLine: {'line': b'[ 85%] Building CXX object sample_cc/lidar_utc_sync/CMakeFiles/lidar_utc_sync.dir/synchro.cpp.o\n'}
+[29.311957] (-) TimerEvent: {}
+[29.412393] (-) TimerEvent: {}
+[29.513038] (-) TimerEvent: {}
+[29.613466] (-) TimerEvent: {}
+[29.637922] (livox_sdk_vendor) StdoutLine: {'line': b'[ 87%] Building CXX object sample_cc/lidar/CMakeFiles/lidar_sample_cc.dir/lds_lidar.cpp.o\n'}
+[29.649055] (livox_sdk_vendor) StdoutLine: {'line': b'[ 89%] Building CXX object sample/lidar_lvx_file/CMakeFiles/lidar_lvx_sample.dir/lvx_file.cpp.o\n'}
+[29.713699] (-) TimerEvent: {}
+[29.814198] (-) TimerEvent: {}
+[29.914705] (-) TimerEvent: {}
+[30.015166] (-) TimerEvent: {}
+[30.115644] (-) TimerEvent: {}
+[30.216093] (-) TimerEvent: {}
+[30.316568] (-) TimerEvent: {}
+[30.377021] (livox_sdk_vendor) StdoutLine: {'line': b'[ 91%] Linking CXX executable hub_lvx_sample\n'}
+[30.416857] (-) TimerEvent: {}
+[30.517323] (-) TimerEvent: {}
+[30.617763] (-) TimerEvent: {}
+[30.657326] (livox_sdk_vendor) StdoutLine: {'line': b'[ 93%] Linking CXX executable lidar_sample_cc\n'}
+[30.696990] (livox_sdk_vendor) StdoutLine: {'line': b'[ 95%] Linking CXX executable hub_sample_cc\n'}
+[30.718015] (-) TimerEvent: {}
+[30.800234] (livox_sdk_vendor) StdoutLine: {'line': b'[ 97%] Linking CXX executable lidar_utc_sync\n'}
+[30.818273] (-) TimerEvent: {}
+[30.918742] (-) TimerEvent: {}
+[31.019202] (-) TimerEvent: {}
+[31.119651] (-) TimerEvent: {}
+[31.220155] (-) TimerEvent: {}
+[31.320627] (-) TimerEvent: {}
+[31.421119] (-) TimerEvent: {}
+[31.439982] (livox_sdk_vendor) StdoutLine: {'line': b'[ 97%] Built target hub_lvx_sample\n'}
+[31.521381] (-) TimerEvent: {}
+[31.621816] (-) TimerEvent: {}
+[31.687361] (livox_sdk_vendor) StdoutLine: {'line': b'[ 97%] Built target lidar_sample_cc\n'}
+[31.713156] (livox_sdk_vendor) StdoutLine: {'line': b'[100%] Linking CXX executable lidar_lvx_sample\n'}
+[31.714226] (livox_sdk_vendor) StdoutLine: {'line': b'[100%] Built target hub_sample_cc\n'}
+[31.722035] (-) TimerEvent: {}
+[31.822441] (-) TimerEvent: {}
+[31.829217] (livox_sdk_vendor) StdoutLine: {'line': b'[100%] Built target lidar_utc_sync\n'}
+[31.922563] (-) TimerEvent: {}
+[32.022917] (-) TimerEvent: {}
+[32.123289] (-) TimerEvent: {}
+[32.223649] (-) TimerEvent: {}
+[32.323986] (-) TimerEvent: {}
+[32.424368] (-) TimerEvent: {}
+[32.524846] (-) TimerEvent: {}
+[32.596819] (livox_sdk_vendor) StdoutLine: {'line': b'[100%] Built target lidar_lvx_sample\n'}
+[32.625050] (-) TimerEvent: {}
+[32.656309] (livox_sdk_vendor) StdoutLine: {'line': b"[ 87%] Performing install step for 'livox-sdk-v2.3.0'\n"}
+[32.725339] (-) TimerEvent: {}
+[32.782051] (livox_sdk_vendor) StdoutLine: {'line': b'[ 54%] Built target livox_sdk_static\n'}
+[32.825501] (-) TimerEvent: {}
+[32.836220] (livox_sdk_vendor) StdoutLine: {'line': b'[ 60%] Built target lidar_sample_cc\n'}
+[32.837168] (livox_sdk_vendor) StdoutLine: {'line': b'[ 66%] Built target hub_lvx_sample\n'}
+[32.837613] (livox_sdk_vendor) StdoutLine: {'line': b'[ 75%] Built target lidar_sample\n'}
+[32.838278] (livox_sdk_vendor) StdoutLine: {'line': b'[ 83%] Built target lidar_utc_sync\n'}
+[32.838909] (livox_sdk_vendor) StdoutLine: {'line': b'[ 75%] Built target trouble_shooting\n'}
+[32.841113] (livox_sdk_vendor) StdoutLine: {'line': b'[ 87%] Built target hub_sample\n'}
+[32.850725] (livox_sdk_vendor) StdoutLine: {'line': b'[ 93%] Built target hub_sample_cc\n'}
+[32.854196] (livox_sdk_vendor) StdoutLine: {'line': b'[100%] Built target lidar_lvx_sample\n'}
+[32.897109] (livox_sdk_vendor) StdoutLine: {'line': b'Install the project...\n'}
+[32.916618] (livox_sdk_vendor) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[32.917602] (livox_sdk_vendor) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/build/livox_sdk_vendor/livox-sdk_install/lib/liblivox_sdk_static.a\n'}
+[32.925698] (-) TimerEvent: {}
+[32.968686] (livox_sdk_vendor) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/build/livox_sdk_vendor/livox-sdk_install/include/livox_def.h\n'}
+[32.969516] (livox_sdk_vendor) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/build/livox_sdk_vendor/livox-sdk_install/include/livox_sdk.h\n'}
+[33.015142] (livox_sdk_vendor) StdoutLine: {'line': b"[100%] Completed 'livox-sdk-v2.3.0'\n"}
+[33.025826] (-) TimerEvent: {}
+[33.096104] (livox_sdk_vendor) StdoutLine: {'line': b'[100%] Built target livox-sdk-v2.3.0\n'}
+[33.122972] (livox_sdk_vendor) CommandEnded: {'returncode': 0}
+[33.130576] (-) TimerEvent: {}
+[33.196999] (livox_sdk_vendor) JobProgress: {'identifier': 'livox_sdk_vendor', 'progress': 'install'}
+[33.199555] (livox_sdk_vendor) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/projects/sensor_ws/src/lidars/livox/build/livox_sdk_vendor'], 'cwd': '/home/projects/sensor_ws/src/lidars/livox/build/livox_sdk_vendor', 'env': OrderedDict([('HOSTNAME', '292cb891839e'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('ROS1_DISTRO', 'noetic'), ('ROS2_DISTRO', 'foxy'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/home/projects/sensor_ws/src/lidars/livox/build/livox_sdk_vendor'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[33.226098] (livox_sdk_vendor) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[33.226874] (livox_sdk_vendor) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor\n'}
+[33.227157] (livox_sdk_vendor) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor/lib\n'}
+[33.227396] (livox_sdk_vendor) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor/lib/liblivox_sdk_static.a\n'}
+[33.230581] (-) TimerEvent: {}
+[33.274772] (livox_sdk_vendor) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor/include\n'}
+[33.275501] (livox_sdk_vendor) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor/include/livox_sdk.h\n'}
+[33.276133] (livox_sdk_vendor) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor/include/livox_def.h\n'}
+[33.276681] (livox_sdk_vendor) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake\n'}
+[33.277020] (livox_sdk_vendor) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/Modules\n'}
+[33.277813] (livox_sdk_vendor) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/Modules/Findlivox_sdk.cmake\n'}
+[33.278093] (livox_sdk_vendor) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor/share/ament_index/resource_index/package_run_dependencies/livox_sdk_vendor\n'}
+[33.278740] (livox_sdk_vendor) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor/share/ament_index/resource_index/parent_prefix_path/livox_sdk_vendor\n'}
+[33.279147] (livox_sdk_vendor) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/ament_prefix_path.sh\n'}
+[33.279393] (livox_sdk_vendor) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/ament_prefix_path.dsv\n'}
+[33.280080] (livox_sdk_vendor) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/path.sh\n'}
+[33.280561] (livox_sdk_vendor) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/path.dsv\n'}
+[33.281264] (livox_sdk_vendor) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.bash\n'}
+[33.281749] (livox_sdk_vendor) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.sh\n'}
+[33.281960] (livox_sdk_vendor) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.zsh\n'}
+[33.282510] (livox_sdk_vendor) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.dsv\n'}
+[33.283198] (livox_sdk_vendor) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor/share/livox_sdk_vendor/package.dsv\n'}
+[33.283631] (livox_sdk_vendor) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor/share/ament_index/resource_index/packages/livox_sdk_vendor\n'}
+[33.283837] (livox_sdk_vendor) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/livox_sdk_vendor-extras.cmake\n'}
+[33.284081] (livox_sdk_vendor) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/livox_sdk_vendorConfig.cmake\n'}
+[33.284307] (livox_sdk_vendor) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/livox_sdk_vendorConfig-version.cmake\n'}
+[33.284520] (livox_sdk_vendor) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor/share/livox_sdk_vendor/package.xml\n'}
+[33.287595] (livox_sdk_vendor) CommandEnded: {'returncode': 0}
+[33.331072] (-) TimerEvent: {}
+[33.404279] (livox_sdk_vendor) JobEnded: {'identifier': 'livox_sdk_vendor', 'rc': 0}
+[33.415076] (livox_ros2_driver) JobStarted: {'identifier': 'livox_ros2_driver'}
+[33.431388] (-) TimerEvent: {}
+[33.438487] (livox_ros2_driver) JobProgress: {'identifier': 'livox_ros2_driver', 'progress': 'cmake'}
+[33.439474] (livox_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/projects/sensor_ws/src/lidars/livox/src/livox_ros2_driver/livox_ros2_driver', '-DCMAKE_INSTALL_PREFIX=/home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver'], 'cwd': '/home/projects/sensor_ws/src/lidars/livox/build/livox_ros2_driver', 'env': OrderedDict([('HOSTNAME', '292cb891839e'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('ROS1_DISTRO', 'noetic'), ('ROS2_DISTRO', 'foxy'), ('AMENT_PREFIX_PATH', '/home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor:/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces:/opt/ros/foxy'), ('PWD', '/home/projects/sensor_ws/src/lidars/livox/build/livox_ros2_driver'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor:/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces:/opt/ros/foxy')]), 'shell': False}
+[33.531571] (-) TimerEvent: {}
+[33.610650] (livox_ros2_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[33.631932] (-) TimerEvent: {}
+[33.732649] (-) TimerEvent: {}
+[33.756928] (livox_ros2_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[33.769409] (livox_ros2_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[33.833083] (-) TimerEvent: {}
+[33.933656] (-) TimerEvent: {}
+[33.944616] (livox_ros2_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[33.947029] (livox_ros2_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[34.033942] (-) TimerEvent: {}
+[34.131622] (livox_ros2_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[34.133998] (-) TimerEvent: {}
+[34.173011] (livox_ros2_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[34.176867] (livox_ros2_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[34.184635] (livox_ros2_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[34.234230] (-) TimerEvent: {}
+[34.334715] (-) TimerEvent: {}
+[34.382295] (livox_ros2_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[34.385457] (livox_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[34.434857] (-) TimerEvent: {}
+[34.535413] (-) TimerEvent: {}
+[34.591389] (livox_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[34.630185] (livox_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[34.631361] (livox_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[34.634209] (livox_ros2_driver) StdoutLine: {'line': b'-- livox_ros2_driver version: 0.0.1\n'}
+[34.635461] (-) TimerEvent: {}
+[34.638265] (livox_ros2_driver) StdoutLine: {'line': b'-- Found ament_cmake_auto: 0.9.8 (/opt/ros/foxy/share/ament_cmake_auto/cmake)\n'}
+[34.712385] (livox_ros2_driver) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[34.713283] (livox_ros2_driver) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[34.735704] (-) TimerEvent: {}
+[34.836156] (-) TimerEvent: {}
+[34.936392] (-) TimerEvent: {}
+[35.036623] (-) TimerEvent: {}
+[35.137678] (-) TimerEvent: {}
+[35.238720] (-) TimerEvent: {}
+[35.338953] (-) TimerEvent: {}
+[35.439213] (-) TimerEvent: {}
+[35.479927] (livox_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[35.497386] (livox_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[35.539383] (-) TimerEvent: {}
+[35.639949] (-) TimerEvent: {}
+[35.719222] (livox_ros2_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[35.740058] (-) TimerEvent: {}
+[35.791794] (livox_ros2_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[35.840248] (-) TimerEvent: {}
+[35.940651] (-) TimerEvent: {}
+[36.001862] (livox_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[36.040967] (-) TimerEvent: {}
+[36.141485] (-) TimerEvent: {}
+[36.162326] (livox_ros2_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[36.166034] (livox_ros2_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[36.168306] (livox_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[36.241702] (-) TimerEvent: {}
+[36.342214] (-) TimerEvent: {}
+[36.368991] (livox_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[36.371527] (livox_ros2_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[36.442395] (-) TimerEvent: {}
+[36.542881] (-) TimerEvent: {}
+[36.579231] (livox_ros2_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[36.581035] (livox_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[36.643097] (-) TimerEvent: {}
+[36.738642] (livox_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[36.739609] (livox_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[36.743189] (-) TimerEvent: {}
+[36.843536] (-) TimerEvent: {}
+[36.933402] (livox_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[36.934135] (livox_ros2_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[36.943698] (-) TimerEvent: {}
+[37.045098] (-) TimerEvent: {}
+[37.145763] (-) TimerEvent: {}
+[37.246187] (-) TimerEvent: {}
+[37.346593] (-) TimerEvent: {}
+[37.447001] (-) TimerEvent: {}
+[37.547388] (-) TimerEvent: {}
+[37.647829] (-) TimerEvent: {}
+[37.748278] (-) TimerEvent: {}
+[37.848918] (-) TimerEvent: {}
+[37.949520] (-) TimerEvent: {}
+[38.049921] (-) TimerEvent: {}
+[38.150361] (-) TimerEvent: {}
+[38.250747] (-) TimerEvent: {}
+[38.351198] (-) TimerEvent: {}
+[38.369502] (livox_ros2_driver) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[38.405812] (livox_ros2_driver) StdoutLine: {'line': b'--   Found eigen3, version 3.3.7\n'}
+[38.451413] (-) TimerEvent: {}
+[38.514808] (livox_ros2_driver) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[38.515385] (livox_ros2_driver) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[38.551580] (-) TimerEvent: {}
+[38.630089] (livox_ros2_driver) StdoutLine: {'line': b'-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex \n'}
+[38.651744] (-) TimerEvent: {}
+[38.677398] (livox_ros2_driver) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[38.721334] (livox_ros2_driver) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[38.752071] (-) TimerEvent: {}
+[38.851932] (livox_ros2_driver) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  \n'}
+[38.852533] (-) TimerEvent: {}
+[38.952855] (-) TimerEvent: {}
+[39.040577] (livox_ros2_driver) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[39.041470] (livox_ros2_driver) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[39.042331] (livox_ros2_driver) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[39.042964] (livox_ros2_driver) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[39.043701] (livox_ros2_driver) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[39.044502] (livox_ros2_driver) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[39.044937] (livox_ros2_driver) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[39.045256] (livox_ros2_driver) StdoutLine: {'line': b'but not all the files it references.\n'}
+[39.045516] (livox_ros2_driver) StdoutLine: {'line': b'\n'}
+[39.046468] (livox_ros2_driver) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[39.046782] (livox_ros2_driver) StdoutLine: {'line': b'   "/usr/lib/aarch64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[39.047071] (livox_ros2_driver) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[39.047395] (livox_ros2_driver) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[39.047623] (livox_ros2_driver) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[39.047839] (livox_ros2_driver) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[39.048596] (livox_ros2_driver) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[39.049486] (livox_ros2_driver) StdoutLine: {'line': b'but not all the files it references.\n'}
+[39.049781] (livox_ros2_driver) StdoutLine: {'line': b'\n'}
+[39.050054] (livox_ros2_driver) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[39.050276] (livox_ros2_driver) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[39.050479] (livox_ros2_driver) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[39.050717] (livox_ros2_driver) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[39.050970] (livox_ros2_driver) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[39.051177] (livox_ros2_driver) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[39.051376] (livox_ros2_driver) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[39.051593] (livox_ros2_driver) StdoutLine: {'line': b'but not all the files it references.\n'}
+[39.051866] (livox_ros2_driver) StdoutLine: {'line': b'\n'}
+[39.052078] (livox_ros2_driver) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[39.052291] (livox_ros2_driver) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[39.052492] (livox_ros2_driver) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[39.052780] (livox_ros2_driver) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[39.053059] (-) TimerEvent: {}
+[39.053122] (livox_ros2_driver) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[39.053345] (livox_ros2_driver) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[39.053547] (livox_ros2_driver) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[39.053742] (livox_ros2_driver) StdoutLine: {'line': b'but not all the files it references.\n'}
+[39.054010] (livox_ros2_driver) StdoutLine: {'line': b'\n'}
+[39.110153] (livox_ros2_driver) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[39.118548] (livox_ros2_driver) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[39.126338] (livox_ros2_driver) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[39.127256] (livox_ros2_driver) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[39.127599] (livox_ros2_driver) StderrLine: {'line': b'** WARNING ** io features related to openni will be disabled\n'}
+[39.140201] (livox_ros2_driver) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[39.148216] (livox_ros2_driver) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[39.153287] (-) TimerEvent: {}
+[39.158511] (livox_ros2_driver) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[39.160100] (livox_ros2_driver) StdoutLine: {'line': b'-- OpenNI 2 disabled because libusb-1.0 not found.\n'}
+[39.160390] (livox_ros2_driver) StderrLine: {'line': b'** WARNING ** io features related to openni2 will be disabled\n'}
+[39.160619] (livox_ros2_driver) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[39.160909] (livox_ros2_driver) StderrLine: {'line': b'** WARNING ** io features related to png will be disabled\n'}
+[39.210517] (livox_ros2_driver) StdoutLine: {'line': b'-- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) \n'}
+[39.211010] (livox_ros2_driver) StderrLine: {'line': b'** WARNING ** io features related to libusb-1.0 will be disabled\n'}
+[39.221809] (livox_ros2_driver) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[39.229584] (livox_ros2_driver) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[39.237032] (livox_ros2_driver) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[39.237622] (livox_ros2_driver) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[39.237842] (livox_ros2_driver) StderrLine: {'line': b'** WARNING ** visualization features related to openni will be disabled\n'}
+[39.249705] (livox_ros2_driver) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[39.253357] (-) TimerEvent: {}
+[39.257672] (livox_ros2_driver) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[39.265052] (livox_ros2_driver) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[39.265899] (livox_ros2_driver) StdoutLine: {'line': b'-- OpenNI 2 disabled because libusb-1.0 not found.\n'}
+[39.266127] (livox_ros2_driver) StderrLine: {'line': b'** WARNING ** visualization features related to openni2 will be disabled\n'}
+[39.339067] (livox_ros2_driver) StdoutLine: {'line': b'-- Found Qhull: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so  \n'}
+[39.339577] (livox_ros2_driver) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so)\n'}
+[39.350837] (livox_ros2_driver) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[39.353532] (-) TimerEvent: {}
+[39.358243] (livox_ros2_driver) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[39.365371] (livox_ros2_driver) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[39.366155] (livox_ros2_driver) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[39.366456] (livox_ros2_driver) StderrLine: {'line': b'** WARNING ** apps features related to openni will be disabled\n'}
+[39.404755] (livox_ros2_driver) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[39.407737] (livox_ros2_driver) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  \n'}
+[39.408539] (livox_ros2_driver) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[39.411072] (livox_ros2_driver) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  \n'}
+[39.411793] (livox_ros2_driver) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[39.414314] (livox_ros2_driver) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  \n'}
+[39.415007] (livox_ros2_driver) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[39.417434] (livox_ros2_driver) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  \n'}
+[39.418200] (livox_ros2_driver) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[39.420544] (livox_ros2_driver) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[39.421316] (livox_ros2_driver) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[39.423617] (livox_ros2_driver) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  \n'}
+[39.424384] (livox_ros2_driver) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[39.425420] (livox_ros2_driver) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.10  \n'}
+[39.426624] (livox_ros2_driver) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[39.427807] (livox_ros2_driver) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.10  \n'}
+[39.428711] (livox_ros2_driver) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[39.431568] (livox_ros2_driver) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  \n'}
+[39.432603] (livox_ros2_driver) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[39.435097] (livox_ros2_driver) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  \n'}
+[39.436008] (livox_ros2_driver) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[39.438377] (livox_ros2_driver) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  \n'}
+[39.439109] (livox_ros2_driver) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[39.441436] (livox_ros2_driver) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  \n'}
+[39.442698] (livox_ros2_driver) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[39.444931] (livox_ros2_driver) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  \n'}
+[39.446135] (livox_ros2_driver) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[39.448492] (livox_ros2_driver) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  \n'}
+[39.449500] (livox_ros2_driver) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[39.451800] (livox_ros2_driver) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  \n'}
+[39.452958] (livox_ros2_driver) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[39.453595] (-) TimerEvent: {}
+[39.455113] (livox_ros2_driver) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  \n'}
+[39.456245] (livox_ros2_driver) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[39.458708] (livox_ros2_driver) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  \n'}
+[39.459699] (livox_ros2_driver) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[39.462449] (livox_ros2_driver) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  \n'}
+[39.463640] (livox_ros2_driver) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[39.466198] (livox_ros2_driver) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  \n'}
+[39.466943] (livox_ros2_driver) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[39.469451] (livox_ros2_driver) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  \n'}
+[39.471835] (livox_ros2_driver) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[39.472809] (livox_ros2_driver) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  \n'}
+[39.473545] (livox_ros2_driver) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[39.474743] (livox_ros2_driver) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  \n'}
+[39.475397] (livox_ros2_driver) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[39.478125] (livox_ros2_driver) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  \n'}
+[39.479184] (livox_ros2_driver) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[39.481611] (livox_ros2_driver) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  \n'}
+[39.485534] (livox_ros2_driver) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/aarch64-linux-gnu/libboost_system.so;/usr/lib/aarch64-linux-gnu/libboost_filesystem.so;/usr/lib/aarch64-linux-gnu/libboost_date_time.so;/usr/lib/aarch64-linux-gnu/libboost_iostreams.so;/usr/lib/aarch64-linux-gnu/libboost_regex.so;optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/aarch64-linux-gnu/libfreetype.so;/usr/lib/aarch64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/aarch64-linux-gnu/libjpeg.so;/usr/lib/aarch64-linux-gnu/libpng.so;/usr/lib/aarch64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/aarch64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  \n'}
+[39.489085] (livox_ros2_driver) StdoutLine: {'line': b'-- Found livox_sdk: /home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor/include  \n'}
+[39.497761] (livox_ros2_driver) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[39.501199] (livox_ros2_driver) StdoutLine: {'line': b"-- Checking for module 'apr-1'\n"}
+[39.539664] (livox_ros2_driver) StdoutLine: {'line': b'--   Found apr-1, version 1.6.5\n'}
+[39.553706] (-) TimerEvent: {}
+[39.654184] (-) TimerEvent: {}
+[39.666306] (livox_ros2_driver) StderrLine: {'line': b'/usr/include/apr-1.0\n'}
+[39.666776] (livox_ros2_driver) StderrLine: {'line': b'apr-1\n'}
+[39.754302] (-) TimerEvent: {}
+[39.767655] (livox_ros2_driver) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[39.820512] (livox_ros2_driver) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[39.831293] (livox_ros2_driver) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[39.833202] (livox_ros2_driver) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/projects/sensor_ws/src/lidars/livox/src/livox_ros2_driver/livox_ros2_driver/common;/home/projects/sensor_ws/src/lidars/livox/src/livox_ros2_driver/livox_ros2_driver/common/rapidjson;/home/projects/sensor_ws/src/lidars/livox/src/livox_ros2_driver/livox_ros2_driver/comon/rapdidxml;/home/projects/sensor_ws/src/lidars/livox/src/livox_ros2_driver/livox_ros2_driver/common/comm;/home/projects/sensor_ws/src/lidars/livox/src/livox_ros2_driver/livox_ros2_driver/timesync;/home/projects/sensor_ws/src/lidars/livox/src/livox_ros2_driver/livox_ros2_driver/timesync/user_uart;/home/projects/sensor_ws/src/lidars/livox/src/livox_ros2_driver/livox_ros2_driver/livox_ros2_driver\n'}
+[39.833511] (livox_ros2_driver) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[39.843148] (livox_ros2_driver) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[39.843433] (livox_ros2_driver) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[39.845661] (livox_ros2_driver) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[39.849046] (livox_ros2_driver) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[39.851162] (livox_ros2_driver) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[39.854444] (-) TimerEvent: {}
+[39.860700] (livox_ros2_driver) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[39.861303] (livox_ros2_driver) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[39.863117] (livox_ros2_driver) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[39.874584] (livox_ros2_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[39.954640] (-) TimerEvent: {}
+[40.034693] (livox_ros2_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[40.041436] (livox_ros2_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/projects/sensor_ws/src/lidars/livox/build/livox_ros2_driver\n'}
+[40.054750] (-) TimerEvent: {}
+[40.070799] (livox_ros2_driver) CommandEnded: {'returncode': 0}
+[40.077830] (livox_ros2_driver) JobProgress: {'identifier': 'livox_ros2_driver', 'progress': 'build'}
+[40.078020] (livox_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/projects/sensor_ws/src/lidars/livox/build/livox_ros2_driver', '--', '-j8', '-l8'], 'cwd': '/home/projects/sensor_ws/src/lidars/livox/build/livox_ros2_driver', 'env': OrderedDict([('HOSTNAME', '292cb891839e'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('ROS1_DISTRO', 'noetic'), ('ROS2_DISTRO', 'foxy'), ('AMENT_PREFIX_PATH', '/home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor:/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces:/opt/ros/foxy'), ('PWD', '/home/projects/sensor_ws/src/lidars/livox/build/livox_ros2_driver'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor:/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces:/opt/ros/foxy')]), 'shell': False}
+[40.155174] (-) TimerEvent: {}
+[40.250997] (livox_ros2_driver) StdoutLine: {'line': b'Scanning dependencies of target livox_ros2_driver_node\n'}
+[40.255178] (-) TimerEvent: {}
+[40.287727] (livox_ros2_driver) StdoutLine: {'line': b'[  6%] Building CXX object CMakeFiles/livox_ros2_driver_node.dir/rclcpp_components/node_main_livox_ros2_driver_node.cpp.o\n'}
+[40.355429] (-) TimerEvent: {}
+[40.455884] (-) TimerEvent: {}
+[40.456599] (livox_ros2_driver) StdoutLine: {'line': b'Scanning dependencies of target livox_ros2_driver\n'}
+[40.499319] (livox_ros2_driver) StdoutLine: {'line': b'[ 18%] Building CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/ldq.cpp.o\n'}
+[40.499919] (livox_ros2_driver) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lvx_file.cpp.o\n'}
+[40.500245] (livox_ros2_driver) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lds.cpp.o\n'}
+[40.501592] (livox_ros2_driver) StdoutLine: {'line': b'[ 31%] Building CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lds_lvx.cpp.o\n'}
+[40.503687] (livox_ros2_driver) StdoutLine: {'line': b'[ 37%] Building CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lds_hub.cpp.o\n'}
+[40.505441] (livox_ros2_driver) StdoutLine: {'line': b'[ 43%] Building CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lds_lidar.cpp.o\n'}
+[40.536951] (livox_ros2_driver) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lddc.cpp.o\n'}
+[40.556107] (-) TimerEvent: {}
+[40.656509] (-) TimerEvent: {}
+[40.657501] (livox_ros2_driver) StdoutLine: {'line': b'[ 56%] Building CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/livox_ros2_driver.cpp.o\n'}
+[40.757101] (-) TimerEvent: {}
+[40.859588] (-) TimerEvent: {}
+[40.960052] (-) TimerEvent: {}
+[41.060520] (-) TimerEvent: {}
+[41.160956] (-) TimerEvent: {}
+[41.261409] (-) TimerEvent: {}
+[41.361877] (-) TimerEvent: {}
+[41.462315] (-) TimerEvent: {}
+[41.562759] (-) TimerEvent: {}
+[41.663213] (-) TimerEvent: {}
+[41.763677] (-) TimerEvent: {}
+[41.864136] (-) TimerEvent: {}
+[41.964569] (-) TimerEvent: {}
+[42.040776] (livox_ros2_driver) StdoutLine: {'line': b'[ 62%] Building CXX object CMakeFiles/livox_ros2_driver.dir/timesync/timesync.cpp.o\n'}
+[42.064922] (-) TimerEvent: {}
+[42.165369] (-) TimerEvent: {}
+[42.265824] (-) TimerEvent: {}
+[42.366271] (-) TimerEvent: {}
+[42.466746] (-) TimerEvent: {}
+[42.567194] (-) TimerEvent: {}
+[42.668696] (-) TimerEvent: {}
+[42.753441] (livox_ros2_driver) StdoutLine: {'line': b'[ 68%] Building CXX object CMakeFiles/livox_ros2_driver.dir/timesync/user_uart/user_uart.cpp.o\n'}
+[42.768945] (-) TimerEvent: {}
+[42.845380] (livox_ros2_driver) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/livox_ros2_driver.dir/common/comm/comm_protocol.cpp.o\n'}
+[42.869170] (-) TimerEvent: {}
+[42.926797] (livox_ros2_driver) StdoutLine: {'line': b'[ 81%] Building CXX object CMakeFiles/livox_ros2_driver.dir/common/comm/sdk_protocol.cpp.o\n'}
+[42.969380] (-) TimerEvent: {}
+[43.069818] (-) TimerEvent: {}
+[43.082789] (livox_ros2_driver) StdoutLine: {'line': b'[ 87%] Building CXX object CMakeFiles/livox_ros2_driver.dir/common/comm/gps_protocol.cpp.o\n'}
+[43.170077] (-) TimerEvent: {}
+[43.270527] (-) TimerEvent: {}
+[43.370998] (-) TimerEvent: {}
+[43.471441] (-) TimerEvent: {}
+[43.571884] (-) TimerEvent: {}
+[43.672318] (-) TimerEvent: {}
+[43.772830] (-) TimerEvent: {}
+[43.873276] (-) TimerEvent: {}
+[43.973706] (-) TimerEvent: {}
+[44.074169] (-) TimerEvent: {}
+[44.174646] (-) TimerEvent: {}
+[44.275069] (-) TimerEvent: {}
+[44.375547] (-) TimerEvent: {}
+[44.476008] (-) TimerEvent: {}
+[44.576436] (-) TimerEvent: {}
+[44.676912] (-) TimerEvent: {}
+[44.777381] (-) TimerEvent: {}
+[44.877866] (-) TimerEvent: {}
+[44.978290] (-) TimerEvent: {}
+[45.078736] (-) TimerEvent: {}
+[45.179191] (-) TimerEvent: {}
+[45.279646] (-) TimerEvent: {}
+[45.380114] (-) TimerEvent: {}
+[45.480564] (-) TimerEvent: {}
+[45.581167] (-) TimerEvent: {}
+[45.681658] (-) TimerEvent: {}
+[45.782109] (-) TimerEvent: {}
+[45.883430] (-) TimerEvent: {}
+[45.983897] (-) TimerEvent: {}
+[46.084367] (-) TimerEvent: {}
+[46.184896] (-) TimerEvent: {}
+[46.285349] (-) TimerEvent: {}
+[46.385794] (-) TimerEvent: {}
+[46.486229] (-) TimerEvent: {}
+[46.586656] (-) TimerEvent: {}
+[46.677332] (livox_ros2_driver) StdoutLine: {'line': b'[ 93%] Linking CXX executable livox_ros2_driver_node\n'}
+[46.686903] (-) TimerEvent: {}
+[46.787366] (-) TimerEvent: {}
+[46.887856] (-) TimerEvent: {}
+[46.965556] (livox_ros2_driver) StdoutLine: {'line': b'[ 93%] Built target livox_ros2_driver_node\n'}
+[46.988005] (-) TimerEvent: {}
+[47.088331] (-) TimerEvent: {}
+[47.188618] (-) TimerEvent: {}
+[47.288927] (-) TimerEvent: {}
+[47.389159] (-) TimerEvent: {}
+[47.489388] (-) TimerEvent: {}
+[47.589641] (-) TimerEvent: {}
+[47.689905] (-) TimerEvent: {}
+[47.790239] (-) TimerEvent: {}
+[47.890525] (-) TimerEvent: {}
+[47.990892] (-) TimerEvent: {}
+[48.091314] (-) TimerEvent: {}
+[48.191698] (-) TimerEvent: {}
+[48.292103] (-) TimerEvent: {}
+[48.392483] (-) TimerEvent: {}
+[48.492853] (-) TimerEvent: {}
+[48.593250] (-) TimerEvent: {}
+[48.693666] (-) TimerEvent: {}
+[48.794168] (-) TimerEvent: {}
+[48.894620] (-) TimerEvent: {}
+[48.994898] (-) TimerEvent: {}
+[49.095136] (-) TimerEvent: {}
+[49.195379] (-) TimerEvent: {}
+[49.295676] (-) TimerEvent: {}
+[49.396024] (-) TimerEvent: {}
+[49.496374] (-) TimerEvent: {}
+[49.596816] (-) TimerEvent: {}
+[49.697178] (-) TimerEvent: {}
+[49.797539] (-) TimerEvent: {}
+[49.897922] (-) TimerEvent: {}
+[49.998231] (-) TimerEvent: {}
+[50.098570] (-) TimerEvent: {}
+[50.198953] (-) TimerEvent: {}
+[50.299303] (-) TimerEvent: {}
+[50.399613] (-) TimerEvent: {}
+[50.499897] (-) TimerEvent: {}
+[50.600181] (-) TimerEvent: {}
+[50.700451] (-) TimerEvent: {}
+[50.800704] (-) TimerEvent: {}
+[50.901092] (-) TimerEvent: {}
+[51.001465] (-) TimerEvent: {}
+[51.101792] (-) TimerEvent: {}
+[51.202136] (-) TimerEvent: {}
+[51.302517] (-) TimerEvent: {}
+[51.402874] (-) TimerEvent: {}
+[51.503169] (-) TimerEvent: {}
+[51.603473] (-) TimerEvent: {}
+[51.703759] (-) TimerEvent: {}
+[51.804019] (-) TimerEvent: {}
+[51.904324] (-) TimerEvent: {}
+[52.004799] (-) TimerEvent: {}
+[52.105152] (-) TimerEvent: {}
+[52.205401] (-) TimerEvent: {}
+[52.305654] (-) TimerEvent: {}
+[52.405915] (-) TimerEvent: {}
+[52.506194] (-) TimerEvent: {}
+[52.606570] (-) TimerEvent: {}
+[52.706922] (-) TimerEvent: {}
+[52.807347] (-) TimerEvent: {}
+[52.907738] (-) TimerEvent: {}
+[53.008151] (-) TimerEvent: {}
+[53.108530] (-) TimerEvent: {}
+[53.208913] (-) TimerEvent: {}
+[53.309266] (-) TimerEvent: {}
+[53.409652] (-) TimerEvent: {}
+[53.510027] (-) TimerEvent: {}
+[53.610416] (-) TimerEvent: {}
+[53.710841] (-) TimerEvent: {}
+[53.811204] (-) TimerEvent: {}
+[53.911510] (-) TimerEvent: {}
+[54.011811] (-) TimerEvent: {}
+[54.112058] (-) TimerEvent: {}
+[54.212273] (-) TimerEvent: {}
+[54.312465] (-) TimerEvent: {}
+[54.412674] (-) TimerEvent: {}
+[54.512949] (-) TimerEvent: {}
+[54.613136] (-) TimerEvent: {}
+[54.713340] (-) TimerEvent: {}
+[54.813644] (-) TimerEvent: {}
+[54.914009] (-) TimerEvent: {}
+[55.014252] (-) TimerEvent: {}
+[55.114442] (-) TimerEvent: {}
+[55.214720] (-) TimerEvent: {}
+[55.315046] (-) TimerEvent: {}
+[55.415366] (-) TimerEvent: {}
+[55.515692] (-) TimerEvent: {}
+[55.615948] (-) TimerEvent: {}
+[55.716212] (-) TimerEvent: {}
+[55.816442] (-) TimerEvent: {}
+[55.916641] (-) TimerEvent: {}
+[56.016968] (-) TimerEvent: {}
+[56.117298] (-) TimerEvent: {}
+[56.218232] (-) TimerEvent: {}
+[56.319612] (-) TimerEvent: {}
+[56.419834] (-) TimerEvent: {}
+[56.520046] (-) TimerEvent: {}
+[56.620297] (-) TimerEvent: {}
+[56.720564] (-) TimerEvent: {}
+[56.820857] (-) TimerEvent: {}
+[56.921211] (-) TimerEvent: {}
+[57.021503] (-) TimerEvent: {}
+[57.121754] (-) TimerEvent: {}
+[57.222098] (-) TimerEvent: {}
+[57.322500] (-) TimerEvent: {}
+[57.422827] (-) TimerEvent: {}
+[57.523195] (-) TimerEvent: {}
+[57.623596] (-) TimerEvent: {}
+[57.723973] (-) TimerEvent: {}
+[57.824334] (-) TimerEvent: {}
+[57.924703] (-) TimerEvent: {}
+[58.025167] (-) TimerEvent: {}
+[58.125573] (-) TimerEvent: {}
+[58.225978] (-) TimerEvent: {}
+[58.326412] (-) TimerEvent: {}
+[58.426777] (-) TimerEvent: {}
+[58.527069] (-) TimerEvent: {}
+[58.627436] (-) TimerEvent: {}
+[58.727763] (-) TimerEvent: {}
+[58.828133] (-) TimerEvent: {}
+[58.928468] (-) TimerEvent: {}
+[59.028840] (-) TimerEvent: {}
+[59.129184] (-) TimerEvent: {}
+[59.229387] (-) TimerEvent: {}
+[59.329603] (-) TimerEvent: {}
+[59.429807] (-) TimerEvent: {}
+[59.530048] (-) TimerEvent: {}
+[59.630326] (-) TimerEvent: {}
+[59.730584] (-) TimerEvent: {}
+[59.830808] (-) TimerEvent: {}
+[59.931766] (-) TimerEvent: {}
+[60.034663] (-) TimerEvent: {}
+[60.134923] (-) TimerEvent: {}
+[60.235176] (-) TimerEvent: {}
+[60.335403] (-) TimerEvent: {}
+[60.435624] (-) TimerEvent: {}
+[60.535833] (-) TimerEvent: {}
+[60.636043] (-) TimerEvent: {}
+[60.736244] (-) TimerEvent: {}
+[60.836445] (-) TimerEvent: {}
+[60.936752] (-) TimerEvent: {}
+[61.037026] (-) TimerEvent: {}
+[61.137238] (-) TimerEvent: {}
+[61.237409] (-) TimerEvent: {}
+[61.337651] (-) TimerEvent: {}
+[61.438000] (-) TimerEvent: {}
+[61.538356] (-) TimerEvent: {}
+[61.638857] (-) TimerEvent: {}
+[61.739373] (-) TimerEvent: {}
+[61.840074] (-) TimerEvent: {}
+[61.940508] (-) TimerEvent: {}
+[61.943955] (livox_ros2_driver) StdoutLine: {'line': b'[100%] Linking CXX shared library liblivox_ros2_driver.so\n'}
+[62.040706] (-) TimerEvent: {}
+[62.141088] (-) TimerEvent: {}
+[62.241413] (-) TimerEvent: {}
+[62.341840] (-) TimerEvent: {}
+[62.442273] (-) TimerEvent: {}
+[62.542865] (-) TimerEvent: {}
+[62.643556] (-) TimerEvent: {}
+[62.744134] (-) TimerEvent: {}
+[62.844582] (-) TimerEvent: {}
+[62.945135] (-) TimerEvent: {}
+[63.045603] (-) TimerEvent: {}
+[63.146254] (-) TimerEvent: {}
+[63.247080] (-) TimerEvent: {}
+[63.347624] (-) TimerEvent: {}
+[63.448085] (-) TimerEvent: {}
+[63.548529] (-) TimerEvent: {}
+[63.649053] (-) TimerEvent: {}
+[63.749529] (-) TimerEvent: {}
+[63.849974] (-) TimerEvent: {}
+[63.950437] (-) TimerEvent: {}
+[64.050902] (-) TimerEvent: {}
+[64.151422] (-) TimerEvent: {}
+[64.251858] (-) TimerEvent: {}
+[64.317061] (livox_ros2_driver) StdoutLine: {'line': b'[100%] Built target livox_ros2_driver\n'}
+[64.342931] (livox_ros2_driver) CommandEnded: {'returncode': 0}
+[64.353920] (-) TimerEvent: {}
+[64.454697] (-) TimerEvent: {}
+[64.555739] (-) TimerEvent: {}
+[64.576681] (livox_ros2_driver) JobProgress: {'identifier': 'livox_ros2_driver', 'progress': 'install'}
+[64.580500] (livox_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/projects/sensor_ws/src/lidars/livox/build/livox_ros2_driver'], 'cwd': '/home/projects/sensor_ws/src/lidars/livox/build/livox_ros2_driver', 'env': OrderedDict([('HOSTNAME', '292cb891839e'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('ROS1_DISTRO', 'noetic'), ('ROS2_DISTRO', 'foxy'), ('AMENT_PREFIX_PATH', '/home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor:/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces:/opt/ros/foxy'), ('PWD', '/home/projects/sensor_ws/src/lidars/livox/build/livox_ros2_driver'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/projects/sensor_ws/src/lidars/livox/install/livox_sdk_vendor:/home/projects/sensor_ws/src/lidars/livox/install/livox_interfaces:/opt/ros/foxy')]), 'shell': False}
+[64.615009] (livox_ros2_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[64.616215] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/lib/livox_ros2_driver/livox_ros2_driver_node\n'}
+[64.617684] (livox_ros2_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/lib/livox_ros2_driver/livox_ros2_driver_node" to ""\n'}
+[64.618308] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/environment/library_path.sh\n'}
+[64.618940] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/environment/library_path.dsv\n'}
+[64.619887] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/lib/liblivox_ros2_driver.so\n'}
+[64.643671] (livox_ros2_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/lib/liblivox_ros2_driver.so" to ""\n'}
+[64.644308] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/config\n'}
+[64.644569] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_hub_config.json\n'}
+[64.645129] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_lidar_config.json\n'}
+[64.645405] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_lidar.rviz\n'}
+[64.645900] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_hub.rviz\n'}
+[64.646156] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/launch\n'}
+[64.646400] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_template_launch.py\n'}
+[64.646889] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_hub_rviz_launch.py\n'}
+[64.647148] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_hub_launch.py\n'}
+[64.647337] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_lidar_launch.py\n'}
+[64.647539] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_hub_msg_launch .py\n'}
+[64.648092] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_lidar_msg_launch.py\n'}
+[64.648315] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_lidar_rviz_launch.py\n'}
+[64.648542] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/ament_index/resource_index/package_run_dependencies/livox_ros2_driver\n'}
+[64.649093] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/ament_index/resource_index/parent_prefix_path/livox_ros2_driver\n'}
+[64.649311] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/environment/ament_prefix_path.sh\n'}
+[64.649781] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[64.649987] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/environment/path.sh\n'}
+[64.650504] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/environment/path.dsv\n'}
+[64.651379] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.bash\n'}
+[64.652291] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.sh\n'}
+[64.652963] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.zsh\n'}
+[64.654228] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.dsv\n'}
+[64.654985] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/package.dsv\n'}
+[64.655211] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/ament_index/resource_index/packages/livox_ros2_driver\n'}
+[64.655471] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/ament_index/resource_index/rclcpp_components/livox_ros2_driver\n'}
+[64.655708] (-) TimerEvent: {}
+[64.655779] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[64.655998] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[64.656240] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/cmake/livox_ros2_driverConfig.cmake\n'}
+[64.656438] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/cmake/livox_ros2_driverConfig-version.cmake\n'}
+[64.656623] (livox_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/livox/install/livox_ros2_driver/share/livox_ros2_driver/package.xml\n'}
+[64.659054] (livox_ros2_driver) CommandEnded: {'returncode': 0}
+[64.756419] (-) TimerEvent: {}
+[64.857757] (-) TimerEvent: {}
+[64.933422] (livox_ros2_driver) JobEnded: {'identifier': 'livox_ros2_driver', 'rc': 0}
+[64.936044] (-) EventReactorShutdown: {}

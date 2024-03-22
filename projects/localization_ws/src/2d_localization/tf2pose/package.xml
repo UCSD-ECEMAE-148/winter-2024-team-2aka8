@@ -1,0 +1,26 @@
+<package>
+  <name>tf2pose</name>
+  <version>0.0.1</version>
+  <description>
+    <p>
+    TF to PseStamped Converter
+    </p>
+  </description>
+  <author>ERL</author>
+  <maintainer email="ccnyroboticslab@gmail.com">Ivan Dryanovski</maintainer>
+  <maintainer email="cjaramillo@gc.cuny.edu">Carlos</maintainer>
+  <license>GPL</license>
+
+  <url>http://ros.org/wiki/polar_scan_matcher</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>tf</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+</package>
+
+

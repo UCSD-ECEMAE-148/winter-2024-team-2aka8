@@ -1,0 +1,9 @@
+{
+  "package_name": "vesc_msgs",
+  "non_idl_tuples": [
+    "/home/projects/sensor2_ws/src/vesc/src/vesc/vesc_msgs:msg/VescState.msg",
+    "/home/projects/sensor2_ws/src/vesc/src/vesc/vesc_msgs:msg/VescStateStamped.msg",
+    "/home/projects/sensor2_ws/src/vesc/src/vesc/vesc_msgs:msg/VescImu.msg",
+    "/home/projects/sensor2_ws/src/vesc/src/vesc/vesc_msgs:msg/VescImuStamped.msg"
+  ]
+}

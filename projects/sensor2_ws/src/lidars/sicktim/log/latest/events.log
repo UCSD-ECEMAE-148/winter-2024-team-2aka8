@@ -1,0 +1,499 @@
+[0.000000] (-) TimerEvent: {}
+[0.000582] (sick_scan2) JobQueued: {'identifier': 'sick_scan2', 'dependencies': OrderedDict()}
+[0.001476] (sick_scan2) JobStarted: {'identifier': 'sick_scan2'}
+[0.034030] (sick_scan2) JobProgress: {'identifier': 'sick_scan2', 'progress': 'cmake'}
+[0.035238] (sick_scan2) Command: {'cmd': ['/usr/bin/cmake', '/home/projects/sensor_ws/src/lidars/sicktim/src/sick_scan2', '-DCMAKE_INSTALL_PREFIX=/home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2'], 'cwd': '/home/projects/sensor_ws/src/lidars/sicktim/build/sick_scan2', 'env': OrderedDict([('HOSTNAME', '3cfcd226b51b'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('ROS1_DISTRO', 'noetic'), ('ROS2_DISTRO', 'foxy'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/home/projects/sensor_ws/src/lidars/sicktim/build/sick_scan2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099134] (-) TimerEvent: {}
+[0.195092] (sick_scan2) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.199223] (-) TimerEvent: {}
+[0.299745] (-) TimerEvent: {}
+[0.338504] (sick_scan2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.355457] (sick_scan2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.399867] (-) TimerEvent: {}
+[0.500413] (-) TimerEvent: {}
+[0.532046] (sick_scan2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.536075] (sick_scan2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.600614] (-) TimerEvent: {}
+[0.701065] (-) TimerEvent: {}
+[0.711539] (sick_scan2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.747324] (sick_scan2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.747978] (sick_scan2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.754493] (sick_scan2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.801422] (-) TimerEvent: {}
+[0.901891] (-) TimerEvent: {}
+[0.940071] (sick_scan2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.943025] (sick_scan2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.002082] (-) TimerEvent: {}
+[1.102459] (-) TimerEvent: {}
+[1.145000] (sick_scan2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.181121] (sick_scan2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.182309] (sick_scan2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.188522] (sick_scan2) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.202612] (-) TimerEvent: {}
+[1.249462] (sick_scan2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.249927] (sick_scan2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.302711] (-) TimerEvent: {}
+[1.402940] (-) TimerEvent: {}
+[1.503194] (-) TimerEvent: {}
+[1.603424] (-) TimerEvent: {}
+[1.703672] (-) TimerEvent: {}
+[1.729611] (sick_scan2) StdoutLine: {'line': b'-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.803861] (-) TimerEvent: {}
+[1.836875] (sick_scan2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.852818] (sick_scan2) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.904032] (-) TimerEvent: {}
+[2.004594] (-) TimerEvent: {}
+[2.078676] (sick_scan2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.104835] (-) TimerEvent: {}
+[2.148603] (sick_scan2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.204958] (-) TimerEvent: {}
+[2.305394] (-) TimerEvent: {}
+[2.341438] (sick_scan2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.405599] (-) TimerEvent: {}
+[2.481045] (sick_scan2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.484440] (sick_scan2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.486529] (sick_scan2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.505796] (-) TimerEvent: {}
+[2.606177] (-) TimerEvent: {}
+[2.677951] (sick_scan2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.678881] (sick_scan2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.706564] (-) TimerEvent: {}
+[2.807140] (-) TimerEvent: {}
+[2.879998] (sick_scan2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[2.881408] (sick_scan2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.907313] (-) TimerEvent: {}
+[3.007700] (-) TimerEvent: {}
+[3.034015] (sick_scan2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[3.034773] (sick_scan2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[3.107880] (-) TimerEvent: {}
+[3.208289] (-) TimerEvent: {}
+[3.211540] (sick_scan2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[3.216376] (sick_scan2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.308458] (-) TimerEvent: {}
+[3.408858] (-) TimerEvent: {}
+[3.509249] (-) TimerEvent: {}
+[3.598161] (sick_scan2) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[3.609409] (-) TimerEvent: {}
+[3.709731] (-) TimerEvent: {}
+[3.810084] (-) TimerEvent: {}
+[3.876375] (sick_scan2) StdoutLine: {'line': b'-- Found tf2: 0.13.10 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[3.904960] (sick_scan2) StdoutLine: {'line': b'-- Found diagnostic_msgs: 2.0.4 (/opt/ros/foxy/share/diagnostic_msgs/cmake)\n'}
+[3.910196] (-) TimerEvent: {}
+[3.989469] (sick_scan2) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.10 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[4.010322] (-) TimerEvent: {}
+[4.110549] (-) TimerEvent: {}
+[4.210741] (-) TimerEvent: {}
+[4.310924] (-) TimerEvent: {}
+[4.411106] (-) TimerEvent: {}
+[4.511279] (-) TimerEvent: {}
+[4.611471] (-) TimerEvent: {}
+[4.711668] (-) TimerEvent: {}
+[4.794935] (sick_scan2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system thread \n'}
+[4.811778] (-) TimerEvent: {}
+[4.816186] (sick_scan2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[4.911925] (-) TimerEvent: {}
+[5.012181] (-) TimerEvent: {}
+[5.030210] (sick_scan2) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[5.050461] (sick_scan2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.052378] (sick_scan2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/projects/sensor_ws/src/lidars/sicktim/src/sick_scan2/include\n'}
+[5.053119] (sick_scan2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.071640] (sick_scan2) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[5.072055] (sick_scan2) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[5.075145] (sick_scan2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.080816] (sick_scan2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.084042] (sick_scan2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[5.102499] (sick_scan2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.102915] (sick_scan2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.107453] (sick_scan2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.112377] (-) TimerEvent: {}
+[5.116882] (sick_scan2) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.179113] (sick_scan2) StdoutLine: {'line': b'-- Generating done\n'}
+[5.184198] (sick_scan2) StdoutLine: {'line': b'-- Build files have been written to: /home/projects/sensor_ws/src/lidars/sicktim/build/sick_scan2\n'}
+[5.204403] (sick_scan2) CommandEnded: {'returncode': 0}
+[5.206413] (sick_scan2) JobProgress: {'identifier': 'sick_scan2', 'progress': 'build'}
+[5.209212] (sick_scan2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/projects/sensor_ws/src/lidars/sicktim/build/sick_scan2', '--', '-j8', '-l8'], 'cwd': '/home/projects/sensor_ws/src/lidars/sicktim/build/sick_scan2', 'env': OrderedDict([('HOSTNAME', '3cfcd226b51b'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('ROS1_DISTRO', 'noetic'), ('ROS2_DISTRO', 'foxy'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/home/projects/sensor_ws/src/lidars/sicktim/build/sick_scan2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[5.213067] (-) TimerEvent: {}
+[5.313542] (-) TimerEvent: {}
+[5.413969] (-) TimerEvent: {}
+[5.429200] (sick_scan2) StdoutLine: {'line': b'Scanning dependencies of target sick_scan2_lib\n'}
+[5.482828] (sick_scan2) StdoutLine: {'line': b'[ 10%] Building CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/sick_generic_laser.cpp.o\n'}
+[5.483424] (sick_scan2) StdoutLine: {'line': b'[ 10%] Building CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/sick_generic_parser.cpp.o\n'}
+[5.484446] (sick_scan2) StdoutLine: {'line': b'[ 15%] Building CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/sick_scan_common_tcp.cpp.o\n'}
+[5.491434] (sick_scan2) StdoutLine: {'line': b'[ 20%] Building CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/sick_scan_common.cpp.o\n'}
+[5.491905] (sick_scan2) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/tcp/tcp.cpp.o\n'}
+[5.503542] (sick_scan2) StdoutLine: {'line': b'[ 30%] Building CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/tcp/Mutex.cpp.o\n'}
+[5.506917] (sick_scan2) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/tcp/errorhandler.cpp.o\n'}
+[5.510415] (sick_scan2) StdoutLine: {'line': b'[ 40%] Building CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/tcp/SickThread.cpp.o\n'}
+[5.514185] (-) TimerEvent: {}
+[5.614630] (-) TimerEvent: {}
+[5.715154] (-) TimerEvent: {}
+[5.815631] (-) TimerEvent: {}
+[5.916128] (-) TimerEvent: {}
+[6.016580] (-) TimerEvent: {}
+[6.111320] (sick_scan2) StdoutLine: {'line': b'[ 45%] Building CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/tcp/toolbox.cpp.o\n'}
+[6.116972] (-) TimerEvent: {}
+[6.122179] (sick_scan2) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/tcp/Time.cpp.o\n'}
+[6.145363] (sick_scan2) StdoutLine: {'line': b'[ 55%] Building CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/tcp/colaa.cpp.o\n'}
+[6.217090] (-) TimerEvent: {}
+[6.317508] (-) TimerEvent: {}
+[6.417951] (-) TimerEvent: {}
+[6.518428] (-) TimerEvent: {}
+[6.618895] (-) TimerEvent: {}
+[6.719339] (-) TimerEvent: {}
+[6.734798] (sick_scan2) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/tcp/colab.cpp.o\n'}
+[6.819583] (-) TimerEvent: {}
+[6.823046] (sick_scan2) StdoutLine: {'line': b'[ 65%] Building CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/binPrintf.cpp.o\n'}
+[6.919824] (-) TimerEvent: {}
+[6.981642] (sick_scan2) StdoutLine: {'line': b'[ 70%] Building CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/binScanf.cpp.o\n'}
+[7.020080] (-) TimerEvent: {}
+[7.120523] (-) TimerEvent: {}
+[7.220993] (-) TimerEvent: {}
+[7.321438] (-) TimerEvent: {}
+[7.387378] (sick_scan2) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/sick_scan_common_nw.cpp.o\n'}
+[7.393903] (sick_scan2) StdoutLine: {'line': b'[ 80%] Building CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/sick_generic_imu.cpp.o\n'}
+[7.412774] (sick_scan2) StdoutLine: {'line': b'[ 85%] Building CXX object CMakeFiles/sick_scan2_lib.dir/driver/src/softwarePLL.cpp.o\n'}
+[7.421642] (-) TimerEvent: {}
+[7.522070] (-) TimerEvent: {}
+[7.622539] (-) TimerEvent: {}
+[7.723032] (-) TimerEvent: {}
+[7.823497] (-) TimerEvent: {}
+[7.923982] (-) TimerEvent: {}
+[8.024483] (-) TimerEvent: {}
+[8.125017] (-) TimerEvent: {}
+[8.225461] (-) TimerEvent: {}
+[8.325953] (-) TimerEvent: {}
+[8.426398] (-) TimerEvent: {}
+[8.526871] (-) TimerEvent: {}
+[8.627341] (-) TimerEvent: {}
+[8.728863] (-) TimerEvent: {}
+[8.829330] (-) TimerEvent: {}
+[8.929777] (-) TimerEvent: {}
+[9.030254] (-) TimerEvent: {}
+[9.130733] (-) TimerEvent: {}
+[9.231225] (-) TimerEvent: {}
+[9.331769] (-) TimerEvent: {}
+[9.432279] (-) TimerEvent: {}
+[9.532828] (-) TimerEvent: {}
+[9.633284] (-) TimerEvent: {}
+[9.733747] (-) TimerEvent: {}
+[9.834312] (-) TimerEvent: {}
+[9.934803] (-) TimerEvent: {}
+[10.035275] (-) TimerEvent: {}
+[10.135748] (-) TimerEvent: {}
+[10.236255] (-) TimerEvent: {}
+[10.336834] (-) TimerEvent: {}
+[10.437302] (-) TimerEvent: {}
+[10.537806] (-) TimerEvent: {}
+[10.638335] (-) TimerEvent: {}
+[10.738881] (-) TimerEvent: {}
+[10.839357] (-) TimerEvent: {}
+[10.939908] (-) TimerEvent: {}
+[11.040420] (-) TimerEvent: {}
+[11.140957] (-) TimerEvent: {}
+[11.241462] (-) TimerEvent: {}
+[11.341913] (-) TimerEvent: {}
+[11.442432] (-) TimerEvent: {}
+[11.542950] (-) TimerEvent: {}
+[11.643437] (-) TimerEvent: {}
+[11.743985] (-) TimerEvent: {}
+[11.844529] (-) TimerEvent: {}
+[11.945123] (-) TimerEvent: {}
+[12.045556] (-) TimerEvent: {}
+[12.146065] (-) TimerEvent: {}
+[12.246532] (-) TimerEvent: {}
+[12.347000] (-) TimerEvent: {}
+[12.447450] (-) TimerEvent: {}
+[12.547925] (-) TimerEvent: {}
+[12.648396] (-) TimerEvent: {}
+[12.748928] (-) TimerEvent: {}
+[12.849375] (-) TimerEvent: {}
+[12.949833] (-) TimerEvent: {}
+[13.050269] (-) TimerEvent: {}
+[13.150747] (-) TimerEvent: {}
+[13.251215] (-) TimerEvent: {}
+[13.351683] (-) TimerEvent: {}
+[13.452144] (-) TimerEvent: {}
+[13.552660] (-) TimerEvent: {}
+[13.653168] (-) TimerEvent: {}
+[13.754165] (-) TimerEvent: {}
+[13.854599] (-) TimerEvent: {}
+[13.955077] (-) TimerEvent: {}
+[14.055536] (-) TimerEvent: {}
+[14.156029] (-) TimerEvent: {}
+[14.256457] (-) TimerEvent: {}
+[14.356897] (-) TimerEvent: {}
+[14.457326] (-) TimerEvent: {}
+[14.557768] (-) TimerEvent: {}
+[14.658216] (-) TimerEvent: {}
+[14.758702] (-) TimerEvent: {}
+[14.859172] (-) TimerEvent: {}
+[14.959627] (-) TimerEvent: {}
+[15.060113] (-) TimerEvent: {}
+[15.160573] (-) TimerEvent: {}
+[15.261144] (-) TimerEvent: {}
+[15.361589] (-) TimerEvent: {}
+[15.462074] (-) TimerEvent: {}
+[15.562530] (-) TimerEvent: {}
+[15.663007] (-) TimerEvent: {}
+[15.763452] (-) TimerEvent: {}
+[15.863938] (-) TimerEvent: {}
+[15.964411] (-) TimerEvent: {}
+[16.064909] (-) TimerEvent: {}
+[16.165382] (-) TimerEvent: {}
+[16.265881] (-) TimerEvent: {}
+[16.366329] (-) TimerEvent: {}
+[16.466810] (-) TimerEvent: {}
+[16.567309] (-) TimerEvent: {}
+[16.667794] (-) TimerEvent: {}
+[16.768243] (-) TimerEvent: {}
+[16.868836] (-) TimerEvent: {}
+[16.969277] (-) TimerEvent: {}
+[17.069730] (-) TimerEvent: {}
+[17.170169] (-) TimerEvent: {}
+[17.270597] (-) TimerEvent: {}
+[17.371044] (-) TimerEvent: {}
+[17.471482] (-) TimerEvent: {}
+[17.571903] (-) TimerEvent: {}
+[17.672394] (-) TimerEvent: {}
+[17.772895] (-) TimerEvent: {}
+[17.873403] (-) TimerEvent: {}
+[17.973858] (-) TimerEvent: {}
+[18.074304] (-) TimerEvent: {}
+[18.174777] (-) TimerEvent: {}
+[18.275236] (-) TimerEvent: {}
+[18.375698] (-) TimerEvent: {}
+[18.476171] (-) TimerEvent: {}
+[18.576670] (-) TimerEvent: {}
+[18.677219] (-) TimerEvent: {}
+[18.777646] (-) TimerEvent: {}
+[18.878093] (-) TimerEvent: {}
+[18.978623] (-) TimerEvent: {}
+[19.079071] (-) TimerEvent: {}
+[19.179503] (-) TimerEvent: {}
+[19.279975] (-) TimerEvent: {}
+[19.380445] (-) TimerEvent: {}
+[19.481022] (-) TimerEvent: {}
+[19.581422] (-) TimerEvent: {}
+[19.681871] (-) TimerEvent: {}
+[19.782278] (-) TimerEvent: {}
+[19.882678] (-) TimerEvent: {}
+[19.983115] (-) TimerEvent: {}
+[20.085454] (-) TimerEvent: {}
+[20.186767] (-) TimerEvent: {}
+[20.287201] (-) TimerEvent: {}
+[20.387644] (-) TimerEvent: {}
+[20.488056] (-) TimerEvent: {}
+[20.588531] (-) TimerEvent: {}
+[20.689055] (-) TimerEvent: {}
+[20.789456] (-) TimerEvent: {}
+[20.889787] (-) TimerEvent: {}
+[20.990042] (-) TimerEvent: {}
+[21.090254] (-) TimerEvent: {}
+[21.190485] (-) TimerEvent: {}
+[21.290675] (-) TimerEvent: {}
+[21.390889] (-) TimerEvent: {}
+[21.491069] (-) TimerEvent: {}
+[21.591284] (-) TimerEvent: {}
+[21.691496] (-) TimerEvent: {}
+[21.791713] (-) TimerEvent: {}
+[21.891905] (-) TimerEvent: {}
+[21.992157] (-) TimerEvent: {}
+[22.092411] (-) TimerEvent: {}
+[22.192659] (-) TimerEvent: {}
+[22.292964] (-) TimerEvent: {}
+[22.393213] (-) TimerEvent: {}
+[22.493525] (-) TimerEvent: {}
+[22.593870] (-) TimerEvent: {}
+[22.694163] (-) TimerEvent: {}
+[22.794465] (-) TimerEvent: {}
+[22.894709] (-) TimerEvent: {}
+[22.995023] (-) TimerEvent: {}
+[23.095380] (-) TimerEvent: {}
+[23.195785] (-) TimerEvent: {}
+[23.296177] (-) TimerEvent: {}
+[23.306342] (sick_scan2) StdoutLine: {'line': b'[ 90%] Linking CXX static library libsick_scan2_lib.a\n'}
+[23.396364] (-) TimerEvent: {}
+[23.496830] (-) TimerEvent: {}
+[23.581085] (sick_scan2) StdoutLine: {'line': b'[ 90%] Built target sick_scan2_lib\n'}
+[23.596919] (-) TimerEvent: {}
+[23.674978] (sick_scan2) StdoutLine: {'line': b'Scanning dependencies of target sick_generic_caller\n'}
+[23.697026] (-) TimerEvent: {}
+[23.715807] (sick_scan2) StdoutLine: {'line': b'[ 95%] Building CXX object CMakeFiles/sick_generic_caller.dir/driver/src/sick_generic_caller.cpp.o\n'}
+[23.797210] (-) TimerEvent: {}
+[23.897562] (-) TimerEvent: {}
+[23.997850] (-) TimerEvent: {}
+[24.098095] (-) TimerEvent: {}
+[24.198354] (-) TimerEvent: {}
+[24.298635] (-) TimerEvent: {}
+[24.398883] (-) TimerEvent: {}
+[24.499143] (-) TimerEvent: {}
+[24.599407] (-) TimerEvent: {}
+[24.699647] (-) TimerEvent: {}
+[24.799915] (-) TimerEvent: {}
+[24.900215] (-) TimerEvent: {}
+[25.000502] (-) TimerEvent: {}
+[25.100763] (-) TimerEvent: {}
+[25.201019] (-) TimerEvent: {}
+[25.301266] (-) TimerEvent: {}
+[25.401508] (-) TimerEvent: {}
+[25.501727] (-) TimerEvent: {}
+[25.601950] (-) TimerEvent: {}
+[25.702196] (-) TimerEvent: {}
+[25.802474] (-) TimerEvent: {}
+[25.902745] (-) TimerEvent: {}
+[26.002991] (-) TimerEvent: {}
+[26.103330] (-) TimerEvent: {}
+[26.203713] (-) TimerEvent: {}
+[26.304026] (-) TimerEvent: {}
+[26.405719] (-) TimerEvent: {}
+[26.506054] (-) TimerEvent: {}
+[26.606281] (-) TimerEvent: {}
+[26.706547] (-) TimerEvent: {}
+[26.806812] (-) TimerEvent: {}
+[26.907058] (-) TimerEvent: {}
+[27.007302] (-) TimerEvent: {}
+[27.107545] (-) TimerEvent: {}
+[27.207817] (-) TimerEvent: {}
+[27.308103] (-) TimerEvent: {}
+[27.408364] (-) TimerEvent: {}
+[27.508654] (-) TimerEvent: {}
+[27.608923] (-) TimerEvent: {}
+[27.709204] (-) TimerEvent: {}
+[27.809481] (-) TimerEvent: {}
+[27.909747] (-) TimerEvent: {}
+[28.010104] (-) TimerEvent: {}
+[28.110476] (-) TimerEvent: {}
+[28.210819] (-) TimerEvent: {}
+[28.311109] (-) TimerEvent: {}
+[28.411368] (-) TimerEvent: {}
+[28.511626] (-) TimerEvent: {}
+[28.611883] (-) TimerEvent: {}
+[28.712105] (-) TimerEvent: {}
+[28.814537] (-) TimerEvent: {}
+[28.914857] (-) TimerEvent: {}
+[29.015127] (-) TimerEvent: {}
+[29.115355] (-) TimerEvent: {}
+[29.215594] (-) TimerEvent: {}
+[29.315847] (-) TimerEvent: {}
+[29.416075] (-) TimerEvent: {}
+[29.516323] (-) TimerEvent: {}
+[29.616595] (-) TimerEvent: {}
+[29.717024] (-) TimerEvent: {}
+[29.817243] (-) TimerEvent: {}
+[29.917486] (-) TimerEvent: {}
+[30.017765] (-) TimerEvent: {}
+[30.118015] (-) TimerEvent: {}
+[30.218245] (-) TimerEvent: {}
+[30.318459] (-) TimerEvent: {}
+[30.418701] (-) TimerEvent: {}
+[30.518954] (-) TimerEvent: {}
+[30.619211] (-) TimerEvent: {}
+[30.719456] (-) TimerEvent: {}
+[30.819689] (-) TimerEvent: {}
+[30.919909] (-) TimerEvent: {}
+[31.020125] (-) TimerEvent: {}
+[31.120329] (-) TimerEvent: {}
+[31.220536] (-) TimerEvent: {}
+[31.320832] (-) TimerEvent: {}
+[31.421069] (-) TimerEvent: {}
+[31.521306] (-) TimerEvent: {}
+[31.621566] (-) TimerEvent: {}
+[31.721819] (-) TimerEvent: {}
+[31.822069] (-) TimerEvent: {}
+[31.922369] (-) TimerEvent: {}
+[32.022670] (-) TimerEvent: {}
+[32.122934] (-) TimerEvent: {}
+[32.223188] (-) TimerEvent: {}
+[32.323436] (-) TimerEvent: {}
+[32.423677] (-) TimerEvent: {}
+[32.523923] (-) TimerEvent: {}
+[32.624171] (-) TimerEvent: {}
+[32.724427] (-) TimerEvent: {}
+[32.824657] (-) TimerEvent: {}
+[32.925015] (-) TimerEvent: {}
+[33.025268] (-) TimerEvent: {}
+[33.125516] (-) TimerEvent: {}
+[33.225765] (-) TimerEvent: {}
+[33.325992] (-) TimerEvent: {}
+[33.426218] (-) TimerEvent: {}
+[33.526468] (-) TimerEvent: {}
+[33.626688] (-) TimerEvent: {}
+[33.726918] (-) TimerEvent: {}
+[33.827147] (-) TimerEvent: {}
+[33.927415] (-) TimerEvent: {}
+[34.027689] (-) TimerEvent: {}
+[34.107123] (sick_scan2) StdoutLine: {'line': b'[100%] Linking CXX executable sick_generic_caller\n'}
+[34.127845] (-) TimerEvent: {}
+[34.228264] (-) TimerEvent: {}
+[34.328776] (-) TimerEvent: {}
+[34.429311] (-) TimerEvent: {}
+[34.529802] (-) TimerEvent: {}
+[34.630297] (-) TimerEvent: {}
+[34.730860] (-) TimerEvent: {}
+[34.831385] (-) TimerEvent: {}
+[34.903152] (sick_scan2) StdoutLine: {'line': b'[100%] Built target sick_generic_caller\n'}
+[34.927737] (sick_scan2) CommandEnded: {'returncode': 0}
+[34.933885] (-) TimerEvent: {}
+[35.034675] (-) TimerEvent: {}
+[35.135604] (-) TimerEvent: {}
+[35.184200] (sick_scan2) JobProgress: {'identifier': 'sick_scan2', 'progress': 'install'}
+[35.217920] (sick_scan2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/projects/sensor_ws/src/lidars/sicktim/build/sick_scan2'], 'cwd': '/home/projects/sensor_ws/src/lidars/sicktim/build/sick_scan2', 'env': OrderedDict([('HOSTNAME', '3cfcd226b51b'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('ROS1_DISTRO', 'noetic'), ('ROS2_DISTRO', 'foxy'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/home/projects/sensor_ws/src/lidars/sicktim/build/sick_scan2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[35.235869] (-) TimerEvent: {}
+[35.244070] (sick_scan2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[35.245469] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/lib/sick_scan2/sick_generic_caller\n'}
+[35.252993] (sick_scan2) StdoutLine: {'line': b'-- Set runtime path of "/home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/lib/sick_scan2/sick_generic_caller" to ""\n'}
+[35.253694] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/lib/libsick_scan2_lib.a\n'}
+[35.276892] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/launch\n'}
+[35.277665] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/launch/rviz\n'}
+[35.278435] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/launch/rviz/combi.rviz\n'}
+[35.279029] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/launch/rviz/hector.rviz\n'}
+[35.279821] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/launch/rviz/tim_5xx.rviz\n'}
+[35.280601] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/launch/rviz/sick_cola.rviz\n'}
+[35.281631] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/launch/rviz/sick_ldmrs.rviz\n'}
+[35.282512] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/launch/rviz/radar.rviz\n'}
+[35.283499] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/launch/single_rrbot.urdf\n'}
+[35.284193] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/launch/sick_lms_5xx.launch.py\n'}
+[35.285171] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/launch/sick_lrs_4xxx.launch.py\n'}
+[35.285437] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/launch/sick_lms_5xx.launch_old.py\n'}
+[35.285670] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/launch/sick_lms_1xxx.launch.py\n'}
+[35.286069] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/launch/sick_tim_5xx.launch.py\n'}
+[35.286550] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/launch/sick_tim_7xxS.launch.py\n'}
+[35.287021] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/launch/sick_ldmrs.launch.py\n'}
+[35.287434] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/launch/sick_tim_5xx.launch.pyOLD\n'}
+[35.287964] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/launch/sick_tim_240.launch.py\n'}
+[35.288426] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/launch/sick_tim_7xx.launch.py\n'}
+[35.288937] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/launch/sick_lms_1xx.launch.py\n'}
+[35.289481] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/launch/sick_mrs_1xxx.launch.py\n'}
+[35.289707] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/config\n'}
+[35.290144] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/config/sick_ldmrs_flexres.yaml\n'}
+[35.290621] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/config/sick_mrs_1xxx.yaml\n'}
+[35.291136] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/config/sick_tim_240.yaml\n'}
+[35.291515] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/config/sick_lms_5xx.yaml\n'}
+[35.291748] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/config/sick_tim_7xxS.yaml\n'}
+[35.292004] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/config/sick_lrs_4xxx.yaml\n'}
+[35.292242] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/config/sick_ldmrs.yaml\n'}
+[35.292446] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/config/sick_tim_5xx.yaml\n'}
+[35.292638] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/config/sick_lms_1xx.yaml\n'}
+[35.292883] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/config/sick_lms_1xxx.yaml\n'}
+[35.293137] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/config/sick_tim_7xx.yaml\n'}
+[35.293377] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/ament_index/resource_index/package_run_dependencies/sick_scan2\n'}
+[35.293601] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/ament_index/resource_index/parent_prefix_path/sick_scan2\n'}
+[35.294359] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/environment/ament_prefix_path.sh\n'}
+[35.295757] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/environment/ament_prefix_path.dsv\n'}
+[35.299603] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/environment/path.sh\n'}
+[35.300401] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/environment/path.dsv\n'}
+[35.301174] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/local_setup.bash\n'}
+[35.302286] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/local_setup.sh\n'}
+[35.302942] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/local_setup.zsh\n'}
+[35.303739] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/local_setup.dsv\n'}
+[35.304372] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/package.dsv\n'}
+[35.305512] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/ament_index/resource_index/packages/sick_scan2\n'}
+[35.305939] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/cmake/sick_scan2Config.cmake\n'}
+[35.306559] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/cmake/sick_scan2Config-version.cmake\n'}
+[35.308101] (sick_scan2) StdoutLine: {'line': b'-- Installing: /home/projects/sensor_ws/src/lidars/sicktim/install/sick_scan2/share/sick_scan2/package.xml\n'}
+[35.308873] (sick_scan2) CommandEnded: {'returncode': 0}
+[35.336789] (-) TimerEvent: {}
+[35.437818] (-) TimerEvent: {}
+[35.538950] (-) TimerEvent: {}
+[35.620570] (sick_scan2) JobEnded: {'identifier': 'sick_scan2', 'rc': 0}
+[35.623398] (-) EventReactorShutdown: {}

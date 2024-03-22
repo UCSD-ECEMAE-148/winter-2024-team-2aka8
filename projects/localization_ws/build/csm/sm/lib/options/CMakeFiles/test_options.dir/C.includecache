@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/projects/localization_ws/src/csm/sm/lib/options/options.h
+stdio.h
+-
+
+/home/projects/localization_ws/src/csm/sm/lib/options/test_options.c
+options.h
+/home/projects/localization_ws/src/csm/sm/lib/options/options.h
+

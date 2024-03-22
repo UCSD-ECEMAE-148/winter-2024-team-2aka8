@@ -1,0 +1,6 @@
+devel_space: /home/projects/localization_ws/devel
+install: false
+install_space: /home/projects/localization_ws/install
+profile: default
+source_space: /home/projects/localization_ws/src
+workspace: /home/projects/localization_ws

@@ -1,0 +1,2 @@
+ld06_lidar
+-DCATKIN_DEVEL_PREFIX=/home/projects/sensor1_ws/src/lidars/ld06/devel -DCMAKE_INSTALL_PREFIX=/home/projects/sensor1_ws/src/lidars/ld06/install -G Unix Makefiles

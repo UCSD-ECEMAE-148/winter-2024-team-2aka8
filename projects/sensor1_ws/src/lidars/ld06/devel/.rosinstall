@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/projects/sensor1_ws/src/lidars/ld06/devel/setup.sh

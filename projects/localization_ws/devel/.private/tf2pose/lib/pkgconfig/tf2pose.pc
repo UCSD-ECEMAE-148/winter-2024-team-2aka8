@@ -1,0 +1,8 @@
+prefix=/home/projects/localization_ws/devel/.private/tf2pose
+
+Name: tf2pose
+Description: Description of tf2pose
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rospy tf geometry_msgs
