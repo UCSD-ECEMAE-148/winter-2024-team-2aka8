@@ -65,21 +65,21 @@ Team 4 Winter 2024
 ## Team Members
 
 <div align="center">
-    <p align = "center">Kiersten, Jacob, Joe, Damien</p>
+    <p align = "center">Jesse, Jason, Maahir, and Alexander</p>
 </div>
 
 <h4>Team Member Major and Class </h4>
 <ul>
-  <li>Kiersten - Mechanical Engineering, Ctrls & Robotics (MC34) - Class of 2025</li>
-  <li>Jacob - Electrical Engineering (EC27) - Class of 2007</li>
-  <li>Joe - Mechanical Engineering, Ctrls & Robotics (MC34) - Class of 2025</li>
-  <li>Damien - Mechanical Engineering (MC25) - Class of 2026</li>
+  <li>Jesse - Mechanical Engineering - Class of 2026</li>
+  <li>Jason - Mechanical Engineering - Class of 2025</li>
+  <li>Maahir - Mechanical Engineering - Class of 2025</li>
+  <li>Alexander - Mechanical Engineering, Controls and Robotics - Class of 2025</li>
 </ul>
 
 <!-- Final Project -->
 ## Final Project
 
-Our project goal was to develop a prototype of an a self-driving campus rideshare service exclusively for UCSD students that utilizes facial recognition as an extra element of safety and security for students. We aimed to develop ROS2 packages that would run in conjunction with the UCSD Robocar framework, programming our car to effectively perform controlled tasks while driving autonomously.
+Our project goal was to integrate ChatGPT into the robocar framework. Using chatgpt, the robot can respond to input from the camera, lidar, and gps in order to do different moves.
 
 <!-- Original Goals -->
 ### Original Goals
