@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="https://jacobsschool.ucsd.edu/">
-    <img src="images\UCSDLogo_JSOE_BlueGold.png" alt="Logo" width="400" height="100">
+    <img src="file:///Users/jasonliu/Downloads/UCSDLogo_JSOE_BlueGold.png" alt="Logo" width="400" height="100">
   </a>
 <h3>MAE148 Final Project</h3>
 <p>
