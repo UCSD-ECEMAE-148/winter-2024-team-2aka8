@@ -120,6 +120,7 @@ In our project files, we had to add the fusion engine driver for gps manually, s
 For path following, we used the DonkeyCar AI framework and tuned our own PID values. With the donkey car framework, we connected through gps and used PID following of chatgpt generated waypoints for the car. Some example paths are in the donkey_paths folder. Often, chatgpt's paths were innacurate or straight lines, so you may have to be descriptive in your prompts to chatgpt. We found that the system worked best when chatgpt had a good reference understanding of its area size, how many path points to use, and that you want it to use funciton calling.
 
 ### How to Run
+Use the UCSD Robocar Docker images and add the projects folder yourself. Python3 is required, install any reposotries not there.
 
 Step 1: In the first terminal, start the fusion client. First source ros2. Note, in the build_ros2 file, we exluded the build for the fusion client as each build takes an extra 50 seconds with it.
 
