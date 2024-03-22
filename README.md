@@ -124,9 +124,9 @@ Use the UCSD Robocar Docker images and add the projects folder yourself. Python3
 
 Step 1: In the first terminal, start the fusion client. First source ros2. Note, in the build_ros2 file, we exluded the build for the fusion client as each build takes an extra 50 seconds with it.
 
-source_ros2
-build_ros2
-ros2 run fusion-engine-driver fusion_engine_ros_driver --ros-args -p connection_type:=tty -p tty_port:=/dev/ttyUSB1
+```source_ros2```
+```build_ros2
+```ros2 run fusion-engine-driver fusion_engine_ros_driver --ros-args -p connection_type:=tty -p tty_port:=/dev/ttyUSB1
 
 Step 2: In a second terminal, build and source ros2 as usual from the ucsd robocar process. Then launch all nodes.
 
