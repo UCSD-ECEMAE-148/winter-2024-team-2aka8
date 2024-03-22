@@ -102,7 +102,7 @@ We want automatic lidar stopping to be implemented for safety. Since chatgpt doe
 #### Open Source Parts
 | Part | CAD Model | Source |
 |------|--------|-----------|
-| Jetson Nano Case | <img src="/media/jetson%20nano%20case.png" width="400" height="300" /> | [Thingiverse](https://www.thingiverse.com/thing:3518410) |
+| Jetson Nano Case | <img src="/media/jetson%20nano%20case.png" /> | [Thingiverse](https://www.thingiverse.com/thing:3518410) |
 
 ### Software
 #### Chatgpt
