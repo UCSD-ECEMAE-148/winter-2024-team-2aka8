@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="https://jacobsschool.ucsd.edu/">
-    <img src="UCSDLogo_JSOE_BlueGold.png" alt="Logo" width="400" height="100">
+    <img src="/media/UCSDLogo_JSOE_BlueGold.png" alt="Logo" width="400" height="100">
   </a>
 <h3>MAE148 Final Project</h3>
 <p>
@@ -97,12 +97,12 @@ We want automatic lidar stopping to be implemented for safety. Since chatgpt doe
 
 <!-- Early Quarter -->
 ### Robot Design CAD
-<img src="https://github.com/JL2200/mae148_group8/blob/main/full%20car%20cad.png" width="400" height="300" />
+<img src="/media/full%20car%20cad.png" width="400" height="300" />
 
 #### Open Source Parts
 | Part | CAD Model | Source |
 |------|--------|-----------|
-| Jetson Nano Case | <img src="https://github.com/JL2200/mae148_group8/blob/main/jetson%20nano%20case.png" width="400" height="300" /> | [Thingiverse](https://www.thingiverse.com/thing:3518410) |
+| Jetson Nano Case | <img src="/media/jetson%20nano%20case.png" width="400" height="300" /> | [Thingiverse](https://www.thingiverse.com/thing:3518410) |
 
 ### Software
 #### Chatgpt
