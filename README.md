@@ -125,29 +125,29 @@ Use the UCSD Robocar Docker images and add the projects folder yourself. Python3
 Step 1: In the first terminal, start the fusion client. First source ros2. Note, in the build_ros2 file, we exluded the build for the fusion client as each build takes an extra 50 seconds with it.
 
 ```source_ros2```
-```build_ros2
-```ros2 run fusion-engine-driver fusion_engine_ros_driver --ros-args -p connection_type:=tty -p tty_port:=/dev/ttyUSB1
+```build_ros2```
+```ros2 run fusion-engine-driver fusion_engine_ros_driver --ros-args -p connection_type:=tty -p tty_port:=/dev/ttyUSB1```
 
 Step 2: In a second terminal, build and source ros2 as usual from the ucsd robocar process. Then launch all nodes.
 
-source_ros2
-ros2 launch ucsd_robocar_nav2_pkg all_nodes.launch.py
+```source_ros2```
+```ros2 launch ucsd_robocar_nav2_pkg all_nodes.launch.py```
 
 Step 3: Adjust the chatgpt_drive_node.py in the basics package with your OPENAI API KEY. Launch the chatgpt node. Source ros2 in a third terminal and launch this command.
 
-source_ros2
-ros2 launch ucsd_robocar_basics2_pkg chatgpt_drive_launch.launch.py
+```source_ros2```
+```ros2 launch ucsd_robocar_basics2_pkg chatgpt_drive_launch.launch.py```
 
 Step 4: You are ready to talk to chatgpt. Make sure the terminals output no errors and chatgpt has said "finished init". Then, you publish to a /chat_input topic to communicate with the chatgpt node.
 
 ```source_ros2```
-ros2 topic pub -1 /chat_input std_msgs/msg/String "data: 'YOUR MESSEGE HERE'"
+```ros2 topic pub -1 /chat_input std_msgs/msg/String "data: 'YOUR MESSEGE HERE'"```
 
 The messege should show up in the chatgpt terminal and if it does not, it did not work. First the vision model will respond with an action plan. Responses can take up to 20 seconds. Then a Function tool caller will work. Sometimes the tool caller gets stuck and you must restart the chatgpt node. Its recommended to restart all nodes, as another error can be no image input being recieved from the all_nodes.
 
 Step 5: If you desire a path to be made, then chatgpt will have outputed the path to the donkey_paths folder in the basics2 package. You can take this csv, and use its path in the donkey car manage.py config files for donkey car to drive on this desired path. Make sure your path starts at 0,0 or to zero the car and drive to the path start. The donkey command to run in a 5th terminal is
 
-manage.py drive 
+```manage.py drive ```
 
 For more information, see the donkey car framework on running with your own car. When manage.py runs, use x to zero the car, b to load a path, and double tap start for the car to follow the path.
 
