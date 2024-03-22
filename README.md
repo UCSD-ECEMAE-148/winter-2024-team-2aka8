@@ -102,22 +102,13 @@ Our project goal was to integrate ChatGPT into the robocar framework. Using chat
 
 
 <!-- Early Quarter -->
-## Robot Design
-
-### CAD Parts
-
-
-#### Custom Designed Parts
-<img src="https://github.com/kiers-neely/ucsd-mae-148-team-4/assets/161119406/6770d099-0e2e-4f8d-8072-991f1b72971f" width="400" height="300" />
-
+## Robot Design CAD
+<img src="https://github.com/JL2200/mae148_group8/blob/main/full%20car%20cad.png" width="400" height="300" />
 
 #### Open Source Parts
 | Part | CAD Model | Source |
 |------|--------|-----------|
-| Jetson Nano Case | <img src="https://github.com/kiers-neely/ucsd-mae-148-team-4/assets/161119406/6770d099-0e2e-4f8d-8072-991f1b72971f" width="400" height="300" /> | [Thingiverse](https://www.thingiverse.com/thing:3778338) |
-| Oak-D Lite Case | <img src="https://github.com/kiers-neely/ucsd-mae-148-team-4/assets/161119406/bcc64c60-d67c-47af-b0cb-f46ac7b8a4c1" width="400" height="300" /> | [Thingiverse](https://www.thingiverse.com/thing:533649) |
-
-
+| Jetson Nano Case | <img src="" width="400" height="300" /> | [Thingiverse]() |
 
 
 ### Software
