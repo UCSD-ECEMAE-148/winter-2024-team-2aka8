@@ -10,7 +10,7 @@
   </a>
 <h3>MAE148 Final Project</h3>
 <p>
-Team 8 Winter 2024
+Team 4 Winter 2024
 </p>
 
 ![image](https://github.com/JL2200/mae148_group8/blob/main/IMG_4898.JPG)
