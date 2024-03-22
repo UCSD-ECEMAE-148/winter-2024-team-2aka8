@@ -1,8 +1,8 @@
 <div id="top"></div>
 
-<h1 align="center">UCSDrive! Autonomous Campus Rideshare</h1>
+<h1 align="center">TranquiBot: Chatgpt Powered Autonomous Car</h1>
 
-<!-- PROJECT LOGO -->
+<!-- PROJECT LOGO -->:
 <br />
 <div align="center">
   <a href="https://jacobsschool.ucsd.edu/">
