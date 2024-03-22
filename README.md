@@ -110,7 +110,6 @@ Our project goal was to integrate ChatGPT into the robocar framework. Using chat
 |------|--------|-----------|
 | Jetson Nano Case | <img src="https://github.com/JL2200/mae148_group8/blob/main/jetson%20nano%20case.png" width="400" height="300" /> | [Thingiverse](https://www.thingiverse.com/thing:3518410) |
 
-
 ### Software
 #### Chatgpt
 We connected Chatgpt to the robocar by using the Openai API, utilizing two seperate models. The first model was GPT4 with Vision, which processes commands from the user and images. Then this model creates an action plan for what the car can do. Since the image based models don't have function calling to trigger the drive commands, we used a second GPT4-Turbo model to read the vision models plan and turn those into functions. Chatgpt had acces to two functions, a drive command to control steering, speed, and motion timeout. Then it had control over a path function, which let chatgpt generate a csv path of x and y coordinates + a throttle for the car to follow. Chatgpt had access to the cameras, lidar data, gps data, and user prompts. We picked and chose which data to give Chatgpt based on the use case.
@@ -119,10 +118,36 @@ We connected Chatgpt to the robocar by using the Openai API, utilizing two seper
 To run the system, we used a Jetson Nano with an Oakd depth camera, an ld06 lidar sensor, and a point one Fusion Engine gps. For motion we used a VESC Driver within the Donkey Car framework. https://www.donkeycar.com/
 
 #### ROS2
-For commands, we made a ROS2 Node called 
+For commands, we made a ROS2 Node called ChatgptDriveSubpub that works with the UCSD Robocar framework. Most of the files we created are in the basics2 package of the ros2_ws (ros2 workspace). We altered the nav2 config files to add the chatgpt node to start up automatically, but never finished this. So, if you follow the steps to get Ros2 running from the UCSD robocar framework, you are mostly complete.
+
+In our project files, we had to add the fusion engine driver for gps manually, so the nodes for fusion gps are prone to error. One will need 4 to 5 terminals to run this system. One for starting up gps, one for launching all_nodes, one for launching the chatgpt node, one for sending chatgpt messeges over a chat topic, and finally one to use donkeycar's manage.py drive command to drive the car in a desired path. 
 
 #### DonkeyCar AI
+For path following, we used the DonkeyCar AI framework and tuned our own PID values. With the donkey car framework, we connected through gps and used PID following of chatgpt generated waypoints for the car. Some example paths are in the donkey_paths folder. Often, chatgpt's paths were innacurate or straight lines, so you may have to be descriptive in your prompts to chatgpt. We found that the system worked best when chatgpt had a good reference understanding of its area size, how many path points to use, and that you want it to use funciton calling.
 
+### How to Run
+
+Step 1: In the first terminal, start the fusion client. First source ros2. Note, in the build_ros2 file, we exluded the build for the fusion client as each build takes an extra 50 seconds with it.
+> source_ros2
+> build_ros2
+> ros2 run fusion-engine-driver fusion_engine_ros_driver --ros-args -p connection_type:=tty -p tty_port:=/dev/ttyUSB1
+
+Step 2: In a second terminal, build and source ros2 as usual from the ucsd robocar process. Then launch all nodes.
+> source_ros2
+> ros2 launch ucsd_robocar_nav2_pkg all_nodes.launch.py
+
+Step 3: Adjust the chatgpt_drive_node.py in the basics package with your OPENAI API KEY. Launch the chatgpt node. Source ros2 in a third terminal and launch this command.
+> source_ros2
+> ros2 launch ucsd_robocar_basics2_pkg chatgpt_drive_launch.launch.py
+
+Step 4: You are ready to talk to chatgpt. Make sure the terminals output no errors and chatgpt has said "finished init". Then, you publish to a /chat_input topic to communicate with the chatgpt node.
+> source_ros2
+> ros2 topic pub -1 /chat_input std_msgs/msg/String "data: 'YOUR MESSEGE HERE'"
+The messege should show up in the chatgpt terminal and if it does not, it did not work. First the vision model will respond with an action plan. Responses can take up to 20 seconds. Then a Function tool caller will work. Sometimes the tool caller gets stuck and you must restart the chatgpt node. Its recommended to restart all nodes, as another error can be no image input being recieved from the all_nodes.
+
+Step 5: If you desire a path to be made, then chatgpt will have outputed the path to the donkey_paths folder in the basics2 package. You can take this csv, and use its path in the donkey car manage.py config files for donkey car to drive on this desired path. Make sure your path starts at 0,0 or to zero the car and drive to the path start. The donkey command to run in a 5th terminal is
+> manage.py drive 
+For more information, see the donkey car framework on running with your own car. When manage.py runs, use x to zero the car, b to load a path, and double tap start for the car to follow the path.
 
 <!-- Authors -->
 ## Authors
