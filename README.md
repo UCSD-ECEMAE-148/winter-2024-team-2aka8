@@ -167,7 +167,7 @@ https://photos.google.com/u/0/share/AF1QipNbnRdItg1uGULNdo4saggAoKI3nbOa-YogXLWN
 ## Authors
 Jason, Jesse, Maahir, Alexander
 
-
+![image](https://github.com/UCSD-ECEMAE-148/winter-2024-team-2aka8/blob/main/media/148groupphoto.jpg)
 
 <!-- Badges -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -175,8 +175,6 @@ Jason, Jesse, Maahir, Alexander
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 *Thank you to my teammates, Professor Jack Silberman, and our incredible TA Arjun Naageshwaran for an amazing Winter 2024 class! Thank you Kiersten for the amazing readme template.*
-
-![image](https://github.com/UCSD-ECEMAE-148/winter-2024-team-2aka8/blob/main/media/148groupphoto.jpg)
 
 <!-- CONTACT -->
 ## Contact
