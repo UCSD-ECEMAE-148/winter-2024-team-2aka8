@@ -8,7 +8,7 @@ Configuring the GPS for donkeycar:
 1. cd projects
 2. git clone https://github.com/PointOneNav/p1-host-tools.git
 3. cd p1-host-tools/
-4  python3 -m venv venv
+4. python3 -m venv venv
 	This is creating a virtual environment to avoid dependency conflicts with other programs.
 5. source venv/bin/activate
 	You should see (venv) to the left of your text after running this command, that means that you're in the virtual environment
