@@ -1,0 +1,1369 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;\f1\fnil\fcharset0 Menlo-Bold;\f2\fnil\fcharset0 Menlo-Regular;
+}
+{\colortbl;\red255\green255\blue255;\red47\green180\blue29;\red180\green36\blue25;\red46\green174\blue187;
+\red0\green0\blue0;\red64\green11\blue217;\red0\green0\blue0;\red20\green153\blue2;\red200\green20\blue201;
+}
+{\*\expandedcolortbl;;\cssrgb\c20241\c73898\c14950;\cssrgb\c76411\c21697\c12527;\cssrgb\c20199\c73241\c78251;
+\csgray\c0;\cssrgb\c32309\c18666\c88229;\cssrgb\c0\c0\c0;\cssrgb\c0\c65000\c0;\cssrgb\c83397\c23074\c82666;
+}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Launch file in the basics package:\
+in 
+\f1\b\fs22 \cf2 \CocoaLigature0 /home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_basics2_pkg/launch\cf3 ((HEAD)
+\f0\b0\fs24 \cf0 \CocoaLigature1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b\fs22 \cf4 \CocoaLigature0 import
+\f2\b0 \cf5  os\
+
+\f1\b \cf4 from
+\f2\b0 \cf5  ament_index_python.packages 
+\f1\b \cf4 import
+\f2\b0 \cf5  get_package_share_directory\
+
+\f1\b \cf4 from
+\f2\b0 \cf5  launch 
+\f1\b \cf4 import
+\f2\b0 \cf5  LaunchDescription\
+
+\f1\b \cf4 from
+\f2\b0 \cf5  launch.actions 
+\f1\b \cf4 import
+\f2\b0 \cf5  IncludeLaunchDescription, GroupAction\
+
+\f1\b \cf4 from
+\f2\b0 \cf5  launch.substitutions 
+\f1\b \cf4 import
+\f2\b0 \cf5  LaunchConfiguration\
+
+\f1\b \cf4 from
+\f2\b0 \cf5  launch.launch_description_sources 
+\f1\b \cf4 import
+\f2\b0 \cf5  PythonLaunchDescriptionSource\
+
+\f1\b \cf4 from
+\f2\b0 \cf5  launch.substitutions 
+\f1\b \cf4 import
+\f2\b0 \cf5  ThisLaunchFileDir\
+
+\f1\b \cf4 from
+\f2\b0 \cf5  launch_ros.actions 
+\f1\b \cf4 import
+\f2\b0 \cf5  Node\
+
+\f1\b \cf4 from
+\f2\b0 \cf5  launch_ros.actions 
+\f1\b \cf4 import
+\f2\b0 \cf5  PushRosNamespace\
+
+\f1\b \cf4 import
+\f2\b0 \cf5  yaml\
+\
+\
+
+\f1\b \cf4 def\cf6  generate_launch_description
+\f2\b0 \cf5 ():\
+    node_package = 
+\f1\b \cf2 'ucsd_robocar_basics2_pkg'
+\f2\b0 \cf5 \
+    config_file = 
+\f1\b \cf2 'main_chat_config.yaml'
+\f2\b0 \cf5 \
+    node_name = 
+\f1\b \cf2 'main_chat_node'
+\f2\b0 \cf5 \
+\
+    ld = LaunchDescription()\
+\
+    config = os.path.join(\
+        get_package_share_directory(node_package),\
+        
+\f1\b \cf2 'config'
+\f2\b0 \cf5 ,\
+        config_file)\
+\
+    main_chat_node = Node(\
+        package=node_package,\
+        executable=node_name,\
+        output=
+\f1\b \cf2 'screen'
+\f2\b0 \cf5 ,\
+        parameters=[config])\
+\
+    ld.add_action(main_chat_node)\
+    
+\f1\b \cf4 return
+\f2\b0 \cf5  ld\
+\
+
+\f0 In src node file, have main chat launch.py\
+\
+In 
+\f1\b \cf2 /home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_basics2_pkg/config\cf3 ((HEAD)\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf7 Several config files
+\f2\b0 \cf5 \
+chatgpt_drive_config.yaml  main_chat_config.yaml \
+\
+chatgpt_drive_config.yaml: Inside the file\{\
+	subpub_camera_actuator_node:\
+ 	 	ros__parameters:\
+   		 live_camera_feed : 1\
+    		Ts : 0.05\
+\}\
+\
+main_chat_config.yaml is empty\
+\
+In 
+\f1\b \cf6 Docker_Container\cf3 @\cf6 ucsdrobocar-148-08:\cf2 /home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_basics2_pkg/ucsd_robocar_basics2_pkg\cf3 ((HEAD)\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf2 __init__.py
+\f2\b0 \cf5   chatgpt_drive_node.py  
+\f1\b \cf6 images
+\f2\b0 \cf5   main_chat_node.py  sub_camera_node.py  sub_lidar_node.py  subpub_camera_actuator_node.py  subpub_lidar_actuator_node.py\
+\
+In chatgpt_drive_node.py:\
+
+\f1\b \cf4 import
+\f2\b0 \cf5  rclpy\
+
+\f1\b \cf4 from
+\f2\b0 \cf5  rclpy.node 
+\f1\b \cf4 import
+\f2\b0 \cf5  Node\
+
+\f1\b \cf4 from
+\f2\b0 \cf5  rclpy.callback_groups 
+\f1\b \cf4 import
+\f2\b0 \cf5  MutuallyExclusiveCallbackGroup\
+
+\f1\b \cf4 from
+\f2\b0 \cf5  rclpy.executors 
+\f1\b \cf4 import
+\f2\b0 \cf5  MultiThreadedExecutor\
+
+\f1\b \cf4 from
+\f2\b0 \cf5  sensor_msgs.msg 
+\f1\b \cf4 import
+\f2\b0 \cf5  Image\
+
+\f1\b \cf4 from
+\f2\b0 \cf5  std_msgs.msg 
+\f1\b \cf4 import
+\f2\b0 \cf5  String\
+
+\f1\b \cf4 from
+\f2\b0 \cf5  ackermann_msgs.msg 
+\f1\b \cf4 import
+\f2\b0 \cf5  AckermannDriveStamped\
+
+\f1\b \cf4 from
+\f2\b0 \cf5  std_msgs.msg 
+\f1\b \cf4 import
+\f2\b0 \cf5  Float32, Int32, Float32MultiArray, Int32MultiArray, MultiArrayDimension, MultiArrayLayout\
+
+\f1\b \cf4 import
+\f2\b0 \cf5  cv2\
+
+\f1\b \cf4 from
+\f2\b0 \cf5  cv_bridge 
+\f1\b \cf4 import
+\f2\b0 \cf5  CvBridge\
+
+\f1\b \cf4 import
+\f2\b0 \cf5  numpy 
+\f1\b \cf4 as
+\f2\b0 \cf5  np\
+
+\f1\b \cf4 import
+\f2\b0 \cf5  math\
+
+\f1\b \cf4 import
+\f2\b0 \cf5  time\
+
+\f1\b \cf4 import
+\f2\b0 \cf5  os\
+
+\f1\b \cf4 from
+\f2\b0 \cf5  openai 
+\f1\b \cf4 import
+\f2\b0 \cf5  OpenAI, OpenAIError\
+
+\f1\b \cf4 import
+\f2\b0 \cf5  json\
+
+\f1\b \cf4 import
+\f2\b0 \cf5  threading\
+
+\f1\b \cf4 import
+\f2\b0 \cf5  base64\
+\
+
+\f1\b \cf4 from
+\f2\b0 \cf5  ast 
+\f1\b \cf4 import
+\f2\b0 \cf5  arg\
+
+\f1\b \cf4 from
+\f2\b0 \cf5  turtle 
+\f1\b \cf4 import
+\f2\b0 \cf5  pos\
+
+\f1\b \cf4 import
+\f2\b0 \cf5  pandas 
+\f1\b \cf4 as
+\f2\b0 \cf5  pd\
+\
+
+\f1\b \cf4 import
+\f2\b0 \cf5  rclpy\
+
+\f1\b \cf4 from
+\f2\b0 \cf5  rclpy.node 
+\f1\b \cf4 import
+\f2\b0 \cf5  Node\
+
+\f1\b \cf4 from
+\f2\b0 \cf5  rclpy.qos 
+\f1\b \cf4 import
+\f2\b0 \cf5  qos_profile_sensor_data\
+\
+
+\f1\b \cf4 from
+\f2\b0 \cf5  nav_msgs.msg 
+\f1\b \cf4 import
+\f2\b0 \cf5  Path\
+
+\f1\b \cf4 from
+\f2\b0 \cf5  geometry_msgs.msg 
+\f1\b \cf4 import
+\f2\b0 \cf5  PoseStamped\
+\
+\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b \cf3 # Nodes in this program
+\f2\b0 \cf5 \
+NODE_NAME = 
+\f1\b \cf2 'chatgpt_drive_node'
+\f2\b0 \cf5 \
+\
+
+\f1\b \cf3 # Topics subcribed/published
+\f2\b0 \cf5 \
+CAMERA_TOPIC_NAME = 
+\f1\b \cf2 '/camera/color/image_raw'
+\f2\b0 \cf5 \
+ACTUATOR_TOPIC_NAME = 
+\f1\b \cf2 '/teleop'
+\f2\b0 \cf5 \
+\
+api_key = 
+\f1\b \cf2 "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"
+\f2\b0 \cf5 \
+client = OpenAI(api_key=api_key)\
+\
+SYSTEM_MESSAGE_VISION = (\
+SYSTEM_MESSAGE_VISION = (\
+    
+\f1\b \cf2 "This ChatGPT instance controls a simulated robot car designed to follow user commands for "
+\f2\b0 \cf5 \
+    
+\f1\b \cf2 "movement and navigation. The robot operates on a flat surface (constant z-axis position) "
+\f2\b0 \cf5 \
+    
+\f1\b \cf2 "and does not tilt (x and y-axis orientations are fixed). It can process two types of "
+\f2\b0 \cf5 \
+    
+\f1\b \cf2 "commands: direct drive commands specifying speed and steering angle, and path commands "
+\f2\b0 \cf5 \
+    
+\f1\b \cf2 "where a series of positions and orientations are given for the robot to follow. Use points around 1 meters apart."
+\f2\b0 \cf5 \
+    
+\f1\b \cf2 "User commands can range from direct movement instructions to requests for navigating to "
+\f2\b0 \cf5 \
+    
+\f1\b \cf2 "specified points or following a path. The robot's primary goals are to understand these "
+\f2\b0 \cf5 \
+    
+\f1\b \cf2 "commands, ensure they align with safety protocols, and execute them effectively. "
+\f2\b0 \cf5 \
+    
+\f1\b \cf2 "You cannot function call as a vision model, so respond with your settings in plain english and create an action plan."
+\f2\b0 \cf5 \
+    
+\f1\b \cf2 "Listed are the tools you can use. Be simple, as a function calling gpt3.5 model will"
+\f2\b0 \cf5 \
+    
+\f1\b \cf2 "interpret your instruction and command. Estimate command values based on the image"
+\f2\b0 \cf5 \
+)\
+\
+TOOLER_NOTE = (\cb8  \cb1 \
+    
+\f1\b \cf2 "What you just read is what gpt4 with vision recieved. Your job as gpt3.5 with function calling is now to take gpt4's response"
+\f2\b0 \cf5 \
+    
+\f1\b \cf2 "and turn it into function calling. GPT4 vision cannot function call but you can. If the prompts"
+\f2\b0 \cf5 \
+    
+\f1\b \cf2 "are irrelevant to any functions, just say no functions called."
+\f2\b0 \cf5 \
+)\
+\
+tools = [\
+    \{\
+        
+\f1\b \cf2 "type"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "function"
+\f2\b0 \cf5 ,\
+        
+\f1\b \cf2 "function"
+\f2\b0 \cf5 : \{\
+            
+\f1\b \cf2 "name"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "send_drive_command"
+\f2\b0 \cf5 ,\
+            
+\f1\b \cf2 "description"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "Send drive commands to the robot"
+\f2\b0 \cf5 ,\
+            
+\f1\b \cf2 "parameters"
+\f2\b0 \cf5 : \{\
+                
+\f1\b \cf2 "type"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "object"
+\f2\b0 \cf5 ,\
+                
+\f1\b \cf2 "properties"
+\f2\b0 \cf5 : \{\
+                    
+\f1\b \cf2 "speed"
+\f2\b0 \cf5 : \{\
+                        
+\f1\b \cf2 "type"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "number"
+\f2\b0 \cf5 ,\
+                        
+\f1\b \cf2 "description"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "The speed at which the robot should move. Range is from 0.5 to 3"
+\f2\b0 \cf5 ,\
+                    \},\
+                    
+\f1\b \cf2 "steering_angle"
+\f2\b0 \cf5 : \{\
+                        
+\f1\b \cf2 "type"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "number"
+\f2\b0 \cf5 ,\
+                        
+\f1\b \cf2 "description"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "The steering angle for the robot's movement"
+\f2\b0 \cf5 ,\
+                    \},\
+                    
+\f1\b \cf2 "timeout"
+\f2\b0 \cf5 : \{\
+                        
+\f1\b \cf2 "type"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "number"
+\f2\b0 \cf5 ,\
+                        
+\f1\b \cf2 "description"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "The duration for which the robot should move in seconds"
+\f2\b0 \cf5 ,\
+                    \}\
+                \},\
+                
+\f1\b \cf2 "required"
+\f2\b0 \cf5 : [
+\f1\b \cf2 "speed"
+\f2\b0 \cf5 , 
+\f1\b \cf2 "steering_angle"
+\f2\b0 \cf5 , 
+\f1\b \cf2 "timeout"
+\f2\b0 \cf5 ],\
+            \},\
+        \}\
+    \{\
+        
+\f1\b \cf2 "type"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "function"
+\f2\b0 \cf5 ,\
+        
+\f1\b \cf2 "function"
+\f2\b0 \cf5 : \{\
+            
+\f1\b \cf2 "name"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "format_position_command"
+\f2\b0 \cf5 ,\
+            
+\f1\b \cf2 "description"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "Format positions into robot control commands"
+\f2\b0 \cf5 ,\
+            
+\f1\b \cf2 "parameters"
+\f2\b0 \cf5 : \{\
+                
+\f1\b \cf2 "type"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "object"
+\f2\b0 \cf5 ,\
+                
+\f1\b \cf2 "properties"
+\f2\b0 \cf5 : \{\
+                    
+\f1\b \cf2 "positions"
+\f2\b0 \cf5 : \{\
+                        
+\f1\b \cf2 "type"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "array"
+\f2\b0 \cf5 ,\
+                        
+\f1\b \cf2 "items"
+\f2\b0 \cf5 : \{\
+                            
+\f1\b \cf2 "type"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "object"
+\f2\b0 \cf5 ,\
+                            
+\f1\b \cf2 "properties"
+\f2\b0 \cf5 : \{\
+                                
+\f1\b \cf2 "px"
+\f2\b0 \cf5 : \{
+\f1\b \cf2 "type"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "number"
+\f2\b0 \cf5 , 
+\f1\b \cf2 "description"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "Position in x-coordinate"
+\f2\b0 \cf5 \},\
+                                
+\f1\b \cf2 "py"
+\f2\b0 \cf5 : \{
+\f1\b \cf2 "type"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "number"
+\f2\b0 \cf5 , 
+\f1\b \cf2 "description"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "Position in y-coordinate"
+\f2\b0 \cf5 \},\
+                                
+\f1\b \cf2 "pz"
+\f2\b0 \cf5 : \{
+\f1\b \cf2 "type"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "number"
+\f2\b0 \cf5 , 
+\f1\b \cf2 "description"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "Position in z-coordinate"
+\f2\b0 \cf5 \},\
+                                
+\f1\b \cf2 "qx"
+\f2\b0 \cf5 : \{
+\f1\b \cf2 "type"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "number"
+\f2\b0 \cf5 , 
+\f1\b \cf2 "description"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "Orientation quaternion x-component"
+\f2\b0 \cf5 \},\
+                                
+\f1\b \cf2 "qy"
+\f2\b0 \cf5 : \{
+\f1\b \cf2 "type"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "number"
+\f2\b0 \cf5 , 
+\f1\b \cf2 "description"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "Orientation quaternion y-component"
+\f2\b0 \cf5 \},\
+                                
+\f1\b \cf2 "qz"
+\f2\b0 \cf5 : \{
+\f1\b \cf2 "type"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "number"
+\f2\b0 \cf5 , 
+\f1\b \cf2 "description"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "Orientation quaternion z-component"
+\f2\b0 \cf5 \},\
+                                
+\f1\b \cf2 "qw"
+\f2\b0 \cf5 : \{
+\f1\b \cf2 "type"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "number"
+\f2\b0 \cf5 , 
+\f1\b \cf2 "description"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "Orientation quaternion w-component"
+\f2\b0 \cf5 \}\
+                            \},\
+                            
+\f1\b \cf2 "required"
+\f2\b0 \cf5 : [
+\f1\b \cf2 "px"
+\f2\b0 \cf5 , 
+\f1\b \cf2 "py"
+\f2\b0 \cf5 , 
+\f1\b \cf2 "pz"
+\f2\b0 \cf5 , 
+\f1\b \cf2 "qx"
+\f2\b0 \cf5 , 
+\f1\b \cf2 "qy"
+\f2\b0 \cf5 , 
+\f1\b \cf2 "qz"
+\f2\b0 \cf5 , 
+\f1\b \cf2 "qw"
+\f2\b0 \cf5 ]\
+                        \},\
+                        
+\f1\b \cf2 "description"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "Array of positions and orientations in degrees and meters"
+\f2\b0 \cf5 \
+                    \}\
+                \},\
+                
+\f1\b \cf2 "required"
+\f2\b0 \cf5 : [
+\f1\b \cf2 "positions"
+\f2\b0 \cf5 ]\
+            \},\
+        \}\
+    \}\
+]\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b \cf4 class
+\f2\b0 \cf5  ChatgptDriveSubpub(Node):\
+    
+\f1\b \cf4 def\cf6  __init__
+\f2\b0 \cf5 (self):\
+        
+\f1\b \cf2 """
+\f2\b0 \cf5 \
+
+\f1\b \cf2         Initializes the ChatGPTDriveNode class.
+\f2\b0 \cf5 \
+\
+
+\f1\b \cf2         This class represents a ROS node that integrates the Donkey Car platform with ChatGPT for autonomous driving.
+\f2\b0 \cf5 \
+
+\f1\b \cf2         It sets up the necessary subscribers, publishers, and parameters for controlling the car and interacting with ChatGPT.
+\f2\b0 \cf5 \
+
+\f1\b \cf2         """
+\f2\b0 \cf5 \
+        super().__init__(NODE_NAME)\
+\
+       
+\f1\b \cf3  # Constants
+\f2\b0 \cf5 \
+        self.QUEUE_SIZE = 10\
+        self.frame_id = 
+\f1\b \cf2 'base_link'
+\f2\b0 \cf5 \
+\
+       
+\f1\b \cf3  # Initialize
+\f2\b0 \cf5 \
+        self._init_ros_parameters()\
+        self._init_camera_subscription()\
+        self._init_drive_publisher()\
+        self._init_chatgpt_interaction()\
+        self._init_path_publisher()\
+\
+        self.get_logger().info(
+\f1\b \cf2 "end init"
+\f2\b0 \cf5 )\
+\
+    
+\f1\b \cf4 def\cf6  _init_ros_parameters
+\f2\b0 \cf5 (self):\
+        
+\f1\b \cf2 """Initialize ROS parameters."""
+\f2\b0 \cf5 \
+        self.declare_parameters(\
+            namespace=
+\f1\b \cf2 ''
+\f2\b0 \cf5 ,\
+            parameters=[\
+                (
+\f1\b \cf2 'live_camera_feed'
+\f2\b0 \cf5 , 0),\
+                (
+\f1\b \cf2 'Ts'
+\f2\b0 \cf5 , 0.05)\
+            ]\
+        )\
+        self.live_camera_feed = self.get_parameter(
+\f1\b \cf2 'live_camera_feed'
+\f2\b0 \cf5 ).value\
+        self.Ts = self.get_parameter(
+\f1\b \cf2 'Ts'
+\f2\b0 \cf5 ).value 
+\f1\b \cf3  # controller sample time
+\f2\b0 \cf5 \
+        self.get_logger().info(\
+            f
+\f1\b \cf2 '\\n live_camera_feed: \{self.live_camera_feed\}'
+\f2\b0 \cf5 \
+            f
+\f1\b \cf2 '\\n Ts: \{self.Ts\}'
+\f2\b0 \cf5 \
+        )\
+\
+    
+\f1\b \cf4 def\cf6  _init_camera_subscription
+\f2\b0 \cf5 (self):\
+        
+\f1\b \cf2 """Initialize camera subscription."""
+\f2\b0 \cf5 \
+        self.camera_thread = MutuallyExclusiveCallbackGroup()\
+        self.camera_actuator_subpub = self.create_subscription(\
+            Image, CAMERA_TOPIC_NAME, self.camera_callback, self.QUEUE_SIZE,\cb8  \cb1 \
+            callback_group=self.camera_thread\
+        )\
+        self.bridge = CvBridge()\
+        self.image_frame = 
+\f1\b \cf9 None
+\f2\b0 \cf5 \
+\
+    
+\f1\b \cf4 def\cf6  _init_drive_publisher
+\f2\b0 \cf5 (self):\
+        
+\f1\b \cf2 """Initialize drive publisher."""
+\f2\b0 \cf5 \
+        self.drive_pub = self.create_publisher(AckermannDriveStamped, ACTUATOR_TOPIC_NAME, self.QUEUE_SIZE)\
+        self.drive_cmd = AckermannDriveStamped()\
+        self.current_time = self.get_clock().now().to_msg()\
+\
+    
+\f1\b \cf4 def\cf6  _init_chatgpt_interaction
+\f2\b0 \cf5 (self):\
+        
+\f1\b \cf2 """Initialize ChatGPT interaction."""
+\f2\b0 \cf5 \
+        self.chat_input_sub = self.create_subscription(\
+            String, 
+\f1\b \cf2 'chat_input'
+\f2\b0 \cf5 , self.chat_input_callback, 10\
+        )\
+        self.chat_output_pub = self.create_publisher(String, 
+\f1\b \cf2 "chat_output"
+\f2\b0 \cf5 , 10)\
+\
+    
+\f1\b \cf4 def\cf6  _init_path_publisher
+\f2\b0 \cf5 (self):\
+        
+\f1\b \cf2 """Initialize path publisher."""
+\f2\b0 \cf5 \
+        self.path_publisher_ = self.create_publisher(Path, 
+\f1\b \cf2 '/trajectory'
+\f2\b0 \cf5 , qos_profile_sensor_data)\
+        self.declare_parameter(
+\f1\b \cf2 "frame_id"
+\f2\b0 \cf5 , 
+\f1\b \cf2 "map"
+\f2\b0 \cf5 ) 
+\f1\b \cf3  # Defaulting to 'map', change as needed
+\f2\b0 \cf5 \
+        self.path_msg = Path()\
+        self.path_msg.header.frame_id = self.get_parameter(
+\f1\b \cf2 "frame_id"
+\f2\b0 \cf5 ).get_parameter_value().string_value\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cb8     \cb1 \
+    
+\f1\b \cf4 def\cf6  camera_callback
+\f2\b0 \cf5 (self, data):\
+       
+\f1\b \cf3  # Image data
+\f2\b0 \cf5 \
+        self.image_frame = self.bridge.imgmsg_to_cv2(data)\
+\
+    
+\f1\b \cf4 def\cf6  chat_input_callback
+\f2\b0 \cf5 (self, msg):\
+        user_input = msg.data\
+        self.get_logger().info(\
+            f
+\f1\b \cf2 '\\n User: \{user_input\}'
+\f2\b0 \cf5 \
+        )\
+        self.process_chatgpt_command(user_input)\
+\cb8         \cb1 \
+\
+    
+\f1\b \cf4 def\cf6  process_chatgpt_command
+\f2\b0 \cf5 (self, prompt):\
+        
+\f1\b \cf4 try
+\f2\b0 \cf5 :\
+           
+\f1\b \cf3  # Process image
+\f2\b0 \cf5 \
+           
+\f1\b \cf3  #self.get_logger().info("abt to convert img")
+\f2\b0 \cf5 \
+            _, img = cv2.imencode(
+\f1\b \cf2 '.jpg'
+\f2\b0 \cf5 , self.image_frame)\
+            base64_img = base64.b64encode(img).decode(
+\f1\b \cf2 'utf-8'
+\f2\b0 \cf5 )\
+           
+\f1\b \cf3  #self.get_logger().info("abt to get resp")
+\f2\b0 \cf5 \
+\
+            vision_response =client.chat.completions.create(\
+                model=
+\f1\b \cf2 "gpt-4-vision-preview"
+\f2\b0 \cf5 ,\
+                messages=[\{\
+                    
+\f1\b \cf2 "role"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "system"
+\f2\b0 \cf5 ,\
+                    
+\f1\b \cf2 "content"
+\f2\b0 \cf5 : json.dumps(\{
+\f1\b \cf2 "message"
+\f2\b0 \cf5 : SYSTEM_MESSAGE_VISION + str(tools)\})\
+                \}, \{\
+                    
+\f1\b \cf2 "role"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "user"
+\f2\b0 \cf5 ,\
+                    
+\f1\b \cf2 "content"
+\f2\b0 \cf5 : [\
+                        \{\
+                            
+\f1\b \cf2 "type"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "text"
+\f2\b0 \cf5 ,\cb8  \cb1 \
+                            
+\f1\b \cf2 "text"
+\f2\b0 \cf5 : prompt\
+                        \},\
+                        \{\
+                            
+\f1\b \cf2 "type"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "image_url"
+\f2\b0 \cf5 ,\cb8  \cb1 \
+                            
+\f1\b \cf2 "image_url"
+\f2\b0 \cf5 : \{\
+                                
+\f1\b \cf2 "url"
+\f2\b0 \cf5 : f
+\f1\b \cf2 "data:image/jpeg;base64,\{base64_img\}"
+\f2\b0 \cf5 ,\
+                                
+\f1\b \cf2 "detail"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "low"
+\f2\b0 \cf5 \
+                            \}\
+                        \}\
+                    ]\
+                \}],\
+                max_tokens=300,\
+            )\
+\
+            vision_response_text = vision_response.choices[0].message.content.strip()\
+            self.get_logger().info(
+\f1\b \cf2 "GPT Vision Response: %s"
+\f2\b0 \cf5  % vision_response_text)\
+\
+            tooler_response =client.chat.completions.create(\
+                model=
+\f1\b \cf2 "gpt-3.5-turbo-0125"
+\f2\b0 \cf5 ,\
+                messages=[\{\
+                    
+\f1\b \cf2 "role"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "system"
+\f2\b0 \cf5 ,\
+                    
+\f1\b \cf2 "content"
+\f2\b0 \cf5 : json.dumps(\{
+\f1\b \cf2 "message"
+\f2\b0 \cf5 : SYSTEM_MESSAGE_VISION + TOOLER_NOTE, 
+\f1\b \cf2 "tools"
+\f2\b0 \cf5 : tools\})\
+                \}, \{\
+                    
+\f1\b \cf2 "role"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "user"
+\f2\b0 \cf5 ,\
+                    
+\f1\b \cf2 "content"
+\f2\b0 \cf5 : [\
+                        \{\
+                            
+\f1\b \cf2 "type"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "text"
+\f2\b0 \cf5 ,\cb8  \cb1 \
+                            
+\f1\b \cf2 "text"
+\f2\b0 \cf5 : prompt\
+                        \},\
+                        \{\
+                            
+\f1\b \cf2 "type"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "image_url"
+\f2\b0 \cf5 ,\cb8  \cb1 \
+                            
+\f1\b \cf2 "image_url"
+\f2\b0 \cf5 : \{\
+                                
+\f1\b \cf2 "url"
+\f2\b0 \cf5 : f
+\f1\b \cf2 "data:image/jpeg;base64,\{base64_img\}"
+\f2\b0 \cf5 ,\
+                                
+\f1\b \cf2 "detail"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "low"
+\f2\b0 \cf5 \
+                            \}\
+                        \}\
+                    ]\
+                \}],\
+                max_tokens=300,\
+            )\
+\
+            vision_response_text = vision_response.choices[0].message.content.strip()\
+            self.get_logger().info(
+\f1\b \cf2 "GPT Vision Response: %s"
+\f2\b0 \cf5  % vision_response_text)\
+\
+            tooler_response =client.chat.completions.create(\
+                model=
+\f1\b \cf2 "gpt-3.5-turbo-0125"
+\f2\b0 \cf5 ,\
+                messages=[\{\
+                    
+\f1\b \cf2 "role"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "system"
+\f2\b0 \cf5 ,\
+                    
+\f1\b \cf2 "content"
+\f2\b0 \cf5 : json.dumps(\{
+\f1\b \cf2 "message"
+\f2\b0 \cf5 : SYSTEM_MESSAGE_VISION + TOOLER_NOTE, 
+\f1\b \cf2 "tools"
+\f2\b0 \cf5 : tools\})\
+                \}, \{\
+                    
+\f1\b \cf2 "role"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "user"
+\f2\b0 \cf5 ,\
+                    
+\f1\b \cf2 "content"
+\f2\b0 \cf5 : [\
+                        \{\
+                            
+\f1\b \cf2 "type"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "text"
+\f2\b0 \cf5 ,\cb8  \cb1 \
+                            
+\f1\b \cf2 "text"
+\f2\b0 \cf5 : prompt\
+                        \},\
+                    ]\
+\cb8                     \cb1 \
+                \}, \{\
+                    
+\f1\b \cf2 "role"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "assistant"
+\f2\b0 \cf5 ,\
+                    
+\f1\b \cf2 "content"
+\f2\b0 \cf5 : [\
+                        \{\
+                            
+\f1\b \cf2 "type"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "text"
+\f2\b0 \cf5 ,\cb8  \cb1 \
+                            
+\f1\b \cf2 "text"
+\f2\b0 \cf5 : vision_response_text\
+                        \},\
+                    ]\
+                \},\cb8    \cb1 \
+                ],\
+                tools=tools,\
+            )\
+\cb8             \cb1 \
+           
+\f1\b \cf3  # Assuming the response includes a function call to 'send_drive_command'
+\f2\b0 \cf5 \
+            
+\f1\b \cf4 if
+\f2\b0 \cf5  tooler_response.choices[0].message.tool_calls:\
+                
+\f1\b \cf4 if
+\f2\b0 \cf5  tooler_response.choices[0].message.tool_calls[0].function.name == 
+\f1\b \cf2 "send_drive_command"
+\f2\b0 \cf5 :\
+                    self.get_logger().info(
+\f1\b \cf2 "in tool call area"
+\f2\b0 \cf5 )\
+\
+\cb8                     \cb1 \
+                    speed = json.loads(tooler_response.choices[0].message.tool_calls[0].function.arguments)[
+\f1\b \cf2 "speed"
+\f2\b0 \cf5 ]\
+                    self.get_logger().info(str(speed))\
+\
+                    speed = float(speed)\
+\
+                    steering_angle = json.loads(tooler_response.choices[0].message.tool_calls[0].function.arguments)[
+\f1\b \cf2 "steering_angle"
+\f2\b0 \cf5 ]\
+                    self.get_logger().info(str(steering_angle))\
+\
+                    steering_angle = float(steering_angle)\
+                    timeout = json.loads(tooler_response.choices[0].message.tool_calls[0].function.arguments)[
+\f1\b \cf2 "timeout"
+\f2\b0 \cf5 ]\
+                    self.get_logger().info(str(timeout))\
+\
+                    timeout = float(timeout)\
+\
+                    self.send_drive_command(speed, steering_angle, timeout)\
+                    self.get_logger().info(
+\f1\b \cf2 "doing drive command"
+\f2\b0 \cf5 )\
+\
+                
+\f1\b \cf4 elif
+\f2\b0 \cf5  tooler_response.choices[0].message.tool_calls[0].function.name == 
+\f1\b \cf2 "format_position_command"
+\f2\b0 \cf5 :\
+                    positions = json.loads(tooler_response.choices[0].message.tool_calls[0].function.arguments)[
+\f1\b \cf2 "positions"
+\f2\b0 \cf5 ]\
+                    self.format_position_command(positions)\
+\
+            
+\f1\b \cf4 else
+\f2\b0 \cf5 :\
+               
+\f1\b \cf3  # Get the plain text response
+\f2\b0 \cf5 \
+                chatgpt_tooler_response = tooler_response.choices[0].message.content.strip()\
+\
+               
+\f1\b \cf3  # Send the response to the terminal
+\f2\b0 \cf5 \
+                self.get_logger().info(
+\f1\b \cf2 "ChatGPT Functioner: %s"
+\f2\b0 \cf5  % chatgpt_tooler_response)\
+\
+        
+\f1\b \cf4 except
+\f2\b0 \cf5  OpenAIError 
+\f1\b \cf4 as
+\f2\b0 \cf5  e:\
+            self.get_logger().error(f
+\f1\b \cf2 "Failed to get response from ChatGPT: \{e\}"
+\f2\b0 \cf5 )\
+\
+    
+\f1\b \cf4 def\cf6  format_position_command
+\f2\b0 \cf5 (self, positions):\
+       
+\f1\b \cf3  # Initialize the path message
+\f2\b0 \cf5 \
+        self.path_msg.poses = [] 
+\f1\b \cf3  # Clear existing poses
+\f2\b0 \cf5 \
+        
+\f1\b \cf4 for
+\f2\b0 \cf5  position 
+\f1\b \cf4 in
+\f2\b0 \cf5  positions:\
+            pose_msg = PoseStamped()\
+            pose_msg.pose.position.x = float(position[
+\f1\b \cf2 'px'
+\f2\b0 \cf5 ])\
+            pose_msg.pose.position.y = float(position[
+\f1\b \cf2 'py'
+\f2\b0 \cf5 ])\
+            pose_msg.pose.position.z = float(position[
+\f1\b \cf2 'pz'
+\f2\b0 \cf5 ])\
+            pose_msg.pose.orientation.x = float(position[
+\f1\b \cf2 'qx'
+\f2\b0 \cf5 ])\
+            pose_msg.pose.orientation.y = float(position[
+\f1\b \cf2 'qy'
+\f2\b0 \cf5 ])\
+            pose_msg.pose.orientation.z = float(position[
+\f1\b \cf2 'qz'
+\f2\b0 \cf5 ])\
+            pose_msg.pose.orientation.w = float(position[
+\f1\b \cf2 'qw'
+\f2\b0 \cf5 ])\
+            self.path_msg.poses.append(pose_msg)\
+\cb8     \cb1 \
+       
+\f1\b \cf3  # After constructing the path, publish it
+\f2\b0 \cf5 \
+        self.publish_path()\
+\
+    
+\f1\b \cf4 def\cf6  publish_path
+\f2\b0 \cf5 (self):\
+        self.path_msg.header.stamp = self.get_clock().now().to_msg()\
+        self.path_publisher_.publish(self.path_msg)\
+    
+\f1\b \cf4 def\cf6  send_drive_command
+\f2\b0 \cf5 (self, speed, steering_angle, timeout):\
+        
+\f1\b \cf4 def\cf6  publish_command
+\f2\b0 \cf5 ():\
+           
+\f1\b \cf3  # Calculate the end time based on the current time and the specified timeout
+\f2\b0 \cf5 \
+            end_time = time.time() + timeout\
+\
+            
+\f1\b \cf4 while
+\f2\b0 \cf5  time.time() < end_time:\
+                drive_msg = AckermannDriveStamped()\
+                drive_msg.drive.speed = float(speed)\
+                drive_msg.drive.steering_angle = steering_angle\
+                self.drive_pub.publish(drive_msg)\
+                time.sleep(self.Ts) 
+\f1\b \cf3  # Wait for 0.05 seconds before publishing the next command
+\f2\b0 \cf5 \
+\
+           
+\f1\b \cf3  # Optionally, call stop_drive_command after the loop finishes
+\f2\b0 \cf5 \
+            self.stop_drive_command()\
+\
+       
+\f1\b \cf3  # Cancel any existing timer or thread
+\f2\b0 \cf5 \
+        
+\f1\b \cf4 if
+\f2\b0 \cf5  hasattr(self, 
+\f1\b \cf2 'drive_command_thread'
+\f2\b0 \cf5 ) 
+\f1\b \cf4 and
+\f2\b0 \cf5  self.drive_command_thread.is_alive():\
+            self.drive_command_thread.cancel() 
+\f1\b \cf3  # Ensure this method exists and is implemented to safely stop the thread
+\f2\b0 \cf5 \
+\
+       
+\f1\b \cf3  # Create and start the thread
+\f2\b0 \cf5 \
+        self.drive_command_thread = threading.Thread(target=publish_command)\
+        self.drive_command_thread.start()\
+\
+    
+\f1\b \cf4 def\cf6  stop_drive_command
+\f2\b0 \cf5 (self):\
+       
+\f1\b \cf3  # Stop the vehicle
+\f2\b0 \cf5 \
+        drive_msg = AckermannDriveStamped()\
+        drive_msg.drive.speed = 0.0\
+        drive_msg.drive.steering_angle = 0.0\
+        self.drive_pub.publish(drive_msg)\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b \cf4 def\cf6  main
+\f2\b0 \cf5 (args=
+\f1\b \cf9 None
+\f2\b0 \cf5 ):\
+    rclpy.init(args=args)\
+    chatgpt_drive_subpub = ChatgptDriveSubpub()\
+    
+\f1\b \cf4 try
+\f2\b0 \cf5 :\
+        executor = MultiThreadedExecutor(num_threads=5)\
+        executor.add_node(chatgpt_drive_subpub)\
+        
+\f1\b \cf4 try
+\f2\b0 \cf5 :\
+            executor.spin()\
+        
+\f1\b \cf4 finally
+\f2\b0 \cf5 :\
+            chatgpt_drive_subpub.get_logger().info(f
+\f1\b \cf2 'Shutting down \{NODE_NAME\}...'
+\f2\b0 \cf5 )\
+            chatgpt_drive_subpub.drive_cmd.header.stamp = chatgpt_drive_subpub.current_time\
+            chatgpt_drive_subpub.drive_cmd.header.frame_id = chatgpt_drive_subpub.frame_id\
+            chatgpt_drive_subpub.drive_cmd.drive.speed = 0.0\
+            chatgpt_drive_subpub.drive_cmd.drive.steering_angle = 0.0\
+            chatgpt_drive_subpub.drive_pub.publish(chatgpt_drive_subpub.drive_cmd)\
+            time.sleep(1)\
+            chatgpt_drive_subpub.get_logger().info(f
+\f1\b \cf2 '\{NODE_NAME\} shut down successfully.'
+\f2\b0 \cf5 )\
+            executor.shutdown()\
+            chatgpt_drive_subpub.destroy_node()\
+    
+\f1\b \cf4 except
+\f2\b0 \cf5  KeyboardInterrupt:\
+        
+\f1\b \cf4 pass
+\f2\b0 \cf5 \
+    
+\f1\b \cf4 finally
+\f2\b0 \cf5 :\
+        rclpy.shutdown()\
+\
+\
+
+\f1\b \cf4 if
+\f2\b0 \cf5  __name__ == 
+\f1\b \cf2 '__main__'
+\f2\b0 \cf5 :\
+    main()\
+\
+End:\
+\
+main_chat_node.py\
+
+\f1\b \cf4 import
+\f2\b0 \cf5  rclpy\
+
+\f1\b \cf4 from
+\f2\b0 \cf5  rclpy.node 
+\f1\b \cf4 import
+\f2\b0 \cf5  Node\
+
+\f1\b \cf4 from
+\f2\b0 \cf5  rclpy.executors 
+\f1\b \cf4 import
+\f2\b0 \cf5  MultiThreadedExecutor\
+
+\f1\b \cf4 from
+\f2\b0 \cf5  std_msgs.msg 
+\f1\b \cf4 import
+\f2\b0 \cf5  String\
+
+\f1\b \cf4 from
+\f2\b0 \cf5  openai 
+\f1\b \cf4 import
+\f2\b0 \cf5  OpenAI\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b \cf3 # Directly setting the API key
+\f2\b0 \cf5 \
+api_key = 
+\f1\b \cf2 "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"
+\f2\b0 \cf5 \
+client = OpenAI(api_key=api_key)\
+\
+NODE_NAME = 
+\f1\b \cf2 'main_chat_node'
+\f2\b0 \cf5 \
+conversation_history = [] 
+\f1\b \cf3  # Maintain conversation history
+\f2\b0 \cf5 \cb8  \cb1 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b \cf4 def\cf6  chat_with_gpt
+\f2\b0 \cf5 (prompt):\
+    
+\f1\b \cf4 global
+\f2\b0 \cf5  conversation_history\cb8  \cb1 \
+\
+   
+\f1\b \cf3  # Incorporate conversation history into the prompt
+\f2\b0 \cf5 \
+    enhanced_prompt = 
+\f1\b \cf2 ""
+\f2\b0 \cf5 .join(conversation_history) + prompt\cb8   \cb1 \
+    conversation_history.append(f
+\f1\b \cf2 "User: \{prompt\}\\n"
+\f2\b0 \cf5 ) 
+\f1\b \cf3  # Add user input to history
+\f2\b0 \cf5 \
+\
+    
+\f1\b \cf4 try
+\f2\b0 \cf5 :\
+        completion = client.chat.completions.create(\
+            model=
+\f1\b \cf2 "gpt-3.5-turbo"
+\f2\b0 \cf5 ,\cb8  \cb1 \
+            messages=[\
+                \{
+\f1\b \cf2 "role"
+\f2\b0 \cf5 : 
+\f1\b \cf2 "user"
+\f2\b0 \cf5 , 
+\f1\b \cf2 "content"
+\f2\b0 \cf5 : enhanced_prompt\},\
+            ]\
+        )\
+        response = completion.choices[0].message.content.strip()\
+        conversation_history.append(f
+\f1\b \cf2 "Chatbot: \{response\}\\n"
+\f2\b0 \cf5 ) 
+\f1\b \cf3  # Add chatbot response to history
+\f2\b0 \cf5 \
+        
+\f1\b \cf4 return
+\f2\b0 \cf5  response\
+    
+\f1\b \cf4 except
+\f2\b0 \cf5  Exception 
+\f1\b \cf4 as
+\f2\b0 \cf5  e:\
+        print(f
+\f1\b \cf2 "An error occurred: \{e\}"
+\f2\b0 \cf5 )\
+        
+\f1\b \cf4 return
+\f2\b0 \cf5  
+\f1\b \cf2 "Sorry, I couldn't process your request."
+\f2\b0 \cf5 \
+\
+\
+
+\f1\b \cf4 class
+\f2\b0 \cf5  ChatBotNode(Node):\
+    
+\f1\b \cf4 def\cf6  __init__
+\f2\b0 \cf5 (self):\
+        super().__init__(NODE_NAME)\
+        self.subscription = self.create_subscription(\
+            String,\
+            
+\f1\b \cf2 'chat_input'
+\f2\b0 \cf5 ,\
+            self.listener_callback,\
+            10)\
+        self.subscription 
+\f1\b \cf3  # prevent unused variable warning
+\f2\b0 \cf5 \
+\
+    
+\f1\b \cf4 def\cf6  listener_callback
+\f2\b0 \cf5 (self, msg):\
+        user_input = msg.data 
+\f1\b \cf3  # The message data is the user input
+\f2\b0 \cf5 \
+        response = chat_with_gpt(user_input)\
+        self.get_logger().info(
+\f1\b \cf2 'Chatbot: "%s"'
+\f2\b0 \cf5  % response)\
+\
+
+\f1\b \cf4 def\cf6  main
+\f2\b0 \cf5 (args=
+\f1\b \cf9 None
+\f2\b0 \cf5 ):\
+    rclpy.init(args=args)\
+    chat_bot_node = ChatBotNode()\
+    
+\f1\b \cf4 try
+\f2\b0 \cf5 :\
+        executor = MultiThreadedExecutor(num_threads=5)\
+        executor.add_node(chat_bot_node)\
+        
+\f1\b \cf4 try
+\f2\b0 \cf5 :\
+            executor.spin()\
+        
+\f1\b \cf4 finally
+\f2\b0 \cf5 :\
+            chat_bot_node.get_logger().info(f
+\f1\b \cf2 'Shutting down \{NODE_NAME\}...'
+\f2\b0 \cf5 )\
+           
+\f1\b \cf3  # If you had any additional cleanup specific to your node, it would go here.
+\f2\b0 \cf5 \
+            chat_bot_node.get_logger().info(f
+\f1\b \cf2 '\{NODE_NAME\} shut down successfully.'
+\f2\b0 \cf5 )\
+            executor.shutdown()\
+            chat_bot_node.destroy_node()\
+    
+\f1\b \cf4 except
+\f2\b0 \cf5  KeyboardInterrupt:\
+        
+\f1\b \cf4 pass
+\f2\b0 \cf5  
+\f1\b \cf3  # This block allows the program to exit gracefully on a keyboard interrupt without printing an error message.
+\f2\b0 \cf5 \
+    
+\f1\b \cf4 finally
+\f2\b0 \cf5 :\
+        rclpy.shutdown()\
+\
+\
+\
+
+\f1\b \cf4 if
+\f2\b0 \cf5  __name__ == 
+\f1\b \cf2 "__main__"
+\f2\b0 \cf5 :\
+    main()\
+\
+\
+\
+}
