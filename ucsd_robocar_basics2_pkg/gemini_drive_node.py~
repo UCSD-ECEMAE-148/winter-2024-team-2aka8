@@ -1,0 +1,221 @@
+import rclpy
+from rclpy.node import Node
+from rclpy.callback_groups import MutuallyExclusiveCallbackGroup
+from rclpy.executors import MultiThreadedExecutor
+from sensor_msgs.msg import Image
+from std_msgs.msg import String
+from ackermann_msgs.msg import AckermannDriveStamped
+from std_msgs.msg import Float32, Int32, Float32MultiArray, Int32MultiArray, MultiArrayDimension, MultiArrayLayout
+import cv2
+from cv_bridge import CvBridge
+import numpy as np
+import math
+import time
+import os
+import json
+import threading
+import base64
+
+from ast import arg
+from turtle import pos
+import pandas as pd
+
+import rclpy
+from rclpy.node import Node
+from rclpy.qos import qos_profile_sensor_data
+
+from nav_msgs.msg import Path
+from geometry_msgs.msg import PoseStamped
+
+import pathlib
+import textwrap
+
+import google.generativeai as genai
+from genai import GenericModel
+import google.ai.generativelanguage as glm
+
+from IPython.display import display
+from IPython.display import Markdown
+
+
+# Nodes in this program
+NODE_NAME = 'chatgpt_drive_node'
+
+# Topics subcribed/published
+CAMERA_TOPIC_NAME = '/camera/color/image_raw'
+ACTUATOR_TOPIC_NAME = '/teleop'
+
+GOOGLE_API_KEY = "AIzaSyApgD2GWI13bVEEdjLwbHFJ2m8ceDy5tOU"
+
+
+
+SYSTEM_MESSAGE = (
+    "System message: This Gemini instance controls a simulated robot car designed to follow user commands for "
+    "movement and navigation. The robot operates on a flat surface (constant z-axis position) "
+    "and does not tilt (x and y-axis orientations are fixed). It can process two types of "
+    "commands: direct drive commands specifying speed and steering angle, and path commands "
+    "where a series of positions and orientations are given for the robot to follow. Use points around 1 meters apart."
+    "User commands can range from direct movement instructions to requests for navigating to "
+    "specified points or following a path. The robot's primary goals are to understand these "
+    "commands, ensure they align with safety protocols, and execute them effectively. System messege end."
+)
+
+
+class ChatgptDriveSubpub(Node):
+    def __init__(self):
+        """
+        Initializes the ChatGPTDriveNode class.
+
+        This class represents a ROS node that integrates the Donkey Car platform with ChatGPT for autonomous driving.
+        It sets up the necessary subscribers, publishers, and parameters for controlling the car and interacting with ChatGPT.
+        """
+        super().__init__(NODE_NAME)
+
+        # Constants
+        self.QUEUE_SIZE = 10
+        self.frame_id = 'base_link'
+
+        # Initialize
+        self._init_ros_parameters()
+        self._init_camera_subscription()
+        self._init_drive_publisher()
+        self._init_gemini_interaction()
+
+        self.get_logger().info("end init")
+
+    def _init_ros_parameters(self):
+        """Initialize ROS parameters."""
+        self.declare_parameters(
+            namespace='',
+            parameters=[
+                ('live_camera_feed', 0),
+                ('Ts', 0.05)
+            ]
+        )
+        self.live_camera_feed = self.get_parameter('live_camera_feed').value
+        self.Ts = self.get_parameter('Ts').value  # controller sample time
+        self.get_logger().info(
+            f'\n live_camera_feed: {self.live_camera_feed}'
+            f'\n Ts: {self.Ts}'
+        )
+
+    def _init_camera_subscription(self):
+        """Initialize camera subscription."""
+        self.camera_thread = MutuallyExclusiveCallbackGroup()
+        self.camera_actuator_subpub = self.create_subscription(
+            Image, CAMERA_TOPIC_NAME, self.camera_callback, self.QUEUE_SIZE, 
+            callback_group=self.camera_thread
+        )
+        self.bridge = CvBridge()
+        self.image_frame = None
+
+    def _init_drive_publisher(self):
+        """Initialize drive publisher."""
+        self.drive_pub = self.create_publisher(AckermannDriveStamped, ACTUATOR_TOPIC_NAME, self.QUEUE_SIZE)
+        self.drive_cmd = AckermannDriveStamped()
+        self.current_time = self.get_clock().now().to_msg()
+
+    def _init_gemini_interaction(self):
+        """Initialize Gemini interaction."""
+        self.chat_input_sub = self.create_subscription(
+            String, 'chat_input', self.chat_input_callback, 10
+        )
+        self.chat_output_pub = self.create_publisher(String, "chat_output", 10)
+
+        genai.configure(api_key=GOOGLE_API_KEY)
+        self.chat_model = genai.GenericModel(model_name='gemini-pro-vision',tools=[self.send_drive_command])
+        self.chat_history = self.chat_model.start_chat(enable_automatic_function_calling=True)
+
+    def camera_callback(self, data):
+        # Image data
+        self.image_frame = self.bridge.imgmsg_to_cv2(data)
+
+    def chat_input_callback(self, msg):
+        user_input = msg.data
+        self.get_logger().info(
+            f'\n User: {user_input}'
+        )
+        self.process_gemini_command(user_input)
+        
+
+    def process_gemini_command(self, prompt):
+        try:
+            # Process image
+            #self.get_logger().info("abt to convert img")
+            _, img = cv2.imencode('.jpg', self.image_frame)
+            base64_img = base64.b64encode(img).decode('utf-8')
+            #self.get_logger().info("abt to get resp")
+
+            # Get response from Gemini
+            response = self.chat_model.send_message([SYSTEM_MESSAGE + prompt, base64_img])
+            self.get_logger().info("Gemini: " + response.text)
+
+            # For now, clear chat history
+            self.chat_history = []
+
+        except:
+            self.get_logger().info("Error processing gemini")
+            return
+
+    def send_drive_command(self, speed: float, steering_angle: float, timeout: float):
+        def publish_command():
+            # Calculate the end time based on the current time and the specified timeout
+            end_time = time.time() + timeout
+
+            while time.time() < end_time:
+                drive_msg = AckermannDriveStamped()
+                drive_msg.drive.speed = float(speed)
+                drive_msg.drive.steering_angle = steering_angle
+                self.drive_pub.publish(drive_msg)
+                time.sleep(self.Ts)  # Wait for 0.05 seconds before publishing the next command
+
+            # Optionally, call stop_drive_command after the loop finishes
+            self.stop_drive_command()
+
+        # Cancel any existing timer or thread
+        if hasattr(self, 'drive_command_thread') and self.drive_command_thread.is_alive():
+            self.drive_command_thread.cancel()  # Ensure this method exists and is implemented to safely stop the thread
+
+        # Create and start the thread
+        self.drive_command_thread = threading.Thread(target=publish_command)
+        self.drive_command_thread.start()
+
+    def stop_drive_command(self):
+        # Stop the vehicle
+        drive_msg = AckermannDriveStamped()
+        drive_msg.drive.speed = 0.0
+        drive_msg.drive.steering_angle = 0.0
+        self.drive_pub.publish(drive_msg)
+
+
+
+
+
+
+def main(args=None):
+    rclpy.init(args=args)
+    chatgpt_drive_subpub = ChatgptDriveSubpub()
+    try:
+        executor = MultiThreadedExecutor(num_threads=5)
+        executor.add_node(chatgpt_drive_subpub)
+        try:
+            executor.spin()
+        finally:
+            chatgpt_drive_subpub.get_logger().info(f'Shutting down {NODE_NAME}...')
+            chatgpt_drive_subpub.drive_cmd.header.stamp = chatgpt_drive_subpub.current_time
+            chatgpt_drive_subpub.drive_cmd.header.frame_id = chatgpt_drive_subpub.frame_id
+            chatgpt_drive_subpub.drive_cmd.drive.speed = 0.0
+            chatgpt_drive_subpub.drive_cmd.drive.steering_angle = 0.0
+            chatgpt_drive_subpub.drive_pub.publish(chatgpt_drive_subpub.drive_cmd)
+            time.sleep(1)
+            chatgpt_drive_subpub.get_logger().info(f'{NODE_NAME} shut down successfully.')
+            executor.shutdown()
+            chatgpt_drive_subpub.destroy_node()
+    except KeyboardInterrupt:
+        pass
+    finally:
+        rclpy.shutdown()
+
+
+if __name__ == '__main__':
+    main()

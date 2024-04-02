@@ -1,0 +1,45 @@
+import rclpy
+from rclpy.node import Node
+from sensor_msgs.msg import LaserScan
+from ackermann_msgs.msg import AckermannDriveStamped
+import numpy as np
+
+LIDAR_TOPIC_NAME = '/scan'
+ACTUATOR_TOPIC_NAME = '/teleop'
+
+class LidarStopFunction(Node):
+
+    def __init__(self):
+        super().__init__('lidar_stop_function')
+        self.laser_subscriber = self.create_subscription(LaserScan, LIDAR_TOPIC_NAME, self.lidar_callback, 10)
+        self.lidar_properties_set = False
+        self.range_max = None
+        self.range_min = None
+        self.angle_min_radians = None
+        self.angle_max_radians = None
+        self.scan_ranges = None
+
+    def lidar_callback(self, data):
+        if not self.lidar_properties_set:
+            self.range_max = data.range_max
+            self.range_min = data.range_min
+            self.angle_min_radians = data.angle_min
+            self.angle_max_radians = data.angle_max
+            self.lidar_properties_set = True
+
+        scan_ranges = np.array(data.ranges)
+        self.scan_ranges = np.nan_to_num(scan_ranges, neginf=self.range_max, posinf=self.range_max, nan=self.range_max)
+
+        # Check for obstacles within +/- 20 degrees and within 0.3 meters                                                                                                           
+        angle_increment_degrees = np.degrees(data.angle_increment)
+        half_angle_range = 45  # Degrees                                                                                                                                            
+        min_distance = 1.5  # Meters                                                                                                                                                
+
+        start_index = int((self.angle_min_radians + np.radians(half_angle_range)) / data.angle_increment)
+        end_index = int((self.angle_max_radians - np.radians(half_angle_range)) / data.angle_increment)
+
+        obstacle_detected = False
+        for i in range(start_index, end_index):
+            if self.scan_ranges[i] < min_distance:
+                obstacle_detected = True
+                break
