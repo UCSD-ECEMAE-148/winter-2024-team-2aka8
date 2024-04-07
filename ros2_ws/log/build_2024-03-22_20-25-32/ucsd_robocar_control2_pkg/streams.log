@@ -1,0 +1,125 @@
+[7.889s] Invoking command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_control2_pkg': PYTHONPATH=/home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ucsd_robocar_control2_pkg build --build-base /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build install --prefix /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg --record /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/install.log --single-version-externally-managed
+[9.619s] running egg_info
+[9.621s] creating ../../../build/ucsd_robocar_control2_pkg/ucsd_robocar_control2_pkg.egg-info
+[9.622s] writing ../../../build/ucsd_robocar_control2_pkg/ucsd_robocar_control2_pkg.egg-info/PKG-INFO
+[9.623s] writing dependency_links to ../../../build/ucsd_robocar_control2_pkg/ucsd_robocar_control2_pkg.egg-info/dependency_links.txt
+[9.624s] writing entry points to ../../../build/ucsd_robocar_control2_pkg/ucsd_robocar_control2_pkg.egg-info/entry_points.txt
+[9.626s] writing requirements to ../../../build/ucsd_robocar_control2_pkg/ucsd_robocar_control2_pkg.egg-info/requires.txt
+[9.626s] writing top-level names to ../../../build/ucsd_robocar_control2_pkg/ucsd_robocar_control2_pkg.egg-info/top_level.txt
+[9.633s] writing manifest file '../../../build/ucsd_robocar_control2_pkg/ucsd_robocar_control2_pkg.egg-info/SOURCES.txt'
+[9.817s] reading manifest file '../../../build/ucsd_robocar_control2_pkg/ucsd_robocar_control2_pkg.egg-info/SOURCES.txt'
+[9.834s] writing manifest file '../../../build/ucsd_robocar_control2_pkg/ucsd_robocar_control2_pkg.egg-info/SOURCES.txt'
+[9.836s] running build
+[9.837s] running build_py
+[9.839s] creating /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build
+[9.840s] creating /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib
+[9.843s] creating /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg
+[9.844s] copying ucsd_robocar_control2_pkg/mpc_node.py -> /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg
+[9.844s] copying ucsd_robocar_control2_pkg/__init__.py -> /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg
+[9.848s] copying ucsd_robocar_control2_pkg/lqr_node.py -> /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg
+[9.848s] copying ucsd_robocar_control2_pkg/lqg_node.py -> /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg
+[9.849s] copying ucsd_robocar_control2_pkg/pid_node.py -> /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg
+[9.862s] copying ucsd_robocar_control2_pkg/lqg_w_node.py -> /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg
+[9.864s] creating /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg/controller_submodule
+[9.865s] copying ucsd_robocar_control2_pkg/controller_submodule/__init__.py -> /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg/controller_submodule
+[9.866s] copying ucsd_robocar_control2_pkg/controller_submodule/linear_kalman_filter.py -> /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg/controller_submodule
+[9.867s] copying ucsd_robocar_control2_pkg/controller_submodule/throttle_schedule.py -> /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg/controller_submodule
+[9.868s] copying ucsd_robocar_control2_pkg/controller_submodule/lqr_calculator.py -> /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg/controller_submodule
+[9.870s] copying ucsd_robocar_control2_pkg/controller_submodule/mpc_calculator.py -> /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg/controller_submodule
+[9.876s] copying ucsd_robocar_control2_pkg/controller_submodule/ss_simulation.py -> /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg/controller_submodule
+[9.886s] copying ucsd_robocar_control2_pkg/controller_submodule/car_model.py -> /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg/controller_submodule
+[9.894s] creating /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg/state_estimate_submodule
+[9.894s] copying ucsd_robocar_control2_pkg/state_estimate_submodule/__init__.py -> /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg/state_estimate_submodule
+[9.896s] copying ucsd_robocar_control2_pkg/state_estimate_submodule/extended_kalman_filter.py -> /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg/state_estimate_submodule
+[9.906s] running install
+[9.907s] running install_lib
+[9.908s] creating /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg
+[9.909s] creating /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg/state_estimate_submodule
+[9.909s] copying /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg/state_estimate_submodule/__init__.py -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg/state_estimate_submodule
+[9.911s] copying /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg/state_estimate_submodule/extended_kalman_filter.py -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg/state_estimate_submodule
+[9.911s] copying /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg/mpc_node.py -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg
+[9.912s] copying /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg/__init__.py -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg
+[9.913s] copying /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg/lqr_node.py -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg
+[9.913s] copying /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg/lqg_w_node.py -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg
+[9.940s] copying /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg/lqg_node.py -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg
+[9.941s] creating /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg/controller_submodule
+[9.943s] copying /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg/controller_submodule/__init__.py -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg/controller_submodule
+[9.944s] copying /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg/controller_submodule/linear_kalman_filter.py -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg/controller_submodule
+[9.944s] copying /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg/controller_submodule/throttle_schedule.py -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg/controller_submodule
+[9.945s] copying /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg/controller_submodule/lqr_calculator.py -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg/controller_submodule
+[9.946s] copying /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg/controller_submodule/mpc_calculator.py -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg/controller_submodule
+[9.946s] copying /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg/controller_submodule/ss_simulation.py -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg/controller_submodule
+[9.947s] copying /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg/controller_submodule/car_model.py -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg/controller_submodule
+[9.948s] copying /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build/lib/ucsd_robocar_control2_pkg/pid_node.py -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg
+[9.950s] byte-compiling /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg/state_estimate_submodule/__init__.py to __init__.cpython-38.pyc
+[9.988s] byte-compiling /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg/state_estimate_submodule/extended_kalman_filter.py to extended_kalman_filter.cpython-38.pyc
+[10.010s] byte-compiling /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg/mpc_node.py to mpc_node.cpython-38.pyc
+[10.011s] byte-compiling /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg/__init__.py to __init__.cpython-38.pyc
+[10.012s] byte-compiling /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg/lqr_node.py to lqr_node.cpython-38.pyc
+[10.013s] byte-compiling /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg/lqg_w_node.py to lqg_w_node.cpython-38.pyc
+[10.031s] byte-compiling /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg/lqg_node.py to lqg_node.cpython-38.pyc
+[10.052s] byte-compiling /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg/controller_submodule/__init__.py to __init__.cpython-38.pyc
+[10.052s] byte-compiling /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg/controller_submodule/linear_kalman_filter.py to linear_kalman_filter.cpython-38.pyc
+[10.054s] byte-compiling /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg/controller_submodule/throttle_schedule.py to throttle_schedule.cpython-38.pyc
+[10.055s] byte-compiling /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg/controller_submodule/lqr_calculator.py to lqr_calculator.cpython-38.pyc
+[10.056s] byte-compiling /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg/controller_submodule/mpc_calculator.py to mpc_calculator.cpython-38.pyc
+[10.056s] byte-compiling /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg/controller_submodule/ss_simulation.py to ss_simulation.cpython-38.pyc
+[10.067s] byte-compiling /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg/controller_submodule/car_model.py to car_model.cpython-38.pyc
+[10.074s] byte-compiling /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg/pid_node.py to pid_node.cpython-38.pyc
+[10.075s] running install_data
+[10.078s] creating /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ament_index
+[10.078s] creating /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ament_index/resource_index
+[10.079s] creating /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ament_index/resource_index/packages
+[10.079s] copying resource/ucsd_robocar_control2_pkg -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ament_index/resource_index/packages
+[10.079s] copying package.xml -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg
+[10.080s] creating /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/launch
+[10.081s] copying launch/manual_joy_control_launch.launch.py -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/launch
+[10.084s] copying launch/pid_launch.launch.py -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/launch
+[10.084s] copying launch/lqg_launch.launch.py -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/launch
+[10.085s] copying launch/f1tenth_vesc_joy_launch.launch.py -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/launch
+[10.097s] copying launch/lqr_launch.launch.py -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/launch
+[10.098s] copying launch/lqg_w_launch.launch.py -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/launch
+[10.099s] creating /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/config
+[10.099s] copying config/lqg_config.yaml -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/config
+[10.100s] copying config/manual_joy_control_config.yaml -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/config
+[10.101s] copying config/lqr_config.yaml -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/config
+[10.102s] copying config/f1tenth_joy_teleop.yaml -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/config
+[10.102s] copying config/pid_config.yaml -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/config
+[10.109s] copying config/car_parameters.yaml -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/config
+[10.109s] copying config/lqg_w_config.yaml -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/config
+[10.110s] creating /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/controller_submodule
+[10.110s] creating /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/state_estimate_submodule
+[10.111s] creating /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/data
+[10.112s] copying data/test.csv -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/data
+[10.113s] copying data/test_2_05_20.csv -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/data
+[10.113s] copying data/icra_d3_test.csv -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/data
+[10.114s] copying data/lqg_w_test.csv -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/data
+[10.127s] copying data/test_5_05_20.csv -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/data
+[10.127s] copying data/lqg_w_test2.csv -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/data
+[10.129s] copying data/test_1_05_19.csv -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/data
+[10.131s] copying data/train_data.csv -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/data
+[10.132s] copying data/test_11_05_20.csv -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/data
+[10.132s] copying data/lqg_w_test3.csv -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/data
+[10.133s] copying data/icra_day1_test1.csv -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/data
+[10.140s] copying data/kalman_test2.csv -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/data
+[10.141s] copying data/kalman_test5.csv -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/data
+[10.141s] copying data/icra_sim_test2.csv -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/data
+[10.142s] copying data/kalman_test.csv -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/data
+[10.143s] copying data/test_12_05_20.csv -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/data
+[10.143s] copying data/test_6_05_20.csv -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/data
+[10.144s] copying data/test_4_05_20.csv -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/data
+[10.144s] copying data/test_1_05_20.csv -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/data
+[10.145s] copying data/physical_lqg_test.csv -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/data
+[10.145s] copying data/kalman_test4.csv -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/data
+[10.146s] copying data/pid_vs_lqg.csv -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/data
+[10.146s] copying data/kalman_test3.csv -> /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/share/ucsd_robocar_control2_pkg/data
+[10.153s] running install_egg_info
+[10.153s] Copying ../../../build/ucsd_robocar_control2_pkg/ucsd_robocar_control2_pkg.egg-info to /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages/ucsd_robocar_control2_pkg-0.0.0-py3.8.egg-info
+[10.154s] running install_scripts
+[10.251s] Installing lqg_node script to /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/ucsd_robocar_control2_pkg
+[10.255s] Installing lqg_w_node script to /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/ucsd_robocar_control2_pkg
+[10.256s] Installing lqr_node script to /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/ucsd_robocar_control2_pkg
+[10.257s] Installing mpc_node script to /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/ucsd_robocar_control2_pkg
+[10.258s] Installing pid_node script to /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/ucsd_robocar_control2_pkg
+[10.259s] writing list of installed files to '/home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/install.log'
+[10.530s] Invoked command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_control2_pkg' returned '0': PYTHONPATH=/home/projects/ros2_ws/install/ucsd_robocar_control2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ucsd_robocar_control2_pkg build --build-base /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/build install --prefix /home/projects/ros2_ws/install/ucsd_robocar_control2_pkg --record /home/projects/ros2_ws/build/ucsd_robocar_control2_pkg/install.log --single-version-externally-managed

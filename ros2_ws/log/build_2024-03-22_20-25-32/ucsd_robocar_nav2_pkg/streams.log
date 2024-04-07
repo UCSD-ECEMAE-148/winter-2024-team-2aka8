@@ -1,0 +1,47 @@
+[6.560s] Invoking command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_nav2_pkg': PYTHONPATH=/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ucsd_robocar_nav2_pkg build --build-base /home/projects/ros2_ws/build/ucsd_robocar_nav2_pkg/build install --prefix /home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg --record /home/projects/ros2_ws/build/ucsd_robocar_nav2_pkg/install.log --single-version-externally-managed
+[8.011s] running egg_info
+[8.015s] creating ../../../build/ucsd_robocar_nav2_pkg/ucsd_robocar_nav2_pkg.egg-info
+[8.017s] writing ../../../build/ucsd_robocar_nav2_pkg/ucsd_robocar_nav2_pkg.egg-info/PKG-INFO
+[8.018s] writing dependency_links to ../../../build/ucsd_robocar_nav2_pkg/ucsd_robocar_nav2_pkg.egg-info/dependency_links.txt
+[8.019s] writing entry points to ../../../build/ucsd_robocar_nav2_pkg/ucsd_robocar_nav2_pkg.egg-info/entry_points.txt
+[8.019s] writing requirements to ../../../build/ucsd_robocar_nav2_pkg/ucsd_robocar_nav2_pkg.egg-info/requires.txt
+[8.020s] writing top-level names to ../../../build/ucsd_robocar_nav2_pkg/ucsd_robocar_nav2_pkg.egg-info/top_level.txt
+[8.024s] writing manifest file '../../../build/ucsd_robocar_nav2_pkg/ucsd_robocar_nav2_pkg.egg-info/SOURCES.txt'
+[8.194s] reading manifest file '../../../build/ucsd_robocar_nav2_pkg/ucsd_robocar_nav2_pkg.egg-info/SOURCES.txt'
+[8.199s] writing manifest file '../../../build/ucsd_robocar_nav2_pkg/ucsd_robocar_nav2_pkg.egg-info/SOURCES.txt'
+[8.200s] running build
+[8.200s] running build_py
+[8.200s] creating /home/projects/ros2_ws/build/ucsd_robocar_nav2_pkg/build
+[8.201s] creating /home/projects/ros2_ws/build/ucsd_robocar_nav2_pkg/build/lib
+[8.201s] creating /home/projects/ros2_ws/build/ucsd_robocar_nav2_pkg/build/lib/ucsd_robocar_nav2_pkg
+[8.201s] copying ucsd_robocar_nav2_pkg/__init__.py -> /home/projects/ros2_ws/build/ucsd_robocar_nav2_pkg/build/lib/ucsd_robocar_nav2_pkg
+[8.202s] running install
+[8.204s] running install_lib
+[8.208s] creating /home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/lib/python3.8/site-packages/ucsd_robocar_nav2_pkg
+[8.209s] copying /home/projects/ros2_ws/build/ucsd_robocar_nav2_pkg/build/lib/ucsd_robocar_nav2_pkg/__init__.py -> /home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/lib/python3.8/site-packages/ucsd_robocar_nav2_pkg
+[8.211s] byte-compiling /home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/lib/python3.8/site-packages/ucsd_robocar_nav2_pkg/__init__.py to __init__.cpython-38.pyc
+[8.219s] running install_data
+[8.222s] creating /home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/share/ament_index
+[8.223s] creating /home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/share/ament_index/resource_index
+[8.224s] creating /home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/share/ament_index/resource_index/packages
+[8.224s] copying resource/ucsd_robocar_nav2_pkg -> /home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/share/ament_index/resource_index/packages
+[8.225s] copying package.xml -> /home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/share/ucsd_robocar_nav2_pkg
+[8.225s] creating /home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/share/ucsd_robocar_nav2_pkg/launch
+[8.232s] copying launch/all_components.launch.py -> /home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/share/ucsd_robocar_nav2_pkg/launch
+[8.233s] copying launch/rosbag_launch.launch.py -> /home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/share/ucsd_robocar_nav2_pkg/launch
+[8.234s] copying launch/ros_bridge_launch.launch.py -> /home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/share/ucsd_robocar_nav2_pkg/launch
+[8.234s] copying launch/sensor_visualization.launch.py -> /home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/share/ucsd_robocar_nav2_pkg/launch
+[8.235s] copying launch/urdf_publisher_launch.launch.py -> /home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/share/ucsd_robocar_nav2_pkg/launch
+[8.236s] copying launch/all_nodes.launch.py -> /home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/share/ucsd_robocar_nav2_pkg/launch
+[8.236s] creating /home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/share/ucsd_robocar_nav2_pkg/config
+[8.236s] copying config/pkg_locations_ucsd.yaml -> /home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/share/ucsd_robocar_nav2_pkg/config
+[8.237s] copying config/car_config.yaml -> /home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/share/ucsd_robocar_nav2_pkg/config
+[8.237s] copying config/node_config.yaml -> /home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/share/ucsd_robocar_nav2_pkg/config
+[8.238s] copying config/node_pkg_locations_ucsd.yaml -> /home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/share/ucsd_robocar_nav2_pkg/config
+[8.239s] creating /home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/share/ucsd_robocar_nav2_pkg/rviz
+[8.240s] copying rviz/sensor_visualization.rviz -> /home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/share/ucsd_robocar_nav2_pkg/rviz
+[8.240s] running install_egg_info
+[8.242s] Copying ../../../build/ucsd_robocar_nav2_pkg/ucsd_robocar_nav2_pkg.egg-info to /home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/lib/python3.8/site-packages/ucsd_robocar_nav2_pkg-0.0.0-py3.8.egg-info
+[8.253s] running install_scripts
+[8.328s] writing list of installed files to '/home/projects/ros2_ws/build/ucsd_robocar_nav2_pkg/install.log'
+[8.453s] Invoked command in '/home/projects/ros2_ws/src/ucsd_robocar_hub2/ucsd_robocar_nav2_pkg' returned '0': PYTHONPATH=/home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ucsd_robocar_nav2_pkg build --build-base /home/projects/ros2_ws/build/ucsd_robocar_nav2_pkg/build install --prefix /home/projects/ros2_ws/install/ucsd_robocar_nav2_pkg --record /home/projects/ros2_ws/build/ucsd_robocar_nav2_pkg/install.log --single-version-externally-managed
